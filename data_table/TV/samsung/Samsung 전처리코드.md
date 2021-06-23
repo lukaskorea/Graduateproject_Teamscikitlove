@@ -1,4 +1,4 @@
-### 삼성전자 공식홈페이지 상세 사양 표 전처리 코드
+### 삼성전자 공식홈페이지 스펙 표 전처리 코드
 
         <div class="spec-table">
             <dl>
@@ -134,3 +134,11 @@
         else:
             print(filename+'은 html 파일이 아님')
 
+원본
+![삼성 tv 스펙 레이아웃](C:\Users\user\Documents\GitHub\Graduateproject_Teamscikitlove\data_table\TV\samsung/samsung_tv.png?raw=true)
+
+전처리전 html 파일
+![삼성 tv 스펙 html 표(전처리전) 레이아웃](C:\Users\user\Documents\GitHub\Graduateproject_Teamscikitlove\data_table\TV\samsung/samsung_tv_html.png?raw=true)
+
+전처리후 html 파일
+![삼성 tv 스펙 html 표(전처리후) 레이아웃](C:\Users\user\Documents\GitHub\Graduateproject_Teamscikitlove\data_table\TV\samsung/samsung_tv_html_after.png?raw=true)
