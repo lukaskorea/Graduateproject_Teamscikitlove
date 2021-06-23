@@ -135,7 +135,7 @@
             print(filename+'은 html 파일이 아님')
 
 원본
-![삼성 tv 스펙 레이아웃](https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv.png?raw=true)
+![삼성 tv 스펙 레이아웃](https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv.png=500x400)
 
 전처리전 html 파일
 ![삼성 tv 스펙 html 표(전처리전) 레이아웃](https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv_html.png?raw=true)
