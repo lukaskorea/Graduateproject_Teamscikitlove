@@ -135,10 +135,12 @@
             print(filename+'은 html 파일이 아님')
 
 원본
-<img src="https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv.png?raw=true" height="500" width="900">
+
+
+<img src="https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv.png?raw=true" height="750" width="750">
 
 전처리전 html 파일
-<img src="https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv_html.png?raw=true" height="500" width="900">
+![삼성 tv 스펙 html 표(전처리전) 레이아웃](https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv_html.png?raw=true)
 
 전처리후 html 파일
 ![삼성 tv 스펙 html 표(전처리후) 레이아웃](https://github.com/lukaskorea/Graduateproject_Teamscikitlove/blob/main/data_table/TV/samsung/samsung_tv_html_after.png?raw=true)
