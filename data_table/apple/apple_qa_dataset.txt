@@ -1,0 +1,175 @@
+iPad Air(4세대)
+
+"question": "iPad Air(4세대)의 마감은 어떤게 있나요?"
+"answer": 실버, 스페이스 그레이, 로즈 골드, 그린, 스카이 블루
+
+"question": "제품구성은 어떠한가요?"
+"answer": iPad Air, USB-C 충전 케이블(1m), 20W USB-C 전원 어댑터
+
+"question": "iPad Air(4세대)의 칩 목록은 어떠한가요?"
+"answer": A14 Bionic 칩(64비트 아키텍처), Neural Engine
+
+"question": "사용 가능한 환경에서 작동 온도 범위는?"
+"answer": 0°C~35°C
+
+"question": "iPad Air(4세대)의 디스플레이 밝기는 어느 정도나 되나요?"
+"answer": 500 니트 밝기
+
+"question": "iPad Air(4세대)의 저장 용량 크기는 얼마인가?"
+"answer": 64GB, 256GB
+
+iPad mini(5세대)
+
+"question": "iPad mini(5세대) 동영상 촬영 기능은?"
+"answer": 실버, 스페이스 그레이, 로즈 골드, 그린, 스카이 블루
+
+"question": "iPad mini(5세대)의 디스플레이 항목 중 해상도는 어떠한가?"
+"answer": 2048 x 1536 해상도(326ppi)
+
+"question": "언어 중, 맞춤법 검사를 지원하는 언어에는 무엇이 있는가?"
+"answer": 한국어, 영어, 프랑스어, 독일어, 이탈리아어, 스페인어, 아랍어, 아랍어(나지디), 덴마크어, 네덜란드어, 핀란드어, 노르웨이어, 폴란드어, 포르투갈어, 러시아어, 스웨덴어, 터키어
+
+"question": "보관 가능한 온도의 범위는 어떠한가?"
+"answer": 보관 가능(비작동) 온도: -20°C~45°C
+
+"question": "이 제품의 모델명은 무엇인가요?"
+"answer": 모델명: A2133, A2124
+
+"question": "iPad mini(5세대)는 어떤 센서 구성을 가지고 있을까?"
+"answer": Touch ID, 3축 자이로, 가속도계, 기압계, 주변광 센서
+
+iPad Pro
+
+"question": "iPad Pro가 제공하는 Siri 기능 목록은?"
+"answer": 음성으로 메시지 전송, 미리 알림 설정 등 다양한 기능 실행 가능, 능동적인 제안 기능, 핸즈프리 사용, 노래 듣고 제목 알려주기
+
+"question": "Face ID의 기능은 무엇인가요?"
+"answer": 얼굴 인식용 TrueDepth 카메라를 통해 지원, iPad 잠금 해제, 앱 내 개인 데이터 보안, App Store 콘텐츠 구매 및 Apple Books 콘텐츠 다운로드
+
+"question": "iPad Pro의 칩 사양이 어떻게 되는가요?"
+"answer": Apple M1 칩, 8코어 CPU(성능 코어 4개 및 효율 코어 4개), 8코어 GPU, 16코어 Neural Engine, 8GB RAM(저장 용량 128GB, 256GB 또는 512GB 모델), 16GB RAM(저장 용량 1TB 또는 2TB 모델)
+
+"question": "카메라는 어떤 특징이 있는가?"
+"answer": 프로급 카메라 시스템: 와이드 및 울트라 와이드 카메라, 와이드: 12MP, ƒ/1.8 조리개, 울트라 와이드: 10MP, ƒ/2.4 조리개 및 125° 시야각, 2배 광학 줌아웃, 최대 5배 디지털 줌, 5매(Five-element) 렌즈(와이드 및 울트라 와이드), 더욱 밝아진 True Tone 플래시, 파노라마(최대 63MP), 사파이어 크리스털 렌즈 커버, Focus Pixels를 갖춘 오토포커스(와이드), 스마트 HDR 3, 사진 및 Live Photo 촬영 시 넓은 색상 영역 포착, 렌즈 보정(울트라 와이드), 첨단 적목 보정 기능, 사진 위치 표시 기능, 자동 흔들림 보정, 고속 연사 모드, 촬영 이미지 포맷: HEIF 및 JPEG
+
+"question": "이 제품이 지원하는 지원되는 오디오 포맷은 어떤 것들이 있니?"
+"answer": 지원되는 오디오 포맷: AAC‑LC, HE‑AAC, HE‑AAC v2, 복사 방지된 AAC, MP3, Linear PCM, Apple 무손실, FLAC, Dolby Digital(AC‑3), Dolby Digital Plus(E‑AC‑3), Dolby Atmos, Audible(포맷 2, 3, 4, Audible Enhanced Audio, AAX, AAX+)
+
+"question": "iPad Pro의 제품 구성은?"
+"answer": iPad Pro, USB-C 충전 케이블(1m), 20W USB-C 전원 어댑터
+
+iPad(8세대)
+
+"question": "iPad(8세대)의 크기 및 무게는 어떻게 되나요?"
+"answer": 250.6mm, 174.1mm, 7.5mm Wi-Fi 모델 490g Wi-Fi + Cellular 모델 495g
+
+"question": "이 제품의 마이크 종류는 무엇인가요?"
+"answer": 통화, 동영상 촬영, 오디오 녹음을 위한 듀얼 마이크
+
+"question": "iPad(8세대)가 가진 디스플레이 사양이 어떻게 되나요?"
+"answer": 10.2형 Retina 디스플레이, Retina 디스플레이, 10.2형(대각선) LED 백라이트 Multi-Touch 디스플레이(IPS 기술), 2160 x 1620 해상도(264ppi), 500 니트 밝기, 지문 및 유분 방지 코팅, Apple Pencil 지원(1세대)
+
+"question": "동영상 촬영 기능 목록이 어떻게 되나요?"
+"answer": 1080p HD 동영상 촬영(초당 30 프레임), 720p 슬로 모션 동영상 지원(초당 120 프레임), 타임랩스 동영상(동영상 흔들림 보정 포함), 동영상 흔들림 보정, 몸과 얼굴 인식, 3배 줌 동영상, 동영상 위치 표시 기능
+
+"question": "iPad(8세대)는 어떤 영상 통화 기능을 제공하니?"
+"answer": FaceTime 영상 통화, Wi-Fi 또는 셀룰러를 이용해 iPad에서 모든 FaceTime 지원 기기와 가능
+
+"question": "iPad(8세대)의 마감 종류는?"
+"answer": 실버, 스페이스 그레이, 골드
+
+iPhone 11
+
+"question": "iPhone 11의 크기 및 무게는?"
+"answer": 가로: 75.7mm, 세로: 150.9mm, 두께: 8.3mm, 무게: 194g
+
+"question": "이 제품의 방수 및 방진등급은 무엇인가요?"
+"answer": IEC 규격 60529하의 IP68 등급 획득(최대 수심 2m, 최대 30분)
+
+"question": "iPhone 11이 사용 가능한 이동통신사에는 무엇이 있나요?"
+"answer": kt, LG U+, SK telecom
+
+
+"question": "오디오 재생은 최대 몇시간이 가능한가?"
+"answer": 최대 65시간
+
+"question": "iPhone 11의 보청기 호환 등급은 무엇인가?"
+"answer": M3, T4
+
+"question": "2개 국어 사전이 지원하는 언어 종류는 어떻게 되나요?"
+"answer": 한국어 – 영어, 아랍어 – 영어, 중국어(간체) – 영어, 중국어(번체) – 영어, 네덜란드어 – 영어, 프랑스어 – 영어, 프랑스어 – 독일어, 독일어 – 영어, 힌디어 – 영어, 인도네시아어 – 영어, 이탈리아어 – 영어, 일본어 – 영어, 일본어 – 중국어(간체), 폴란드어 – 영어, 포르투갈어 – 영어, 러시아어 – 영어, 스페인어 – 영어, 태국어 – 영어, 베트남어 – 영어
+
+iPhone 12 Pro
+
+"question": "iPhone 12 Pro가 가진 위치 기능 목록은?"
+"answer": 내장형 GPS, GLONASS, Galileo, QZSS, BeiDou, 디지털 나침반, Wi‑Fi, 셀룰러, iBeacon 위치 정밀 감지 기능
+
+"question": "iPhone 12 Pro가 지원하는 MagSafe의 구성요소에는 무엇이 있나요?"
+"answer": 최대 15W 무선 충전, 자석 어레이, 정렬 자석, 액세서리 식별용 NFC, 자력
+
+"question": "저장 용량의 크기는 어떠한가?"
+"answer": 128GB, 256GB, 512GB
+
+"question": "지원하는 운영체제는 무엇인가요?"
+"answer": iOS 14
+
+"question": "사용환경에서, 테스트된 작동 가능한 고도는 어느 정도인가?"
+"answer": 작동 고도: 3,000m까지 테스트
+
+"question": "가지고 있는 영상 통화 기능에는 무엇이 있나요?"
+"answer": 셀룰러 또는 Wi-Fi 네트워크에서 FaceTime 영상 통화, 5G 또는 Wi-Fi 네트워크에서 FaceTime HD(1080p) 영상 통화
+
+iPhone SE(2세대)
+
+"question": "이 제품은 최대 몇시간 까지 동영상 재생이 가능한가?"
+"answer": 최대 13시간
+
+"question": "iPhone SE(2세대)의 디스플레이 상세 사양은 어떻게 되는가?"
+"answer": Retina HD 디스플레이, 4.7형(대각선) 와이드스크린 LCD Multi‑Touch 디스플레이(IPS 기술), 1334 x 750 픽셀 해상도(326ppi), 1400:1 명암비(일반), True Tone 디스플레이, 와이드 컬러 디스플레이(P3), 햅틱 터치, 625 니트 최대 밝기(일반), 지문 및 유분 방지 코팅, 디스플레이 확대/축소, 접근성
+
+"question": "iPhone SE(2세대)의 셀룰러 및 무선 기술 목록은?"
+"answer": 
+모델 A2296*
+
+FDD‑LTE(대역 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66)
+TD‑LTE(대역 34, 38, 39, 40, 41, 42, 46, 48)
+CDMA EV‑DO Rev. A(800, 1900MHz)(일본 지역만 해당)
+UMTS/HSPA+/DC‑HSDPA(850, 900, 1700/2100, 1900, 2100MHz)
+GSM/EDGE(850, 900, 1800, 1900MHz)
+전체 모델
+
+2x2 MIMO 방식 및 LAA를 지원하는 Gigabit급 LTE4
+2x2 MIMO 방식의 802.11ax Wi‑Fi 6
+Bluetooth 5.0 무선 기술
+리더 모드를 지원하는 NFC
+예비 전력으로 작동하는 익스프레스 카드 기능
+
+"question": "지원하는 음성 통화 기능에는 무엇이 있나?"
+"answer": FaceTime 음성 통화, LTE 음성 통화(VoLTE)4
+
+"question": "사용환경에서, 테스트된 작동 가능한 고도는 어느 정도인가?"
+"answer": 작동 고도: 3,000m까지 테스트
+
+"question": "iPhone SE(2세대)의 크기 및 무게 수치가 어떻게 되나요?"
+"answer": 가로: 67.3mm, 세로: 138.4mm, 두께: 7.3mm, 무게: 148g
+
+iPhone 12
+
+"question": "이 제품의 수입자 회사 이름은?"
+"answer": 수입자: 애플코리아 유한회사
+
+"question": iPhone 12의 방수 및 방진 등급이 어떻게 되니?
+"answer": IEC 규격 60529하의 IP68 등급 획득(최대 수심 6m, 최대 30분)
+
+"question": 이 제품이 가지고 있는 센서 목록이 어떻게 되나요? 
+"answer": Face ID, 기압계, 3축 자이로, 가속도계, 근접 센서, 주변광 센서
+
+"question":  iPhone 12가 가진 위치 기능 목록은 어떤게 있는가?
+"answer": 내장형 GPS, GLONASS, Galileo, QZSS, BeiDou, 디지털 나침반, Wi‑Fi, 셀룰러, iBeacon 위치 정밀 감지 기능
+
+"question": 어떤 음성 통화 기능들을 제공하나요?
+"answer": FaceTime 음성 통화, LTE 음성 통화(VoLTE)
+
+"question": iPhone 12의 무료 Apple 앱에는 뭐가 있나?
+"answer": iMovie, Pages, Keynote, Numbers, GarageBand, Apple Store, iTunes 리모컨, Clips, Apple 지원
+
