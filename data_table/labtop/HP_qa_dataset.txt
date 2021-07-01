@@ -1,3 +1,216 @@
+ENVY 15-ep0093tx
+
+"question": "ENVY 15-ep0093tx는 프로세서로 무엇을 사용하지?"
+"answer": 인텔® 코어™ i5-10300H(2.5GHz 기본 주파수, 최대 4.5GHz(인텔® 터보 부스트 기술 포함), 8MB L3 캐시, 4코어)
+
+"question": "ENVY 15-ep0093tx는 메모리 몆기가를 쓰지?"
+"answer": 16GB DDR4-2933 SDRAM(8GB 2개)
+
+"question": "ENVY 15-ep0093tx는 화면크기가 얼마나 되지?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), IPS, 마이크로 에지, 눈부심 방지, 300nits, 72% NTSC
+
+"question": "ENVY 15-ep0093tx는 그래픽카드로 뭘 쓰냐?"
+"answer": NVIDIA® GeForce® GTX 1650 Ti(4GB GDDR6 전용)
+
+"question": "ENVY 15-ep0093tx가 어떤 웹캠을 가지고 있니?"
+"answer": HP Wide Vision 720p HD 카메라(카메라 셔터 및 통합 듀얼 어레이 디지털 마이크 포함)
+
+
+ENVY x360 15-ed1501TX
+"question": "ENVY x360 15-ed1501TX"
+"answer": 
+
+"question": "ENVY x360 15-ed1501TX"
+"answer": 
+
+"question": "ENVY x360 15-ed1501TX"
+"answer": 
+
+"question": "ENVY x360 15-ed1501TX"
+"answer": 
+
+"question": "ENVY x360 15-ed1501TX"
+"answer": 
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
+
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+
+
 
 "question": ""
 "answer": 
