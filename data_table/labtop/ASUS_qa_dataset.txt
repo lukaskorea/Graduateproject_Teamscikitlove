@@ -1,0 +1,111 @@
+ASUS ZenBook 13 - UM433DA
+"question": "ASUS ZenBook 13 - UM433DA의 화면은 몆인치 인가요?"
+"answer": 35.56cm(14인치)
+"question": "ASUS ZenBook 13 - UM433DA는 CPU로 무엇을 쓰나요?"
+"answer": AMD 라이젠5-2세대 피카소 3500U (2.1GHz) 쿼드코어
+"question": "ASUS ZenBook 13 - UM433DA의 디스플레이 해상도는 몆인가요?"
+"answer": 1920x1080(FHD)
+"question": "ASUS ZenBook 13 - UM433DA의 메모리는 몆기가에요?"
+"answer": 8GB
+"question": "ASUS ZenBook 13 - UM433DA는 그래픽칩셋을 뭘 사용합니까?"
+"answer": RX Vega 8
+
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
+"question": ""
+"answer": 
