@@ -150,51 +150,48 @@ ZenBook Duo 14 - UX482.html
 
 
 
-ZenBook Pro 15 - UX535.html
+2021 ASUS TUF Gaming F17
 
-"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
-"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
+"question": "2021 ASUS TUF Gaming F17는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11800H Processor 2.3 GHz (24M Cache, up to 4.6 GHz, 8 Cores)
+          Intel® Core™ i9-11900H Processor 2.5 GHz (24M Cache, up to 4.9 GHz, 8 Cores)
 
-"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
-"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
-    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
-    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
+"question": "2021 ASUS TUF Gaming F17는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6
+         NVIDIA® GeForce RTX™ 3050 Laptop GPU,Up to 1600MHz at 60W (75W with Dynamic Boost),4GB GDDR6
+         NVIDIA® GeForce RTX™ 3060 Laptop GPU,Up to 1630MHz at 90W (95W with Dynamic Boost),6GB GDDR6
 
-"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
-"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
-    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
+"question": "2021 ASUS TUF Gaming F17의 화면을 어떻게 되니?"
+"answer": 17.3인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,DCI-P3:Refresh Rate:144Hz,Value IPS-level
 
-"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
-"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
-    8GB DDR4 온보드,Max Capacity : 32GB
+"question": "2021 ASUS TUF Gaming F17의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+           Max Capacity : 32GB
+           8GB DDR4-3200 SO-DIMM x 2,Max Capacity : 32GB
 
-"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
-"answer": 2.00 Kg (4.41 lbs)
-
-
-
+"question": "2021 ASUS TUF Gaming F17는 무게가 얼마나 나가니?"
+"answer": 2.60 Kg (5.73 lbs)
 
 
-ZenBook Pro Duo 15 OLED - UX582.html
 
-"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
-"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
-"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
-    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
-    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
-"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
-    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
+ZenBook Pro Duo 15 OLED - UX582
 
-"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
-"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
-    8GB DDR4 온보드,Max Capacity : 32GB
+"question": "ZenBook Pro Duo 15 OLED - UX582는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i9-10980HK Processor 2.4GHz (16M Cache, 최대 5.3GHz)
 
-"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
-"answer": 2.00 Kg (4.41 lbs)
+"question": "ZenBook Pro Duo 15 OLED - UX582는 그래픽카드를 뭘 가지고 있냐?"
+"answer": Intel® UHD Graphics, NVIDIA® GeForce® RTX 3070, With Boost up to 1440MHz at 90W (110W with Dynamic Boost), 8GB GDDR6
+
+"question": "ZenBook Pro Duo 15 OLED - UX582의 화면을 어떻게 되니?"
+"answer": Touch screen, 15.6인치, OLED, 4K UHD (3840 x 2160) 16:9, Glossy display, 440니트, DCI-P3: 100%, Pantone Validated, stylus 지원 있음
+
+"question": "ZenBook Pro Duo 15 OLED - UX582의 메모리구성은 어떻게 되니?"
+"answer": 32GB DDR4 온보드, Memory Max Up to:32GB
+
+"question": "ZenBook Pro Duo 15 OLED - UX582는 무게가 얼마나 나가니?"
+"answer": 2.34 kg (5.16 lbs)
 
 
 ZenBook S - UX393EA.html
