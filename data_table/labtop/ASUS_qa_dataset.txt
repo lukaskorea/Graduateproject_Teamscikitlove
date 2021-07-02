@@ -34,38 +34,42 @@ ZenBook 13 OLED-UX325EA
 
 
 
-ZenBook 14 - UX425EA
-"question": "ZenBook 14 - UX425EA는 프로세서로 뭘 사용해?"
-"answer": Intel Core i7-1165G7 processor , Intel Core i5-1135G7 processor , Intel Core i3-1115G4 processor
+ZenBook 14 -UM425UA
+"question": "ZenBook 14 -UM425UA는 프로세서로 뭘 사용해?"
+"answer": AMD 라이젠5-3세대 르누아르 4500U (2.3GHz) 헥사코어
 
-"question": "ZenBook 14 - UX425EA의 그래픽은 어떤것을 사용하니?"
-"answer": Intel Iris Graphics Core i5/i7 models , UHD Graphics Core i3 models
+"question": "ZenBook 14 -UM425UA의 그래픽은 어떤것을 사용하니?"
+"answer": Radeon Graphics
 
-"question": "ZenBook 14 - UX425EA의 디스플레이는 어떤것이니?"
-"answer": 14” Full HD (1920 x 1080), 16:9 aspect, anti-glare screen, 1W, 400nits brightness display
+"question": "ZenBook 14 -UM425UA의 디스플레이는 어떤것이니?"
+"answer": 와이드 16:9 1920x1080(FHD) 250nit
 
-"question": "ZenBook 14 - UX425EA의 메모리카드는 무엇 인가요?"
-"answer": 8GB / 16GB / 32GB 4266MHz LPDDR4X (Intel Core i5/i7 models) , 8GB / 16GB / 32GB 3733MHz LPDDR4X (Intel Core i3 models)
+"question": "ZenBook 14 -UM425UA의 메모리카드는 무엇 인가요?"
+"answer": LPDDR4x(온보드) 8GB
 
-"question": "ZenBook 14 - UX425EA의 오디오는 뭘 사용하니?"
-"answer": 
+"question": "ZenBook 14 -UM425UA의 무게는 얼마야?"
+"answer": 1.26kg
 
 
 
-ZenBook 14 - UX435EGL
-"question": "ZenBook 14 - UX435EGL"
-"answer": 
+2021 ASUS TUF Dash F15
+"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": "ZenBook 14 - UX435EGL"
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
+    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
+    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": "ZenBook 14 - UX435EGL"
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
+    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
 
-"question": "ZenBook 14 - UX435EGL"
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+    8GB DDR4 온보드,Max Capacity : 32GB
 
-"question": "ZenBook 14 - UX435EGL"
+"question": "2021 ASUS TUF Dash F15"
 "answer": 
 
 
