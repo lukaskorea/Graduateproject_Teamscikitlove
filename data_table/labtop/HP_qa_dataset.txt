@@ -17,20 +17,20 @@ ENVY 15-ep0093tx
 
 
 ENVY x360 15-ed1501TX
-"question": "ENVY x360 15-ed1501TX"
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
-"question": "ENVY x360 15-ed1501TX"
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
 
-"question": "ENVY x360 15-ed1501TX"
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
 
-"question": "ENVY x360 15-ed1501TX"
-"answer": 
+"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
+"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
 
-"question": "ENVY x360 15-ed1501TX"
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
+"answer": 최소 1.92 kg
 
 
 
