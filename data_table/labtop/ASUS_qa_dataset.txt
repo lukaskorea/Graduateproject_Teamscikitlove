@@ -194,23 +194,21 @@ ZenBook Pro Duo 15 OLED - UX582
 "answer": 2.34 kg (5.16 lbs)
 
 
-ZenBook S - UX393EA.html
+ZenBook Pro 15 - UX535
 
-"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
-"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
+"question": "ZenBook Pro 15 - UX535는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-10750H Processor 2.6GHz (12M Cache, 최대 5.0GHz)
+          Intel® Core™ i7-10870H Processor 2.2 GHz (16M Cache, up to 5.0 GHz, 8 cores)
 
-"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
-"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
-    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
-    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
+"question": "ZenBook Pro 15 - UX535는 그래픽카드를 뭘 가지고 있냐?"
+"answer": Intel® UHD Graphics, NVIDIA® GeForce® GTX 1650 Ti, 4GB GDDR6
 
-"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
-"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
-    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
+"question": "ZenBook Pro 15 - UX535의 화면을 어떻게 되니?"
+"answer": Touch screen, 15.6인치, FHD (1920 x 1080) 16:9, IPS-level 패널, Glossy display, LED Backlit, 300니트, sRGB: 100%, Screen-to-body ratio: 88%
+          Touch screen, 15.6인치,  4K UHD (3840 x 2160) 16:9, IPS-level 패널, Glossy display, LED Backlit, 350니트, sRGB: 100%, Screen-to-body ratio: 88%
 
-"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
-"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
-    8GB DDR4 온보드,Max Capacity : 32GB
+"question": "ZenBook Pro 15 - UX535의 메모리구성은 어떻게 되니?"
+"answer": 16GB DDR4 온보드, Memory Max Up to:16GB
 
-"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
-"answer": 2.00 Kg (4.41 lbs)
+"question": "ZenBook Pro 15 - UX535는 무게가 얼마나 나가니?"
+"answer": 2.00 kg (4.41 lbs)
