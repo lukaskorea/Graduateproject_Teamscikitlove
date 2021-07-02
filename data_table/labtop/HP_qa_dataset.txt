@@ -125,49 +125,76 @@ OMEN 15-ek1053TX
 "answer": 2.36kg부터
 
 
+스펙터 x360 13-aw2104TU
 
-
-"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+"question": "스펙터 x360 13-aw2104TU는 프로세서를 뭘 장착하고 있어?"
 "answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
-"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
-"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
+"question": "스펙터 x360 13-aw2104TU는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB LPDDR4-3200 SDRAM(온보드)
 
-"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
-"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
+"question": "스펙터 x360 13-aw2104TU는 화면이 어떻니?"
+"answer": 33.8cm(13.3인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 반사 방지 Corning® Gorilla® Glass NBT™, 400nits, 100% sRGB
 
-"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
-"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
+"question": "스펙터 x360 13-aw2104TU의 그래픽카드는 어떤게 달려있니?"
+"answer": 인텔® 아이리스® Xᵉ 그래픽
 
-"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
-"answer": 최소 1.92 kg
+"question": "스펙터 x360 13-aw2104TU는 무게가 얼마나 나가니?"
+"answer": 최소 1.27kg
 
-"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+
+
+파빌리온 15-eg0117TX
+
+"question": "파빌리온 15-eg0117TX는 프로세서를 뭘 장착하고 있어?"
 "answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
-"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
-"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
+"question": "파빌리온 15-eg0117TX는 메모리 몆기가를 가지고 있니?"
+"answer": 8GB DDR4-3200 SDRAM(8GB 1개)
 
-"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
-"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
+"question": "파빌리온 15-eg0117TX는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), IPS, 마이크로 에지, 눈부심 방지, 250nits, 45% NTSC
 
-"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
+"question": "파빌리온 15-eg0117TX의 그래픽카드는 어떤게 달려있니?"
 "answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
 
-"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
-"answer": 최소 1.92 kg
+"question": "파빌리온 15-eg0117TX는 무게가 얼마나 나가니?"
+"answer": 최소 1.75kg
+
+
+
+파빌리온 15-eh0125AU
+
+"question": "파빌리온 15-eh0125AU는 프로세서를 뭘 장착하고 있어?"
+"answer": AMD Ryzen™ 7 4700U(2.0GHz 기본 클록, 최대 4.1GHz 부스트 클록, 8MB L3 캐시, 8코어)
+
+"question": "파빌리온 15-eh0125AU는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-3200 SDRAM(2 x 8GB)
+
+"question": "파빌리온 15-eh0125AU는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), IPS, 마이크로 에지, 눈부심 방지, 250nits, 45% NTSC
+
+"question": "파빌리온 15-eh0125AU의 그래픽카드는 어떤게 달려있니?"
+"answer": AMD Radeon™ 그래픽
+
+"question": "파빌리온 15-eh0125AU는 무게가 얼마나 나가니?"
+"answer": 최소 1.75kg
+
+
+
+파빌리온 x360 14-dy0010TU
 
 "question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
-"answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
+"answer": 인텔® 코어™ i5-1135G7(인텔® 터보 부스트 기술 적용 시 최대 4.2GHz, 8MB L3 캐시, 4코어)
 
 "question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
-"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
+"answer": 8GB DDR4-3200MHz RAM(2 x 4GB)
 
 "question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
-"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
+"answer": 14" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC
 
 "question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
-"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
+"answer": 인텔® 아이리스® Xᵉ 그래픽
 
 "question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
-"answer": 최소 1.92 kg
+"answer": 최소 1.5kg
