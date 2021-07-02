@@ -16,7 +16,8 @@ ENVY 15-ep0093tx
 "answer": HP Wide Vision 720p HD 카메라(카메라 셔터 및 통합 듀얼 어레이 디지털 마이크 포함)
 
 
-ENVY x360 15-ed1501TX
+ENVY x360 15-ed1501TX'
+
 "question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
 "answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
@@ -33,196 +34,140 @@ ENVY x360 15-ed1501TX
 "answer": 최소 1.92 kg
 
 
+ExpertBook P1 P1410
 
-"question": ""
-"answer": 
+"question": "ExpertBook P1 P1410는 프로세서를 뭘 장착하고 있어?"
+"answer": Intel® Core™ i5-1035G1 Processor 1.0GHz (6M Cache, 최대 3.6GHz)
 
-"question": ""
-"answer": 
+"question": "ExpertBook P1 P1410는 메모리 몆기가를 가지고 있니?"
+"answer": 4GB DDR3 온보드,4GB DDR4 SO-DIMM,Memory Max Up to:8GB
 
-"question": ""
-"answer": 
+"question": "ExpertBook P1 P1410는 화면이 어떻니?"
+"answer": 14.0인치,FHD (1920 x 1080) 16:9,Anti-glare display,LED Backlit,200니트,NTSC: 45%,Screen-to-body ratio: 78%
 
-"question": ""
-"answer": 
+"question": "ExpertBook P1 P1410의 그래픽카드는 어떤게 달려있니?"
+"answer": Intel® HD Graphics 520
 
-"question": ""
-"answer": 
+"question": "ExpertBook P1 P1410는 무게가 얼마나 나가니?"
+"answer": 1.60 kg (3.53 lbs)
 
 
+HP 15s-eq1154au
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq1154au는 프로세서를 뭘 장착하고 있어?"
+"answer": AMD Ryzen™ 7 4700U(2.0GHz 기본 클록, 최대 4.1GHz 부스트 클록, 8MB L3 캐시, 8코어)
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq1154au는 메모리 몆기가를 가지고 있니?"
+"answer": 8GB DDR4-2666 SDRAM(8GB 1개)
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq1154au는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), IPS, 마이크로 에지, 눈부심 방지, 250nits, 45% NTSC
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq1154au의 그래픽카드는 어떤게 달려있니?"
+"answer": AMD Radeon™ 그래픽
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq1154au는 무게가 얼마나 나가니?"
+"answer": 1.69kg
 
 
 
+HP 15s-eq2245AU
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq2245AU는 프로세서를 뭘 장착하고 있어?"
+"answer": AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq2245AU는 메모리 몆기가를 가지고 있니?"
+"answer": 8GB DDR4-3200 MHz RAM(8GB 1개)
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq2245AU는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), IPS, 마이크로 에지, 눈부심 방지, 250nits, 45% NTSC
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq2245AU의 그래픽카드는 어떤게 달려있니?"
+"answer": AMD Radeon™ 그래픽
 
-"question": ""
-"answer": 
+"question": "HP 15s-eq2245AU는 무게가 얼마나 나가니?"
+"answer": 최소 1.7 kg
 
 
+HP 15s-fq2013TU
 
+"question": "HP 15s-fq2013TU는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i5-1135G7(인텔® 터보 부스트 기술 적용 시 최대 4.2GHz, 8MB L3 캐시, 4코어)
 
-"question": ""
-"answer": 
+"question": "HP 15s-fq2013TU는 메모리 몆기가를 가지고 있니?"
+"answer": 8GB DDR4-2666 SDRAM(2 x 4GB)
 
-"question": ""
-"answer": 
+"question": "HP 15s-fq2013TU는 화면이 어떻니?"
+"answer": 15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC
 
-"question": ""
-"answer": 
+"question": "HP 15s-fq2013TU의 그래픽카드는 어떤게 달려있니?"
+"answer": 인텔® 아이리스® Xᵉ 그래픽
 
-"question": ""
-"answer": 
+"question": "HP 15s-fq2013TU는 무게가 얼마나 나가니?"
+"answer": 1.7kg부터
 
-"question": ""
-"answer": 
 
+OMEN 15-ek1053TX
 
+"question": "OMEN 15-ek1053TX는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i7-10870H(2.2GHz 기본 주파수, 인텔® 터보 부스트 기술 적용 시 최대 5.0GHz, 16MB L3 캐시, 8코어)
 
+"question": "OMEN 15-ek1053TX는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-2933MHz RAM(2 x 8GB)
 
-"question": ""
-"answer": 
+"question": "OMEN 15-ek1053TX는 화면이 어떻니?"
+"answer": 15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC
 
-"question": ""
-"answer": 
+"question": "OMEN 15-ek1053TX의 그래픽카드는 어떤게 달려있니?"
+"answer": NVIDIA® GeForce RTX™ 3070(Max-Q 디자인 포함)(8GB GDDR6 전용)
 
-"question": ""
-"answer": 
+"question": "OMEN 15-ek1053TX는 무게가 얼마나 나가니?"
+"answer": 2.36kg부터
 
-"question": ""
-"answer": 
 
-"question": ""
-"answer": 
 
 
+"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
+"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
+"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
+"answer": 최소 1.92 kg
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
 
+"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
 
+"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
+"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
 
+"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
+"answer": 최소 1.92 kg
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 프로세서를 뭘 장착하고 있어?"
+"answer": 인텔® 코어™ i7-1165G7(인텔® 터보 부스트 기술 적용 시 최대 4.7GHz, 12MB L3 캐시, 4코어)
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 메모리 몆기가를 가지고 있니?"
+"answer": 16GB DDR4-3200MHz RAM(2 x 8GB)
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 화면이 어떻니?"
+"answer": 39.6cm(15.6인치)(대각선), FHD(1920 x 1080), 멀티터치 지원, IPS, 에지 투 에지 유리, 마이크로 에지, 400nits, 100% sRGB
 
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX의 그래픽카드는 어떤게 달려있니?"
+"answer": NVIDIA® GeForce® MX450(2GB GDDR5 전용)
 
-"question": ""
-"answer": 
-
-
-
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-
-
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-
-
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
-
-"question": ""
-"answer": 
+"question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
+"answer": 최소 1.92 kg
