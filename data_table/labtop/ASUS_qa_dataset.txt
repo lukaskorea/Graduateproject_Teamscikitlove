@@ -69,50 +69,55 @@ ZenBook 14 -UM425UA
 "answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
     8GB DDR4 온보드,Max Capacity : 32GB
 
-"question": "2021 ASUS TUF Dash F15"
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
+"answer": 2.00 Kg (4.41 lbs)
 
 
 
 
 
-ZenBook 14 -UM425UA
+2021 ASUS TUF Gaming A15
 
-"question": "ZenBook 14 -UM425UA"
-"answer": 
+"question": "2021 ASUS TUF Gaming A15는 CPU로 뭘 쓰고 있니?"
+"answer": AMD Ryzen™ 7 5800H Processor 3.2 GHz (16M Cache, up to 4.4 GHz)
 
-"question": "ZenBook 14 -UM425UA"
-"answer": 
+"question": "2021 ASUS TUF Gaming A15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3070 Laptop GPU,Up to 1510MHz at 90W (95W with Dynamic Boost),8GB GDDR6
+        NVIDIA® GeForce RTX™ 3060 Laptop GPU,Up to 1630MHz at 90W (95W with Dynamic Boost),6GB GDDR6
 
-"question": "ZenBook 14 -UM425UA"
-"answer": 
+"question": "2021 ASUS TUF Gaming A15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100.00%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
+          15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level
 
-"question": "ZenBook 14 -UM425UA"
-"answer": 
+"question": "2021 ASUS TUF Gaming A15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4-3200 SO-DIMM x 2,Max Capacity : 32GB
+    8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
 
-"question": "ZenBook 14 -UM425UA"
-"answer": 
-
-
-
+"question": "2021 ASUS TUF Gaming A15는 무게가 얼마나 나가니?"
+"answer": 2.30 Kg (5.07 lbs)
 
 
-ZenBook 14 Ultralight - UX435EGL
 
-"question": "ZenBook 14 Ultralight - UX435EGL"
-"answer": 
 
-"question": "ZenBook 14 Ultralight - UX435EGL"
-"answer": 
 
-"question": "ZenBook 14 Ultralight - UX435EGL"
-"answer": 
+2021 ASUS TUF Gaming A17
 
-"question": "ZenBook 14 Ultralight - UX435EGL"
-"answer": 
+"question": "2021 ASUS TUF Gaming A17는 CPU로 뭘 쓰고 있니?"
+"answer": AMD Ryzen™ 7 5800H Processor 3.2 GHz (16M Cache, up to 4.4 GHz)
 
-"question": "ZenBook 14 Ultralight - UX435EGL"
-"answer": 
+"question": "2021 ASUS TUF Gaming A17는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA®GeForce RTX™ 3060 Laptop GPU,Up to 1630MHz at 90W (95W with Dynamic Boost),6GB GDDR6
+        NVIDIA®GeForce RTX™ 3070 Laptop GPU,Up to 1510MHz at 90W (95W with Dynamic Boost),8GB GDDR6
+        
+"question": "2021 ASUS TUF Gaming A17의 화면을 어떻게 되니?"
+"answer": 17.3인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,ValueIPS-level
+
+"question": "2021 ASUS TUF Gaming A17의 메모리구성은 어떻게 되니?"
+"answer": 해당 없음,8GB DDR4-3200 SO-DIMM x 2,Max Capacity : 32GB
+        해당 없음,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+
+"question": "2021 ASUS TUF Gaming A17은 무게가 얼마나 나가니?"
+"answer": 2.60 Kg (5.73 lbs)
 
 
 
@@ -121,20 +126,24 @@ ZenBook 14 Ultralight - UX435EGL
 
 
 ZenBook Duo 14 - UX482.html
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
+    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
+    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
+    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+    8GB DDR4 온보드,Max Capacity : 32GB
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
+"answer": 2.00 Kg (4.41 lbs)
 
 
 
@@ -143,20 +152,24 @@ ZenBook Duo 14 - UX482.html
 
 ZenBook Pro 15 - UX535.html
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
+    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
+    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
+    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+    8GB DDR4 온보드,Max Capacity : 32GB
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
+"answer": 2.00 Kg (4.41 lbs)
 
 
 
@@ -164,34 +177,43 @@ ZenBook Pro 15 - UX535.html
 
 ZenBook Pro Duo 15 OLED - UX582.html
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
+    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
+    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
+    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+    8GB DDR4 온보드,Max Capacity : 32GB
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
+"answer": 2.00 Kg (4.41 lbs)
 
 
 ZenBook S - UX393EA.html
-"question": ""
-"answer": 
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
+"answer": Intel® Core™ i7-11370H Processor 5.0GHz, 4 cores, Intel® Core™ i5-11300H Processor 3.1 GHz, 4 cores (8M Cache, up to 4.4GHz)
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15는 그래픽카드를 뭘 가지고 있냐?"
+"answer": NVIDIA® GeForce RTX™ 3060 Laptop GPU,With ROG Boost up to 1525MHz at 80W (85W with Dynamic Boost),6GB GDDR6,
+    NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU,Up to 1585MHz at 60W (75W with Dynamic Boost),4GB GDDR6, 
+    NVIDIA® GeForce RTX™ 3070 Laptop GPU,With ROG Boost up to 1390MHz at 80W (85W with Dynamic Boost),8GB GDDR6
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 화면을 어떻게 되니?"
+"answer": 15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:62.5%,Adobe:47.34%,Refresh Rate:144Hz,Value IPS-level, 
+    15.6인치,FHD (1920 x 1080) 16:9,anti-glare display,sRGB:100%,Adobe:75.35%,Refresh Rate:240Hz,IPS-level
 
-"question": ""
-"answer": 
+"question": "2021 ASUS TUF Dash F15의 메모리구성은 어떻게 되니?"
+"answer": 8GB DDR4 온보드,8GB DDR4-3200 SO-DIMM,Max Capacity : 32GB
+    8GB DDR4 온보드,Max Capacity : 32GB
+
+"question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
+"answer": 2.00 Kg (4.41 lbs)
