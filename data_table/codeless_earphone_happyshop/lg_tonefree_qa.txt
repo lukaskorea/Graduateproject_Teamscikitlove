@@ -1,12 +1,16 @@
-해당 제품의 제조사는?
-LG전자
-해당 제품의 유닛형태는?
-커널형
-해당 제품의 재생시간은?
-6시간
-해당제품의 통화가능시간은?
-5시간
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-O
-해당제품은 무선충전을 지원하는가?
-O
+"question" : "lg tonefree의 제조사는?"
+"answer" : LG전자
+"question" : "lg tonefree의 유닛형태는?"
+"answer" : 커널형
+"question" : "lg tonefree의 재생시간은?"
+"answer" : 6시간
+"question" : "lg tonefree의 통화가능시간은?"
+"answer" : 5시간
+"question" : "lg tonefree은 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : O
+"question" : "lg tonefree은 무선충전을 지원하는가?"
+"answer" : O
+"question" : "lg tonefree는 완충시 몇 시간이 소요되는가?"
+"answer" : -
+"question" : "lg tonefree의 방수등급은 무엇인가?"
+"answer" : 생활방수

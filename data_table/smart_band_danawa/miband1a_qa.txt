@@ -1,18 +1,22 @@
-해당 제품의 제조사는?
-샤오미
-해당 제품의 패널종류는?
--
-해당 제품의 화면크기는?
--
-해당 제품의 블루투스 버전은?
-v4.0
-해당 제품에 스피커가 있는가?
-X
-해당 제품에 마이크가 있는가?
-X
-해당 제품의 배터리 사용시간은?
-평균사용: 30일
-해당 제품은 NFC를 지원하는가?
-X
-해당 제품은 GPS 모듈이 탑재되었나?
-X
+"question" : "miband1a의 제조사는?"
+"answer" : 샤오미
+"question" : "miband1a의 패널종류는?"
+"answer" : -
+"question" : "miband1a의 화면크기는?"
+"answer" : -
+"question" : "miband1a의 블루투스 버전은?"
+"answer" : v4.0
+"question" : "miband1a에 스피커가 있는가?"
+"answer" : X
+"question" : "miband1a에 마이크가 있는가?"
+"answer" : X
+"question" : "miband1a의 배터리 사용시간은?"
+"answer" : 평균사용: 30일
+"question" : "miband1a은 NFC를 지원하는가?"
+"answer" : X
+"question" : "miband1a은 GPS 모듈이 탑재되었나?"
+"answer" : X
+"question" : "miband1a는 혈압센서가 탑재되어 혈압을 측정할 수 있는가?"
+"answer": -
+"question" : "miband1a는 알림 기능을 지원하는가?"
+"answer": SNS알림, 전화알림 지원

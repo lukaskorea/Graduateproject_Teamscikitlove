@@ -1,18 +1,22 @@
-해당 제품의 제조사는?
-샤오미
-해당 제품의 패널종류는?
-OLED
-해당 제품의 화면크기는?
-1.98cm(0.78인치)
-해당 제품의 블루투스 버전은?
-v4.2
-해당 제품에 스피커가 있는가?
-X
-해당 제품에 마이크가 있는가?
-X
-해당 제품의 배터리 사용시간은?
-평균사용: 20일
-해당 제품은 NFC를 지원하는가?
-X
-해당 제품은 GPS 모듈이 탑재되었나?
-X
+"question" : "miband3의 제조사는?"
+"answer" : 샤오미
+"question" : "miband3의 패널종류는?"
+"answer" : OLED
+"question" : "miband3의 화면크기는?"
+"answer" : 1.98cm(0.78인치)
+"question" : "miband3의 블루투스 버전은?"
+"answer" : v4.2
+"question" : "miband3에 스피커가 있는가?"
+"answer" : X
+"question" : "miband3에 마이크가 있는가?"
+"answer" : X
+"question" : "miband3의 배터리 사용시간은?"
+"answer" : 평균사용: 20일
+"question" : "miband3은 NFC를 지원하는가?"
+"answer" : X
+"question" : "miband3은 GPS 모듈이 탑재되었나?"
+"answer" : X
+"question" : "miband3는 혈압센서가 탑재되어 혈압을 측정할 수 있는가?"
+"answer": -
+"question" : "miband3는 알림 기능을 지원하는가?"
+"answer": SNS알림, 메세지알림, 전화알림 지원

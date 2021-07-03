@@ -1,14 +1,18 @@
-해당 제품의 제조사는?
-APPLE
-해당 제품의 유닛형태는?
-오픈형
-해당 제품의 재생시간은?
-5시간
-해당제품의 통화가능시간은?
-3시간
-해당제품은 H1 Chipset을 탑재했는가?
-○
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-X
-해당제품은 무선충전을 지원하는가?
-X
+"question" : "airpod 2세대의 제조사는?"
+"answer" : APPLE
+"question" : "airpod 2세대의 유닛형태는?"
+"answer" : 오픈형
+"question" : "airpod 2세대의 재생시간은?"
+"answer" : 5시간
+"question" : "airpod 2세대의 통화가능시간은?"
+"answer" : 3시간
+"question" : "airpod 2세대는 H1 Chipset을 탑재했는가?"
+"answer" : ○
+"question" : "airpod 2세대는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : X
+"question" : "airpod 2세대는 무선충전을 지원하는가?"
+"answer" : X
+"question" : "airpod 2세대는 완충시 몇 시간이 소요되는가?"
+"answer" : -
+"question" : "airpod 2세대의 방수등급은 무엇인가?"
+"answer" : -

@@ -1,12 +1,16 @@
-해당 제품의 제조사는?
-Britz
-해당 제품의 유닛형태는?
-커널형
-해당 제품의 재생시간은?
-7시간(노이즈캔슬링)
-해당제품의 통화가능시간은?
--
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당제품은 무선충전을 지원하는가?
-X
+"question" : "britz acousticanc3의 제조사는?"
+"answer" : Britz
+"question" : "britz acousticanc3의 유닛형태는?"
+"answer" : 커널형
+"question" : "britz acousticanc3의 재생시간은?"
+"answer" : 7시간(노이즈캔슬링)
+"question" : "britz acousticanc3의 통화가능시간은?"
+"answer" : -
+"question" : "britz acousticanc3는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : ○
+"question" : "britz acousticanc3는 무선충전을 지원하는가?"
+"answer" : X
+"question" : "britz acousticanc3는 완충시 몇 시간이 소요되는가?"
+"answer" : 2시간
+"question" : "britz acousticanc3의 방수등급은 무엇인가?"
+"answer" : IP54

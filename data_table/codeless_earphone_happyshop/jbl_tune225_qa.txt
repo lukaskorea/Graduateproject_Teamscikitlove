@@ -1,12 +1,16 @@
-해당 제품의 제조사는?
-JBL
-해당 제품의 유닛형태는?
-오픈형
-해당 제품의 재생시간은?
-5시간
-해당제품의 통화가능시간은?
--
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-X
-해당제품은 무선충전을 지원하는가?
-X
+"question" : "jbl tune225의 제조사는?"
+"answer" : JBL
+"question" : "jbl tune225의 유닛형태는?"
+"answer" : 오픈형
+"question" : "jbl tune225의 재생시간은?"
+"answer" : 5시간
+"question" : "jbl tune225의 통화가능시간은?"
+"answer" : -
+"question" : "jbl tune225은 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : X
+"question" : "jbl tune225은 무선충전을 지원하는가?"
+"answer" : X
+"question" : "jbl tune225은 완충시 몇 시간이 소요되는가?"
+"answer" : -
+"question" : "jbl tune225의 방수등급은 무엇인가?"
+"answer" : -

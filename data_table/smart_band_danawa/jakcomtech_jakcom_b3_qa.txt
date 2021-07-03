@@ -1,18 +1,22 @@
-해당 제품의 제조사는?
-작콤테크놀로지
-해당 제품의 패널종류는?
--
-해당 제품의 화면크기는?
--
-해당 제품의 블루투스 버전은?
--
-해당 제품에 스피커가 있는가?
--
-해당 제품에 마이크가 있는가?
--
-해당 제품의 배터리 사용시간은?
--
-해당 제품은 NFC를 지원하는가?
-X
-해당 제품은 GPS 모듈이 탑재되었나?
-O
+"question" : "jakcomtech jakcom b3의 제조사는?"
+"answer" : 작콤테크놀로지
+"question" : "jakcomtech jakcom b3의 패널종류는?"
+"answer" : -
+"question" : "jakcomtech jakcom b3의 화면크기는?"
+"answer" : -
+"question" : "jakcomtech jakcom b3의 블루투스 버전은?"
+"answer" : -
+"question" : "jakcomtech jakcom b3에 스피커가 있는가?"
+"answer" : -
+"question" : "jakcomtech jakcom b3에 마이크가 있는가?"
+"answer" : -
+"question" : "jakcomtech jakcom b3의 배터리 사용시간은?"
+"answer" : -
+"question" : "jakcomtech jakcom b3은 NFC를 지원하는가?"
+"answer" : X
+"question" : "jakcomtech jakcom b3은 GPS 모듈이 탑재되었나?"
+"answer" : O
+"question" : "jakcomtech jakcom b3는 혈압센서가 탑재되어 혈압을 측정할 수 있는가?"
+"answer": -
+"question" : "jakcomtech jakcom b3는 알림 기능을 지원하는가?"
+"answer": -

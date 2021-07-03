@@ -1,14 +1,18 @@
-해당 제품의 제조회사는?
-삼성전자
-해당 제품의 블루투스 버전은?
-블루투스 v5.0
-해당 제품의 유닛형태는?
-커널형
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당 제품은 무선충전을 지원하는가?
-○
-해당 제품의 통화시간은?
-4시간
-해당 제품의 재생시간은?
-5시간(NC ON), 8시간(NC OFF)
+"question" : "galaxy buds pro의 제조회사는?"
+"answer" : 삼성전자
+"question" : "galaxy buds pro의 블루투스 버전은?"
+"answer" : 블루투스 v5.0
+"question" : "galaxy buds pro의 유닛형태는?"
+"answer" : 커널형
+"question" : "galaxy buds pro는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds pro는 무선충전을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds pro의 통화시간은?"
+"answer" : 4시간
+"question" : "galaxy buds pro의 재생시간은?"
+"answer" : 5시간(NC ON), 8시간(NC OFF)
+"question" : "galaxy buds pro는 주변소음듣기 기능을 제공하는가?"
+"answer" : ○
+"question" : "galaxy buds pro는 케이스로 충전하면 몇 번 충전가능한가?"
+"answer" : 2.5회

@@ -1,14 +1,18 @@
-해당 제품의 제조회사는?
-QCY
-해당 제품의 블루투스 버전은?
-블루투스 v5.0
-해당 제품의 유닛형태는?
-커널형
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-X
-해당 제품은 무선충전을 지원하는가?
-X
-해당 제품의 통화시간은?
-3시간
-해당 제품의 재생시간은?
-3.5시간
+"question" : "qcy t11의 제조회사는?"
+"answer" : QCY
+"question" : "qcy t11의 블루투스 버전은?"
+"answer" : 블루투스 v5.0
+"question" : "qcy t11의 유닛형태는?"
+"answer" : 커널형
+"question" : "qcy t11는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : X
+"question" : "qcy t11는 무선충전을 지원하는가?"
+"answer" : X
+"question" : "qcy t11의 통화시간은?"
+"answer" : 3시간
+"question" : "qcy t11의 재생시간은?"
+"answer" : 3.5시간
+"question" : "qcy t11은 주변소음듣기 기능을 제공하는가?"
+"answer" : -
+"question" : "qcy t11은 케이스로 충전한다면 몇 번 충전 가능한가?"
+"answer" : 5회

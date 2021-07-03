@@ -1,18 +1,22 @@
-해당 제품의 제조사는?
-비바스포츠
-해당 제품의 패널종류는?
--
-해당 제품의 화면크기는?
--
-해당 제품의 블루투스 버전은?
--
-해당 제품에 스피커가 있는가?
-X
-해당 제품에 마이크가 있는가?
-X
-해당 제품의 배터리 사용시간은?
--
-해당 제품은 NFC를 지원하는가?
-X
-해당 제품은 GPS 모듈이 탑재되었나?
-O
+"question" : "vivasports ergo gear의 제조사는?"
+"answer" : 비바스포츠
+"question" : "vivasports ergo gear의 패널종류는?"
+"answer" : -
+"question" : "vivasports ergo gear의 화면크기는?"
+"answer" : -
+"question" : "vivasports ergo gear의 블루투스 버전은?"
+"answer" : -
+"question" : "vivasports ergo gear에 스피커가 있는가?"
+"answer" : X
+"question" : "vivasports ergo gear에 마이크가 있는가?"
+"answer" : X
+"question" : "vivasports ergo gear의 배터리 사용시간은?"
+"answer" : -
+"question" : "vivasports ergo gear은 NFC를 지원하는가?"
+"answer" : X
+"question" : "vivasports ergo gear은 GPS 모듈이 탑재되었나?"
+"answer" : O
+"question" : "vivasports ergo gear는 혈압센서가 탑재되어 혈압을 측정할 수 있는가?"
+"answer": O
+"question" : "vivasports ergo gear는 알림 기능을 지원하는가?"
+"answer": SNS알림, 메세지알림, 전화알림 지원

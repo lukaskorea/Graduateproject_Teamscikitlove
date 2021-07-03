@@ -1,12 +1,16 @@
-해당 제품의 제조사는?
-삼성전자
-해당 제품의 유닛형태는?
-오픈형
-해당 제품의 재생시간은?
-6시간(노이즈캔슬링)
-해당제품의 통화가능시간은?
-5시간
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당제품은 무선충전을 지원하는가?
-○
+"question" : "galaxy buds live의 제조사는?"
+"answer" : 삼성전자
+"question" : "galaxy buds live의 유닛형태는?"
+"answer" : 오픈형
+"question" : "galaxy buds live의 재생시간은?"
+"answer" : 6시간(노이즈캔슬링)
+"question" : "galaxy buds live의 통화가능시간은?"
+"answer" : 5시간
+"question" : "galaxy buds live는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds live는 무선충전을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds live는 완충시 몇 시간이 소요되는가?"
+"answer" : -
+"question" : "galaxy buds live의 방수등급은 무엇인가?"
+"answer" : -

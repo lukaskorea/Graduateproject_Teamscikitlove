@@ -1,14 +1,18 @@
-해당 제품의 제조회사는?
-엠지텍
-해당 제품의 블루투스 버전은?
-블루투스 v5.0
-해당 제품의 유닛형태는?
-커널형
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당 제품은 무선충전을 지원하는가?
-X
-해당 제품의 통화시간은?
--
-해당 제품의 재생시간은?
--
+"question" : "mztec ironv65pro의 제조회사는?"
+"answer" : 엠지텍
+"question" : "mztec ironv65pro의 블루투스 버전은?"
+"answer" : 블루투스 v5.0
+"question" : "mztec ironv65pro의 유닛형태는?"
+"answer" : 커널형
+"question" : "mztec ironv65pro는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : ○
+"question" : "mztec ironv65pro는 무선충전을 지원하는가?"
+"answer" : -
+"question" : "mztec ironv65pro의 통화시간은?"
+"answer" : -
+"question" : "mztec ironv65pro의 재생시간은?"
+"answer" : -
+"question" : "mztec ironv65pro는 주변소음듣기 기능을 제공하는가?"
+"answer" : ○
+"question" : "mztec ironv65pro는 케이스로 충전한다면 몇 번 충전 가능한가?"
+"answer" : 15회

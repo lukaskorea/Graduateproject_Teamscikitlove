@@ -1,14 +1,18 @@
-해당 제품의 제조회사는?
-APPLE
-해당 제품의 블루투스 버전은?
-블루투스 v5.0
-해당 제품의 유닛형태는?
-커널형
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당 제품은 무선충전을 지원하는가?
-○
-해당 제품의 통화시간은?
-3.5시간
-해당 제품의 재생시간은?
-4.5시간
+"question": "airpod pro의 제조회사는?"
+"answer": APPLE
+"question": "airpod pro의 블루투스 버전은?"
+"answer": 블루투스 v5.0
+"question": "airpod pro의 유닛형태는?"
+"answer": 커널형
+"question": "airpod pro는 액티브 노이즈 캔슬링을 지원하는가?"
+"answer": ○
+"question": "airpod pro는 주변소음듣기 기능을 지원하는가?"
+"answer": ○
+"question": "airpod pro는 무선충전을 지원하는가?"
+"answer": ○
+"question": "airpod pro의 통화시간은?"
+"answer": 3.5시간
+"question": "airpod pro의 재생시간은?"
+"answer": 4.5시간
+"question": "airpod pro의 케이스로 충전하면 몇번 충전가능한가?"
+"answer": 4회

@@ -1,14 +1,18 @@
-해당 제품의 제조회사는?
-삼성전자
-해당 제품의 블루투스 버전은?
-블루투스 v5.0
-해당 제품의 유닛형태는?
-오픈형
-해당 제품은 액티브 노이즈 캔슬링을 지원하는가?
-○
-해당 제품은 무선충전을 지원하는가?
-○
-해당 제품의 통화시간은?
-5시간 이상
-해당 제품의 재생시간은?
-6시간(NC ON), 8시간(NC OFF)
+"question" : "galaxy buds live의 제조회사는?"
+"answer" : 삼성전자
+"question" : "galaxy buds live의 블루투스 버전은?"
+"answer" : 블루투스 v5.0
+"question" : "galaxy buds live의 유닛형태는?"
+"answer" : 오픈형
+"question" : "galaxy buds live은 액티브 노이즈 캔슬링을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds live은 무선충전을 지원하는가?"
+"answer" : ○
+"question" : "galaxy buds live의 통화시간은?"
+"answer" : 5시간 이상
+"question" : "galaxy buds live의 재생시간은?"
+"answer" : 6시간(NC ON), 8시간(NC OFF)
+"question" : "galaxy buds live는 주변소음듣기 기능을 제공하는가?"
+"answer" : ○
+"question" : "galaxy buds live의 케이스로 충전하면 몇 번 충전 가능한가?"
+"answer" : 3회
