@@ -15,8 +15,20 @@ Crystal UHD 189 cm 스탠드형 - KU75UT8090FXKR
 "question": "Crystal UHD 189 cm 스탠드형의 평균소비전력은 몇 W인가?"
 "answer": 71.0 W
 
-"question": "Crystal UHD 189 cm 스탠드형의 전면부 색상은 무엇인가요?"
-"answer": BLACK
+"question": "Crystal UHD 189 cm 스탠드형의 디밍 기법은 무엇인가?"
+"answer": UHD Dimming
+
+"question": "Crystal UHD 189 cm 스탠드형의 이더넷 단자는 제공되나요?"
+"answer": 있음
+
+"question": "Crystal UHD 189 cm 스탠드형의 옵티컬 단자는 몇갠가요?"
+"answer": 1
+
+"question": "Crystal UHD 189 cm 스탠드형의 입출력 USB 포트 개수는?"
+"answer": 2
+
+"question": "Crystal UHD 189 cm 스탠드형에 별도로 밀착 월마운트가 호환되는지?"
+"answer": 미지원
 
 Full HD TV 123 cm - UN49N5020AFXKR
 
@@ -38,6 +50,18 @@ Full HD TV 123 cm - UN49N5020AFXKR
 "question": "Full HD TV 123 cm의 디자인은 무엇일까요?"
 "answer": Slim Edge Mold
 
+"question": "Full HD TV 123 cm의 스탠드 타입은 뭔가요?"
+"answer": Mini Arc
+
+"question": "Full HD TV 123 cm의 화면은 평면인가요 커브드인가요?"
+"answer": 평면 (Flat) 
+
+"question": "Full HD TV 123 cm의 음향 시스템은 어떠한가요?"
+"answer": 2 CH 
+
+"question": "Full HD TV 123 cm에 제공되는 화질엔진이 뭔가요?"
+"answer": Hyper Real
+
 Neo QLED 4K 214 cm 스탠드형 - KQ85QNA90AFXKR
 
 "question": "Neo QLED 4K 214 cm 스탠드형의 화질엔진은 무엇일까요?"
@@ -58,6 +82,20 @@ Neo QLED 4K 214 cm 스탠드형 - KQ85QNA90AFXKR
 "question": "Neo QLED 4K 214 cm 스탠드형과 동일모델의 출시년월은 언제인가요?"
 "answer": 2021년 3월
 
+"question": "Neo QLED 4K 214 cm 스탠드형이 가진 디자인 특성이 어떻게 되나요?"
+"answer": NeoSlim 
+
+"question": "Neo QLED 4K 214 cm 스탠드형이 가진 타입의 스탠드의 이름이 뭐죠?"
+"answer": 2021년 3월
+
+"question": "Neo QLED 4K 214 cm 스탠드형은 서라운드 음향을 지원하는가요?"
+"answer": 있음
+
+"question": "Neo QLED 4K 214 cm 스탠드형은 에너지 등급이 몇등급인가?"
+"answer": 5
+
+---
+
 Neo QLED 8K 214 cm 스탠드형 - KQ85QNA800FXKR
 
 "question": "Neo QLED 8K 214 cm 스탠드형의 디밍기술은 무엇인가?"
@@ -75,8 +113,21 @@ Neo QLED 8K 214 cm 스탠드형 - KQ85QNA800FXKR
 "question": "Neo QLED 8K 214 cm 스탠드형의 정격 전압은?"
 "answer": AC220-240V 50/60Hz
 
-"question": "Neo QLED 4K 214 cm 스탠드형과 동일모델의 출시년월은 언제인가요?"
+"question": "Neo QLED 8K 214 cm 스탠드형과 동일모델의 출시년월은 언제인가요?"
 "answer": 2021년 3월
+
+"question": "Neo QLED 8K 214 cm 스탠드형이 지원하는 빅스비 언어 종류가 어떻게 되나요?"
+"answer": 빅스비
+미국영어, 영국영어, 인도영어, 한국어, 프랑스어, 독일어, 이태리어, 스페인어, 브라질 포르투갈어 (언어별지원기능 상이) 
+
+"question": "Neo QLED 8K 214 cm 스탠드형에 와이파이 기능이 지원되니?"
+"answer": 있음 (WiFi6)
+
+"question": "Neo QLED 8K 214 cm 스탠드형이랑 구글 어시스턴트랑 함께 사용이 가능해?"
+"answer": 있음
+
+"question": "Neo QLED 8K 214 cm 스탠드형의 음향에 돌비가 지원되나?"
+"answer": 있음
 
 QLED 4K 189 cm 스탠드형 -KQ75QT80AFXKR
 
@@ -98,6 +149,20 @@ QLED 4K 189 cm 스탠드형 -KQ75QT80AFXKR
 "question": "QLED 4K 189 cm 스탠드형은 에너지 효율 등급이 어떻게 되니?"
 "answer": 5
 
+"question": "QLED 4K 189 cm 스탠드형을 사면 별도로 교체 가능한 프레임을 살 수 있니?"
+"answer": 미지원
+
+"question": "QLED 4K 189 cm 스탠드형의 스탠드를 포함한 정확한 사이즈가 어떻게 되니?"
+"answer": 1670.6 x 1036.2 x 316.8 mm
+
+"question": "QLED 4K 189 cm 스탠드형이 취급하는 전압이 어떻게 돼?"
+"answer": AC220-240V 50/60Hz 
+
+"question": "QLED 4K 189 cm 스탠드형을 만드는 제조국이 어디야?"
+"answer": 베트남
+
+---
+
 QLED 8K 207 cm 스탠드형 - KQ82QT800AFXKR
 
 "question": "QLED 8K 207 cm 스탠드형에는 명암비 강화 기술이 있나요?"
@@ -117,6 +182,20 @@ QLED 8K 207 cm 스탠드형 - KQ82QT800AFXKR
 
 "question": "QLED 8K 207 cm 스탠드형엔 자막 기능이 제공돼?"
 "answer": 있음
+
+"question": "QLED 8K 207 cm 스탠드형에는 명암비를 강화하는 기술이 있을까?"
+"answer": 있음
+
+"question": "QLED 8K 207 cm 스탠드형엔 음성을 강화하는 기능을 제공하니?"
+"answer": 있음
+
+"question": "QLED 8K 207 cm 스탠드형을 원거리에서 음성 인식으로 동작 시킬수 있니?"
+"answer": 있음
+
+"question": "QLED 8K 207 cm 스탠드형은 IPv6를 이용할 수 있는가요?"
+"answer": 지원
+
+---
 
 QLED 125 cm 스탠드형 - KQ50QA60AFXKR
 
@@ -138,6 +217,20 @@ QLED 125 cm 스탠드형 - KQ50QA60AFXKR
 "question": "QLED 125 cm 스탠드형이 대기모드일때 소비전력의 크기는?"
 "answer": 0.5W
 
+"question": "QLED 125 cm 스탠드형은 스텐드를 뺀 무게가 어떻게 되지?"
+"answer": 11.5 kg
+
+"question": "QLED 125 cm 스탠드형의 전면부 색깔은?"
+"answer": TITAN GRAY
+
+"question": "QLED 125 cm 동영상 컬러는 어떤 특징이 있는가?"
+"answer": 컬러볼륨 100% 
+
+"question": "QLED 125 cm 스탠드형에서 웹 브라우저를 동작시킬 수 있어?"
+"answer": 있음
+
+---
+
 QLED 138 cm 스탠드형 - KQ55QA60AFXKR
 
 "question": "QLED 138 cm 스탠드형의 디스플레이 화면 크기는 무엇이니?"
@@ -157,6 +250,22 @@ QLED 138 cm 스탠드형 - KQ55QA60AFXKR
 
 "question": "QLED 138 cm 스탠드형의 품질보증기준은?"
 "answer": 결함.하자 등에 따른 소비자 피해에 대해서는 소비자분쟁해결기준(소비자기본법 제16조)에 따라 보상가능
+
+"question": "QLED 138 cm 스탠드의 스탠드 색상은 무엇인가?"
+"answer": TITAN GRAY 
+
+"question": "QLED 138 cm 스탠드형은 디스플레이 크기가 어떻게 돼?"
+"answer": 138 cm
+
+"question": "QLED 138 cm 스탠드형의 화소 수치는 어떻게 되는가?"
+"answer": 3,840 x 2,160 
+
+"question": "QLED 138 cm 스탠드형에는 별도의 접근성 안내 지원이 있나요?"
+"answer": 미국 영어, 한국어 
+
+
+-----
+
 
 QLED 214 cm 벽걸이형 - KQ85QA60AFXKR
 
@@ -178,6 +287,20 @@ QLED 214 cm 벽걸이형 - KQ85QA60AFXKR
 "question": "QLED 214 cm 벽걸이형이 가진 AV 입출력 단자의 개수는?"
 "answer": 1
 
+"question": "QLED 214 cm 벽걸이형은 스탠드를 빼면 몇 kg정도나 할까요?"
+"answer": 41.5 kg
+
+"question": "QLED 214 cm 벽걸이형의 스탠드 종류가 무엇인가?"
+"answer": FLOAT LIFT
+
+"question": "QLED 214 cm 벽걸이형의 디스플레이 화질이 어떻게 돼?"
+"answer": 3,840 x 2,160
+
+"question": "QLED 214 cm 벽걸이형의 사운드 음향 시스템 구성은?"
+"answer": 2CH 
+
+-------
+
 UHD 214 cm 스탠드형 - KU85UA7000FXKR
 
 "question": "UHD 214 cm 스탠드형의 스탠드 타입이 어떻게 되나요?"
@@ -197,3 +320,15 @@ UHD 214 cm 스탠드형 - KU85UA7000FXKR
 
 "question": "UHD 214 cm 스탠드형엔 스마트 유니버설 가이드 기능이 포함되있나요?"
 "answer": 있음
+
+"question": "UHD 214 cm 스탠드형엔 영상 엔진이 어떤게 들어가니?"
+"answer": Crystal Processor 4K 
+
+"question": "UHD 214 cm 스탠드형과 같은 모델들은 언제 출시되었나요?"
+"answer": 2021년 3월
+
+"question": "UHD 214 cm 스탠드형의 수리를 맡길려면 어디로 전화하면 되나?"
+"answer": 삼성전자서비스센터 / 1588-3366
+
+"question": "UHD 214 cm 스탠드형을 사면 프리싱크 기능도 같이 제공되나요?"
+"answer": 없음
