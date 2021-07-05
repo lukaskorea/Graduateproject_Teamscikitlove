@@ -1,10 +1,10 @@
-"question" : "galaxy buds live의 제조사는?"
+"question" : "galaxy buds live는 어느 회사 제품인가?"
 "answer" : 삼성전자
 "question" : "galaxy buds live의 유닛형태는?"
 "answer" : 오픈형
-"question" : "galaxy buds live의 재생시간은?"
+"question" : "galaxy buds live는 몇 시간 음악재생이 가능한가?"
 "answer" : 6시간(노이즈캔슬링)
-"question" : "galaxy buds live의 통화가능시간은?"
+"question" : "galaxy buds live는 몇 시간 통화가 가능한가?"
 "answer" : 5시간
 "question" : "galaxy buds live는 액티브 노이즈 캔슬링을 지원하는가?"
 "answer" : ○

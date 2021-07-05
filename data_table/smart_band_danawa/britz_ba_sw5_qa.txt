@@ -1,6 +1,6 @@
-"question" : "britz ba sw5의 제조사는?"
+"question" : "britz ba sw5는 어느회사 제품인가?"
 "answer" : Britz 브리츠액세서리즈
-"question" : "britz ba sw5의 패널종류는?"
+"question" : "britz ba sw5의 패널은 어떤 것이 탑재되었나?"
 "answer" : OLED
 "question" : "britz ba sw5의 화면크기는?"
 "answer" : -
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "britz ba sw5에 마이크가 있는가?"
 "answer" : X
-"question" : "britz ba sw5의 배터리 사용시간은?"
+"question" : "britz ba sw5는 완전충전 후 방전까지 며칠이 소요되나?"
 "answer" : 평균사용: 약 3일
 "question" : "britz ba sw5은 NFC를 지원하는가?"
 "answer" : X

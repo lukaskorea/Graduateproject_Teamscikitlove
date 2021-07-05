@@ -1,6 +1,6 @@
-"question" : "hwawei smartband 4e의 제조사는?"
+"question" : "hwawei smartband 4e는 어느 회사의 제품인가?"
 "answer" : 화웨이
-"question" : "hwawei smartband 4e의 패널종류는?"
+"question" : "hwawei smartband 4e는 어떤 종류의 패널이 탑재되었나?"
 "answer" : PMOLED
 "question" : "hwawei smartband 4e의 화면크기는?"
 "answer" : -
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "hwawei smartband 4e에 마이크가 있는가?"
 "answer" : X
-"question" : "hwawei smartband 4e의 배터리 사용시간은?"
+"question" : "hwawei smartband 4e는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 14일
 "question" : "hwawei smartband 4e은 NFC를 지원하는가?"
 "answer" : X

@@ -1,10 +1,10 @@
-"question" : "lg tonefree의 제조사는?"
+"question" : "lg tonefree는 어느 회사 제품인가?"
 "answer" : LG전자
 "question" : "lg tonefree의 유닛형태는?"
 "answer" : 커널형
-"question" : "lg tonefree의 재생시간은?"
+"question" : "lg tonefree는 몇 시간 음악재생이 가능한가?"
 "answer" : 6시간
-"question" : "lg tonefree의 통화가능시간은?"
+"question" : "lg tonefree는 몇 시간 통화가 가능한가?"
 "answer" : 5시간
 "question" : "lg tonefree은 액티브 노이즈 캔슬링을 지원하는가?"
 "answer" : O

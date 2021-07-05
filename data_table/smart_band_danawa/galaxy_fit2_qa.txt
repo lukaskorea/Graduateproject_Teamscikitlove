@@ -1,6 +1,6 @@
-"question" : "galaxy fit2의 제조사는?"
+"question" : "galaxy fit2는 어느 회사 제품인가?"
 "answer" : 삼성전자
-"question" : "galaxy fit2의 패널종류는?"
+"question" : "galaxy fit2는 어떤 패널이 탑재되었나?"
 "answer" : AMOLED
 "question" : "galaxy fit2의 화면크기는?"
 "answer" : 2.78cm(1.09인치)
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "galaxy fit2에 마이크가 있는가?"
 "answer" : X
-"question" : "galaxy fit2의 배터리 사용시간은?"
+"question" : "galaxy fit2는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 15일 이하
 "question" : "galaxy fit2은 NFC를 지원하는가?"
 "answer" : X

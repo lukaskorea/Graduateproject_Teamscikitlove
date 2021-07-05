@@ -1,6 +1,6 @@
-"question" : "hwawei talkband b6의 제조사는?"
+"question" : "hwawei talkband b6는 어느 회사의 제품인가?"
 "answer" : 화웨이
-"question" : "hwawei talkband b6의 패널종류는?"
+"question" : "hwawei talkband b6는 어떤 종류의 패널을 탑재하였나?"
 "answer" : AMOLED
 "question" : "hwawei talkband b6의 화면크기는?"
 "answer" : 1.51인치~
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "hwawei talkband b6에 마이크가 있는가?"
 "answer" : X
-"question" : "hwawei talkband b6의 배터리 사용시간은?"
+"question" : "hwawei talkband b6는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 2일 이하
 "question" : "hwawei talkband b6은 NFC를 지원하는가?"
 "answer" : X

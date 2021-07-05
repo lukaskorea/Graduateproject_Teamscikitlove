@@ -1,10 +1,10 @@
-"question" : "abko beatonic ez01의 제조사는?"
+"question" : "abko beatonic ez01는 어느회사 제품인가?"
 "answer" : ABKO
 "question" : "abko beatonic ez01의 유닛형태는?"
 "answer" : 커널형
-"question" : "abko beatonic ez01의 재생시간은?"
+"question" : "abko beatonic ez01는 몇 시간 음악재생이 가능한가?"
 "answer" : 3시간
-"question" : "abko beatonic ez01의 통화가능시간은?"
+"question" : "abko beatonic ez01는 몇 시간 통화가 가능한가?"
 "answer" : -
 "question" : "abko beatonic ez01은 액티브 노이즈 캔슬링을 지원하는가?"
 "answer" : X

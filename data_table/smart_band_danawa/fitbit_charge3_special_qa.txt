@@ -1,6 +1,6 @@
-"question" : "fitbit charge3 special의 제조사는?"
+"question" : "fitbit charge3 special는 어느 회사 제품인가?"
 "answer" : 핏빗
-"question" : "fitbit charge3 special의 패널종류는?"
+"question" : "fitbit charge3 special는 어떤 패널이 탑재되었나?"
 "answer" : OLED
 "question" : "fitbit charge3 special의 화면크기는?"
 "answer" : -
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "fitbit charge3 special에 마이크가 있는가?"
 "answer" : X
-"question" : "fitbit charge3 special의 배터리 사용시간은?"
+"question" : "fitbit charge3 special는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 7일 이하
 "question" : "fitbit charge3 special은 NFC를 지원하는가?"
 "answer" : O

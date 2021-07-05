@@ -1,4 +1,4 @@
-"question" : "mztec ironv65pro의 제조회사는?"
+"question" : "mztec ironv65pro는 어느 회사 제품인가?"
 "answer" : 엠지텍
 "question" : "mztec ironv65pro의 블루투스 버전은?"
 "answer" : 블루투스 v5.0
@@ -8,9 +8,9 @@
 "answer" : ○
 "question" : "mztec ironv65pro는 무선충전을 지원하는가?"
 "answer" : -
-"question" : "mztec ironv65pro의 통화시간은?"
+"question" : "mztec ironv65pro는 몇 시간 통화가 가능한가?"
 "answer" : -
-"question" : "mztec ironv65pro의 재생시간은?"
+"question" : "mztec ironv65pro는 몇 시간 음악재생이 가능한가?"
 "answer" : -
 "question" : "mztec ironv65pro는 주변소음듣기 기능을 제공하는가?"
 "answer" : ○

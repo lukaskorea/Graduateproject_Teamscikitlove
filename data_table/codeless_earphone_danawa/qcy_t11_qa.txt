@@ -1,4 +1,4 @@
-"question" : "qcy t11의 제조회사는?"
+"question" : "qcy t11는 어느회사 제품인가?"
 "answer" : QCY
 "question" : "qcy t11의 블루투스 버전은?"
 "answer" : 블루투스 v5.0
@@ -8,9 +8,9 @@
 "answer" : X
 "question" : "qcy t11는 무선충전을 지원하는가?"
 "answer" : X
-"question" : "qcy t11의 통화시간은?"
+"question" : "qcy t11는 몇 시간 통화가 가능한가?"
 "answer" : 3시간
-"question" : "qcy t11의 재생시간은?"
+"question" : "qcy t11은 몇 시간 음악재생이 가능한가?"
 "answer" : 3.5시간
 "question" : "qcy t11은 주변소음듣기 기능을 제공하는가?"
 "answer" : -

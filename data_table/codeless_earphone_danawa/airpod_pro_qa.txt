@@ -1,4 +1,4 @@
-"question": "airpod pro의 제조회사는?"
+"question": "airpod pro는 어느회사 제품인가?"
 "answer": APPLE
 "question": "airpod pro의 블루투스 버전은?"
 "answer": 블루투스 v5.0
@@ -8,11 +8,11 @@
 "answer": ○
 "question": "airpod pro는 주변소음듣기 기능을 지원하는가?"
 "answer": ○
-"question": "airpod pro는 무선충전을 지원하는가?"
+"question": "airpod pro는 무선충전이 가능한가?"
 "answer": ○
-"question": "airpod pro의 통화시간은?"
+"question": "airpod pro는 몇 시간 통화가 가능한가?"
 "answer": 3.5시간
-"question": "airpod pro의 재생시간은?"
+"question": "airpod pro는 몇 시간 재생이 가능한가?"
 "answer": 4.5시간
 "question": "airpod pro의 케이스로 충전하면 몇번 충전가능한가?"
 "answer": 4회

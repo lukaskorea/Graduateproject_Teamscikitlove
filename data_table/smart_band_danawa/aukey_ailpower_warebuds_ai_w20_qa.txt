@@ -1,6 +1,6 @@
-"question": "aukey ailpower warebuds ai w20의 제조사는?"
+"question": "aukey ailpower warebuds ai w20는 어느회사 제품인가?"
 "answer": Aukey
-"question": "aukey ailpower warebuds ai w20의 패널종류는?"
+"question": "aukey ailpower warebuds ai w20은 어떤 패널을 탑재했나?"
 "answer":TFT
 "question": "aukey ailpower warebuds ai w20의 화면크기는?"
 "answer":2.43cm(0.96인치)
@@ -10,7 +10,7 @@
 "answer":O
 "question": "aukey ailpower warebuds ai w20에 마이크가 있는가?"
 "answer":O
-"question": "aukey ailpower warebuds ai w20의 배터리 사용시간은?"
+"question": "aukey ailpower warebuds ai w20는 완전충전 후 방전까지 얼마나 걸리나?"
 "answer":평균사용: 7일
 "question": "aukey ailpower warebuds ai w20은 NFC를 지원하는가?"
 "answer":X

@@ -1,6 +1,6 @@
-"question" : "miband6의 제조사는?"
+"question" : "miband6는 어느 회사 제품인가?"
 "answer" : 샤오미
-"question" : "miband6의 패널종류는?"
+"question" : "miband6는 어떤 종류의 패널을 탑재하였나?"
 "answer" : AMOLED
 "question" : "miband6의 화면크기는?"
 "answer" : 3.96cm(1.56인치)
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "miband6에 마이크가 있는가?"
 "answer" : X
-"question" : "miband6의 배터리 사용시간은?"
+"question" : "miband6는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 14일
 "question" : "miband6은 NFC를 지원하는가?"
 "answer" : X

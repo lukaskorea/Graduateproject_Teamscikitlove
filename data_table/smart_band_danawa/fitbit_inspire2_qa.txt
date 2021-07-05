@@ -1,6 +1,6 @@
-"question" : "fitbit inspire2의 제조사는?"
+"question" : "fitbit inspire2는 어느 회사 제품인가?"
 "answer" : 핏빗
-"question" : "fitbit inspire2의 패널종류는?"
+"question" : "fitbit inspire2의 패널은 어떤 것이 탑재되었나?"
 "answer" : OLED
 "question" : "fitbit inspire2의 화면크기는?"
 "answer" : -
@@ -10,7 +10,7 @@
 "answer" : X
 "question" : "fitbit inspire2에 마이크가 있는가?"
 "answer" : X
-"question" : "fitbit inspire2의 배터리 사용시간은?"
+"question" : "fitbit inspire2는 완전충전 후 방전까지 몇 일이 소요되나?"
 "answer" : 평균사용: 10일 이하
 "question" : "fitbit inspire2은 NFC를 지원하는가?"
 "answer" : O
