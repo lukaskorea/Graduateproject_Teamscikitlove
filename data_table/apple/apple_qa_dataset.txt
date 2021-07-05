@@ -174,3 +174,61 @@ iPhone 12
 "question": iPhone 12의 무료 Apple 앱에는 뭐가 있나?
 "answer": iMovie, Pages, Keynote, Numbers, GarageBand, Apple Store, iTunes 리모컨, Clips, Apple 지원
 
+MacBook Pro 16형
+
+"question": "MacBook Pro 16형이 지원하는 해상도에는 어떤게 있을까요?"
+"answer": 2048 x 1280
+1792 x 1120
+1344 x 840
+1152 x 720
+
+"question": "MacBook Pro 16형이 가질 수 있는 프로세서는?"
+"answer": 2.6GHz 6코어 Intel Core i7(최대 4.5GHz Turbo Boost, 12MB 공유 L3 캐시)
+2.4GHz 8코어 Intel Core i9(최대 5.0GHz Turbo Boost, 16MB 공유 L3 캐시)으로 구성 가능
+
+"question": "MacBook Pro 16형은 운영체제로 어떤 것을 사용하는지요?"
+"answer": macOS
+
+"question": "MacBook Pro 16형이 제공하는 카메라 특성은?"
+"answer": 720p FaceTime HD 카메라
+
+"question": "MacBook Pro 16형의을 구입하려면 얼마를 지불해야 하나요?"
+"answer": ₩3,190,000
+
+"question": "MacBook Pro 16형의 전체 구성엔 무엇이 들어있나요?"
+"answer": 16형 MacBook Pro
+96W USB-C 전원 어댑터
+USB-C 충전 케이블(2m)
+
+MacBook Air
+
+"question": "MacBook Air에서 고를 수 있는 색상들에는 어떤 종류가 있나요?"
+"answer": 골드
+
+실버
+
+스페이스 그레이
+
+골드, 실버, 스페이스 그레이
+
+"question": "MacBook Air이 제공하는 밝기는 몇 니트인가요?"
+"answer": 400 니트 밝기
+
+"question": "MacBook Air에 들어간 칩은 뭔가요?"
+"answer": 	
+Apple M1 칩
+
+8코어 CPU(성능 코어 4개 및 효율 코어 4개)
+7코어 GPU
+16코어 Neural Engine
+
+"question": "MacBook Air의 보관 가능한 온도 범위가 어떻게 되니?"
+"answer": 보관 온도: −25°C~45°C
+
+"question": "MacBook Air은 어느정도로 가볍니?"
+"answer": 무게: 1.29kg3
+
+"question": "MacBook Air를 사면 구성이 어떻게 되나요?"
+"answer": MacBook Air
+30W USB-C 전원 어댑터
+USB-C 충전 케이블(2m)
