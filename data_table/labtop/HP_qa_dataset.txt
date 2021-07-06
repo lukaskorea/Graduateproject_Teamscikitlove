@@ -12,7 +12,7 @@ ENVY 15-ep0093tx
 "question": "ENVY 15-ep0093tx는 그래픽카드로 뭘 쓰냐?"
 "answer": NVIDIA® GeForce® GTX 1650 Ti(4GB GDDR6 전용)
 
-"question": "ENVY 15-ep0093tx가 어떤 웹캠을 가지고 있니?"
+"question": "ENVY 15-ep0093tx로 동영상을 찍을수 있니?"
 "answer": HP Wide Vision 720p HD 카메라(카메라 셔터 및 통합 듀얼 어레이 디지털 마이크 포함)
 
 
@@ -32,6 +32,9 @@ ENVY x360 15-ed1501TX'
 
 "question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
 "answer": 최소 1.92 kg
+
+"question": "ENVY x360 15-ed1501TX는 키보드에 키패드가 달려있니?"
+"answer": 풀 사이즈, 백라이트, 쿨 그레이 키보드
 
 
 ExpertBook P1 P1410
@@ -68,6 +71,9 @@ HP 15s-eq1154au
 
 "question": "HP 15s-eq1154au는 무게가 얼마나 나가니?"
 "answer": 1.69kg
+
+"question": "HP 15s-eq1154au는 키보드에 숫자 키패드가 있어?"
+"answer": 풀 사이즈, 백라이트, 스노우 화이트 키보드(숫자 키패드 포함)
 
 
 
@@ -106,6 +112,8 @@ HP 15s-fq2013TU
 "question": "HP 15s-fq2013TU는 무게가 얼마나 나가니?"
 "answer": 1.7kg부터
 
+"question": "HP 15s-fq2013TU로 동영상을 찍을수 있니?"
+"answer": HP True Vision 720p HD 카메라(통합 듀얼 어레이 디지털 마이크 포함)
 
 OMEN 15-ek1053TX
 
@@ -142,6 +150,8 @@ OMEN 15-ek1053TX
 "question": "스펙터 x360 13-aw2104TU는 무게가 얼마나 나가니?"
 "answer": 최소 1.27kg
 
+"question": "스펙터 x360 13-aw2104TU에 USB는 몆개나 꼽을수 있어?"
+"answer": USB 3.1 Gen 2 Type-C™ (Thunderbolt™ 3 지원) 2개, USB 3.1 Gen 1 Type-A 1개, 헤드폰/마이크 콤보 1개
 
 
 파빌리온 15-eg0117TX
@@ -180,6 +190,8 @@ OMEN 15-ek1053TX
 "question": "파빌리온 15-eh0125AU는 무게가 얼마나 나가니?"
 "answer": 최소 1.75kg
 
+"question": "파빌리온 15-eh0125AU의 키보드에는 백라이트 기능이 달려있어?"
+"answer": 풀 사이즈, 백라이트, 내추럴 실버 키보드(숫자 키패드 포함)
 
 
 파빌리온 x360 14-dy0010TU
@@ -198,3 +210,6 @@ OMEN 15-ek1053TX
 
 "question": "ENVY x360 15-ed1501TX는 무게가 얼마나 나가니?"
 "answer": 최소 1.5kg
+
+"question": "ENVY x360 15-ed1501TX로 화상회의를 할 수 있을까?"
+"answer": HP Wide Vision 720p HD 카메라(통합 듀얼 어레이 디지털 마이크 포함)
