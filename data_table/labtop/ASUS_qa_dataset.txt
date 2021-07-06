@@ -15,6 +15,9 @@ ASUS ZenBook 13 - UM433DA
 "question": "ASUS ZenBook 13 - UM433DA는 그래픽칩셋을 뭘 사용합니까?"
 "answer": RX Vega 8
 
+"question": "ASUS ZenBook 13 - UM433DA에 보안기능은 어떤것들이 있나요?
+"answer": 얼굴 인식
+
 ZenBook 13 OLED-UX325EA
 
 "question": "ZenBook 13 OLED-UX325EA는 어떤 색상을 가지고 있나요?"
@@ -32,7 +35,8 @@ ZenBook 13 OLED-UX325EA
 "question": "ZenBook 13 OLED-UX325EA는 카메라를 가지고 있니?"
 "answer": HD 카메라, Windows Hello 지원 IR 기능
 
-
+"question": "ZenBook 13 OLED-UX325EA는 배터리로 얼마나 오래 쓸수 있나요?"
+"answer": 67WHrs, 4S1P, 4-cell Li-ion
 
 ZenBook 14 -UM425UA
 "question": "ZenBook 14 -UM425UA는 프로세서로 뭘 사용해?"
@@ -50,7 +54,8 @@ ZenBook 14 -UM425UA
 "question": "ZenBook 14 -UM425UA의 무게는 얼마야?"
 "answer": 1.26kg
 
-
+"question": "ZenBook 14 -UM425UA는 언제 발매되었니??"
+"answer": 2020년 08월
 
 2021 ASUS TUF Dash F15
 "question": "2021 ASUS TUF Dash F15는 CPU로 뭘 쓰고 있니?"
@@ -72,7 +77,9 @@ ZenBook 14 -UM425UA
 "question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
 "answer": 2.00 Kg (4.41 lbs)
 
-
+"question": "2021 ASUS TUF Dash F15는 블루투스를 쓸수 있니?"
+"answer": Wi-Fi 6(802.11ax)+Bluetooth 5.2 (Dual band) 2*2;(*BT version may change with OS upgrades.)
+	Wi-Fi 6(802.11ax)+Bluetooth 5.1 (Dual band) 2*2;(*BT version may change with OS upgrades.)
 
 
 
@@ -96,7 +103,11 @@ ZenBook 14 -UM425UA
 "question": "2021 ASUS TUF Gaming A15는 무게가 얼마나 나가니?"
 "answer": 2.30 Kg (5.07 lbs)
 
-
+"question": "2021 ASUS TUF Gaming A15는 오디오가 듣기 좋니?"
+"answer": DTS software
+	AI mic noise-canceling
+	기본 제공 배열 마이크
+	2x 2W 스피커
 
 
 
@@ -145,7 +156,8 @@ ZenBook Duo 14 - UX482.html
 "question": "2021 ASUS TUF Dash F15는 무게가 얼마나 나가니?"
 "answer": 2.00 Kg (4.41 lbs)
 
-
+"question": "2021 ASUS TUF Dash F15는 한번에 얼마나 오래 쓸수 있니?"
+"answer": 92WHrs, 4S2P, 8-cell Li-ion
 
 
 
@@ -212,3 +224,12 @@ ZenBook Pro 15 - UX535
 
 "question": "ZenBook Pro 15 - UX535는 무게가 얼마나 나가니?"
 "answer": 2.00 kg (4.41 lbs)
+
+"question": "ZenBook Pro 15 - UX535는 USB를 몆개나 연결할수 있어? "
+"answer": 1x USB 3.2 Gen 1 Type-A
+	1x Thunderbolt™ 3 supports display
+	1x USB 3.2 Gen 2 Type-C
+	1x HDMI 2.0b
+	1x 3.5mm 콤보 오디오 잭
+	1x DC-in
+	2 in1 카드 판독기 SD/MMC
