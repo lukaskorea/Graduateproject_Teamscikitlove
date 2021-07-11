@@ -18,7 +18,13 @@
             </dl>
         </div>
 
-이런 형태의 html 파일 에서 div 를 table로, dl을 tr로, dt를 td로, ol, dd 는 삭제하고 li는 td로 변경, css를 넣어주기
+이런 형태의 html 파일 에서 div 를 table로, dl을 tr로, dt를 td로, ol, dd 는 삭제하고 li는 td로 변경, 아래의 css를 넣어주기
+
+
++ <td>태그 내에 질문-답변이 함께 있는 경우 분리해주기 위해서 <strong class="spec-title"> </strong>을 <li>, </li>로,
+
+
+<p class="spec-desc"></p>도 <li>, </li>로 바꿔주고 &nbsp;는 삭제, html에 있는 불필요한 이미지 링크도 삭제하기
 
             <head>
             <style>
@@ -88,6 +94,15 @@
 
             file_after = re.sub('<li>', '<td>', file_after)
             file_after = re.sub('</li>', '</td>', file_after)
+
+            file_after = re.sub('<strong class="spec-title">', '<li>', file_after)
+            file_after = re.sub('</strong>', '</li>', file_after)
+
+            file_after = re.sub('<p class="spec-desc">', '<li>', file_after)
+            file_after = re.sub('</p>', '</li>', file_after)
+
+            file_after = re.sub('&nbsp;', '', file_after)
+            file_after = re.sub('<img src="//images.samsung.com/is/image/samsung/p5/sec/common/icon-kc.png?$ORIGIN_PNG$" alt="KC 인증 로고">', '', file_after)
 
             file_after = '''
             <head>
