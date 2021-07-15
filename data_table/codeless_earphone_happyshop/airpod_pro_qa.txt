@@ -1,6 +1,6 @@
 "question" : "airpod pro는 어느회사 제품인가?"
 "answer" : APPLE
-"question" : "airpod pro의 유닛형태는?"
+"question" : "airpod pro는 유닛의 형태로 어떤 모양을 채택했나?"
 "answer" : 커널형
 "question" : "airpod pro는 몇 시간 음악재생이 가능한가?"
 "answer" : 4시간 30분

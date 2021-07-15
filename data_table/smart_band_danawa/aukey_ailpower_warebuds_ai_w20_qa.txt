@@ -8,7 +8,7 @@
 "answer":v4.2
 "question": "aukey ailpower warebuds ai w20에 스피커가 있는가?"
 "answer":O
-"question": "aukey ailpower warebuds ai w20에 마이크가 있는가?"
+"question": "aukey ailpower warebuds ai w20는 마이크가 있는가?"
 "answer":O
 "question": "aukey ailpower warebuds ai w20는 완전충전 후 방전까지 얼마나 걸리나?"
 "answer":평균사용: 7일
@@ -16,7 +16,7 @@
 "answer":X
 "question": "aukey ailpower warebuds ai w20은 GPS 모듈이 탑재되었나?"
 "answer":X
-"question" : "aukey ailpower warebuds ai w20은 심박센서가 탑재되었나?"
+"question" : "aukey ailpower warebuds ai w20은 심박을 측정할 수 있는가?"
 "answer": O
 "question" : "aukey ailpower warebuds ai w20은 메세지알림,전화알림 등 기본적인 알림기능을 지원하는가?"
 "answer" : O
