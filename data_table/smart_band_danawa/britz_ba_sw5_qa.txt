@@ -16,7 +16,7 @@
 "answer" : X
 "question" : "britz ba sw5은 GPS 모듈이 탑재되었나?"
 "answer" : X
-"question" : "britz ba sw5은 심박센서가 탑재되었나?"
+"question" : "britz ba sw5는 심박을 측정할 수 있는가?"
 "answer": O
 "question" : "britz ba sw5는 혈압센서가 탑재되어 혈압을 측정할 수 있는가?"
 "answer": O

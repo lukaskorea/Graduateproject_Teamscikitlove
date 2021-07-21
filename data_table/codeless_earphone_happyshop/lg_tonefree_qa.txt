@@ -1,6 +1,6 @@
 "question" : "lg tonefree는 어느 회사 제품인가?"
 "answer" : LG전자
-"question" : "lg tonefree의 유닛형태는?"
+"question" : "lg tonefree는 유닛의 형태로 어떤 모양을 채택했나?"
 "answer" : 커널형
 "question" : "lg tonefree는 몇 시간 음악재생이 가능한가?"
 "answer" : 6시간

@@ -1,6 +1,6 @@
 "question" : "abko beatonic trueengine2는 어느회사 제품인가?"
 "answer" : ABKO
-"question" : "abko beatonic trueengine2의 유닛형태는?"
+"question" : "abko beatonic trueengine2는 유닛의 형태로 어떤 모양을 채택했나?"
 "answer" : 커널형
 "question" : "abko beatonic trueengine2는 몇 시간 음악재생이 가능한가?"
 "answer" : 6시간

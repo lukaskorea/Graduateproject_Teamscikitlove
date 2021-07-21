@@ -1,8 +1,8 @@
 "question": "airpod pro는 어느회사 제품인가?"
 "answer": APPLE
-"question": "airpod pro의 블루투스 버전은?"
+"question": "airpod pro는 어떤 버전의 블루투스를 탑재했는가?"
 "answer": 블루투스 v5.0
-"question": "airpod pro의 유닛형태는?"
+"question": "airpod pro는 유닛의 형태로 어떤 모양을 채택했나?"
 "answer": 커널형
 "question": "airpod pro는 액티브 노이즈 캔슬링을 지원하는가?"
 "answer": ○

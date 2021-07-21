@@ -1,17 +1,51 @@
-<head>
-<style>
-table{
-	font-family:arial, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
-}
-td, th{
-	border: 1px solid #dddddd;
-	text-aligh: left;
-	padding: 8px;
-}
-</style>
-</head>
+        <head>
+        <style>
+      
+      table {
+      counter-reset: rowNumber;
+      }
+
+      table tr::before {
+         counter-reset: colNumber;
+
+         display: table-cell;
+         counter-increment: rowNumber;
+         content: "";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr td::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr th::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        </style>
+        </head>
 <table class="spec_tbl">
 			<caption class="cp_hide">
 				<strong>상품 상세 스펙</strong>
