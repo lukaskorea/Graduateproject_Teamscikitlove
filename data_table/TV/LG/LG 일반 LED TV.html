@@ -1,397 +1,397 @@
-<head>
-    <style>
-       table {
-       counter-reset: rowNumber -1;
-       }
-       table tr::before {
-       counter-reset: colNumber -1;
-       display: table-cell;
-       counter-increment: rowNumber;
-       content: "";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr td::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) "," counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr th::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) ","counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table {
-       font-family: arial, sans-serif;
-       border-collapse: collapse;
-       width: 100%;
-       }
-       td, th {
-       border: 1px solid #dddddd;
-       text-align: left;
-       padding: 8px;
-       }
-    </style>
- </head>
- <table>
-    <tr>
-       <th>디스플레이</th>
-    </tr>
-    <tr>
-       <td>
-          <li>화면크기</li>
-          <li>
-             80cm
-          </li>
-       </td>
-       <td>
-          <li>디스플레이 종류</li>
-          <li>
-             LED
-          </li>
-       </td>
-       <td>
-          <li>IPS</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>백라이트</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>해상도</li>
-          <li>
-             HD (1,366X768)
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>화질</th>
-    </tr>
-    <tr>
-       <td>
-          <li>해상도 업스케일링</li>
-          <li>
-             업스케일링
-          </li>
-       </td>
-       <td>
-          <li>HDR10</li>
-          <li>
-             X
-          </li>
-       </td>
-       <td>
-          <li>HLG</li>
-          <li>
-             X
-          </li>
-       </td>
-       <td>
-          <li>시야각</li>
-          <li>
-             광시야각
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>디자인</th>
-    </tr>
-    <tr>
-       <td>
-          <li>스탠드</li>
-          <li>
-             2폴 스탠드
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>사운드</th>
-    </tr>
-    <tr>
-       <td>
-          <li>출력/채널</li>
-          <li>
-             10W/2.0Ch
-          </li>
-       </td>
-       <td>
-          <li>클리어보이스</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>LG사운드싱크(TV음원 → 사운드바(블루투스 활용))</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>블루투스 사운드(모바일 음원 → TV스피커(블루투스 활용))</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>공간인식 사운드+</li>
-          <li>
-             X
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>스마트</th>
-    </tr>
-    <tr>
-       <td>
-          <li>ThinQ홈보드</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>음성인식(ThinQ/구글어시스턴트)</li>
-          <li>
-             O (인공지능리모컨 연동시 가능, 구글 어시스턴트 미지원)
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>부가기능</th>
-    </tr>
-    <tr>
-       <td>
-          <li>webOS</li>
-          <li>
-             webOS 4.5
-          </li>
-       </td>
-       <td>
-          <li>리모컨</li>
-          <li>
-             일반 리모컨(인공지능리모컨 별매)
-          </li>
-       </td>
-       <td>
-          <li>웹브라우저</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>LG채널</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>타임머신</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>모바일 화면 공유(아이폰/안드로이드)</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>Bluetooth</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>Wi-Fi</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>게임 모드</li>
-          <li>
-             O
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>입출력</th>
-    </tr>
-    <tr>
-       <td>
-          <li>LAN</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>Component</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>Composite In (AV)</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>SPDIF (Optical Digital Audio Out)</li>
-          <li>
-             O
-          </li>
-       </td>
-       <td>
-          <li>HDMI</li>
-          <li>
-             3조
-          </li>
-       </td>
-       <td>
-          <li>USB 2.0</li>
-          <li>
-             2조
-          </li>
-       </td>
-       <td>
-          <li>eARC/ARC(Audio Return Channel)</li>
-          <li>
-             ARC
-          </li>
-       </td>
-       <td>
-          <li>비고</li>
-          <li>
-             ※ 본 제품에는 안테나 및 외부기기 연결용 케이블이 제공되지 않음
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>에너지절약</th>
-    </tr>
-    <tr>
-       <td>
-          <li>에너지소비효율등급</li>
-          <li>
-             1등급
-          </li>
-       </td>
-       <td>
-          <li>정격 소비전력</li>
-          <li>
-             48W
-          </li>
-       </td>
-       <td>
-          <li>일반 소비전력</li>
-          <li>
-             26.4W
-          </li>
-       </td>
-       <td>
-          <li>대기모드 소비전력</li>
-          <li>
-             0.5 W↓
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>규격</th>
-    </tr>
-    <tr>
-       <td>
-          <li>스탠드 제외크기 (WxHxD)</li>
-          <li>
-             736x437x82.9mm
-          </li>
-       </td>
-       <td>
-          <li>스탠드 포함크기(WxHxD)</li>
-          <li>
-             736x464x180mm
-          </li>
-       </td>
-       <td>
-          <li>스탠드 제외무게</li>
-          <li>
-             4.65kg
-          </li>
-       </td>
-       <td>
-          <li>스탠드 포함무게</li>
-          <li>
-             4.7kg
-          </li>
-       </td>
-       <td>
-          <li>스탠드 크기(WxD)</li>
-          <li>
-             606x180mm
-          </li>
-       </td>
-    </tr>
-    <tr>
-       <th>기본정보</th>
-    </tr>
-    <tr>
-       <td>
-          <li>품명 및 모델명</li>
-          <li>
-             텔레비전 수상기(32LM635BENA)
-          </li>
-       </td>
-       <td>
-          <li>KC 인증 필 유무</li>
-          <li>
-            XL090008-19290
-          </li>
-       </td>
-       <td>
-          <li>정격전압</li>
-          <li>
-             AC 100~240V 50-60Hz
-          </li>
-       </td>
-       <td>
-          <li>동일 모델의 출시년월</li>
-          <li>
-             2021년 3월
-          </li>
-       </td>
-       <td>
-          <li>제조자</li>
-          <li>
-             LG전자(주)
-          </li>
-       </td>
-       <td>
-          <li>제조국</li>
-          <li>
-             인도네시아 / 한국
-          </li>
-       </td>
-       <td>
-          <li>품질보증기준</li>
-          <li>
-             결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준(소비자기본법 제 16조)에 따라 보상 가능
-          </li>
-       </td>
-       <td>
-          <li>A/S 책임자와 전화번호</li>
-          <li>
-             LG서비스센터 / 1544-7777
-          </li>
-       </td>
-    </tr>
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+    <tr>
+       <th>디스플레이</th>
+    </tr>
+    <tr>
+       <td>
+          "화면크기"
+          ,"
+             80cm
+          "
+       </td>
+       <td>
+          "디스플레이 종류"
+          ,"
+             LED
+          "
+       </td>
+       <td>
+          "IPS"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "백라이트"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "해상도"
+          ,"
+             HD (1,366X768)
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>화질</th>
+    </tr>
+    <tr>
+       <td>
+          "해상도 업스케일링"
+          ,"
+             업스케일링
+          "
+       </td>
+       <td>
+          "HDR10"
+          ,"
+             X
+          "
+       </td>
+       <td>
+          "HLG"
+          ,"
+             X
+          "
+       </td>
+       <td>
+          "시야각"
+          ,"
+             광시야각
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>디자인</th>
+    </tr>
+    <tr>
+       <td>
+          "스탠드"
+          ,"
+             2폴 스탠드
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>사운드</th>
+    </tr>
+    <tr>
+       <td>
+          "출력/채널"
+          ,"
+             10W/2.0Ch
+          "
+       </td>
+       <td>
+          "클리어보이스"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "LG사운드싱크(TV음원 → 사운드바(블루투스 활용))"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "블루투스 사운드(모바일 음원 → TV스피커(블루투스 활용))"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "공간인식 사운드+"
+          ,"
+             X
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>스마트</th>
+    </tr>
+    <tr>
+       <td>
+          "ThinQ홈보드"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "음성인식(ThinQ/구글어시스턴트)"
+          ,"
+             O (인공지능리모컨 연동시 가능, 구글 어시스턴트 미지원)
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>부가기능</th>
+    </tr>
+    <tr>
+       <td>
+          "webOS"
+          ,"
+             webOS 4.5
+          "
+       </td>
+       <td>
+          "리모컨"
+          ,"
+             일반 리모컨(인공지능리모컨 별매)
+          "
+       </td>
+       <td>
+          "웹브라우저"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "LG채널"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "타임머신"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "모바일 화면 공유(아이폰/안드로이드)"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "Bluetooth"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "Wi-Fi"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "게임 모드"
+          ,"
+             O
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>입출력</th>
+    </tr>
+    <tr>
+       <td>
+          "LAN"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "Component"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "Composite In (AV)"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "SPDIF (Optical Digital Audio Out)"
+          ,"
+             O
+          "
+       </td>
+       <td>
+          "HDMI"
+          ,"
+             3조
+          "
+       </td>
+       <td>
+          "USB 2.0"
+          ,"
+             2조
+          "
+       </td>
+       <td>
+          "eARC/ARC(Audio Return Channel)"
+          ,"
+             ARC
+          "
+       </td>
+       <td>
+          "비고"
+          ,"
+             ※ 본 제품에는 안테나 및 외부기기 연결용 케이블이 제공되지 않음
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>에너지절약</th>
+    </tr>
+    <tr>
+       <td>
+          "에너지소비효율등급"
+          ,"
+             1등급
+          "
+       </td>
+       <td>
+          "정격 소비전력"
+          ,"
+             48W
+          "
+       </td>
+       <td>
+          "일반 소비전력"
+          ,"
+             26.4W
+          "
+       </td>
+       <td>
+          "대기모드 소비전력"
+          ,"
+             0.5 W↓
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>규격</th>
+    </tr>
+    <tr>
+       <td>
+          "스탠드 제외크기 (WxHxD)"
+          ,"
+             736x437x82.9mm
+          "
+       </td>
+       <td>
+          "스탠드 포함크기(WxHxD)"
+          ,"
+             736x464x180mm
+          "
+       </td>
+       <td>
+          "스탠드 제외무게"
+          ,"
+             4.65kg
+          "
+       </td>
+       <td>
+          "스탠드 포함무게"
+          ,"
+             4.7kg
+          "
+       </td>
+       <td>
+          "스탠드 크기(WxD)"
+          ,"
+             606x180mm
+          "
+       </td>
+    </tr>
+    <tr>
+       <th>기본정보</th>
+    </tr>
+    <tr>
+       <td>
+          "품명 및 모델명"
+          ,"
+             텔레비전 수상기(32LM635BENA)
+          "
+       </td>
+       <td>
+          "KC 인증 필 유무"
+          ,"
+            XL090008-19290
+          "
+       </td>
+       <td>
+          "정격전압"
+          ,"
+             AC 100~240V 50-60Hz
+          "
+       </td>
+       <td>
+          "동일 모델의 출시년월"
+          ,"
+             2021년 3월
+          "
+       </td>
+       <td>
+          "제조자"
+          ,"
+             LG전자(주)
+          "
+       </td>
+       <td>
+          "제조국"
+          ,"
+             인도네시아 / 한국
+          "
+       </td>
+       <td>
+          "품질보증기준"
+          ,"
+             결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준(소비자기본법 제 16조)에 따라 보상 가능
+          "
+       </td>
+       <td>
+          "A/S 책임자와 전화번호"
+          ,"
+             LG서비스센터 / 1544-7777
+          "
+       </td>
+    </tr>
  </table>

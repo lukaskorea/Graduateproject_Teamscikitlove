@@ -1,364 +1,364 @@
-<head>
-    <style>
-       table {
-       counter-reset: rowNumber -1;
-       }
-       table tr::before {
-       counter-reset: colNumber -1;
-       display: table-cell;
-       counter-increment: rowNumber;
-       content: "";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr td::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) "," counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr th::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) ","counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table {
-       font-family: arial, sans-serif;
-       border-collapse: collapse;
-       width: 100%;
-       }
-       td, th {
-       border: 1px solid #dddddd;
-       text-align: left;
-       padding: 8px;
-       }
-    </style>
- </head>
- <table>
- <tr>
-    <th>디스플레이</th>
-    <td>
-       <li>화면크기</li>
-       <li>123cm</li>
-    </td>
-    <td>
-       <li>해상도</li>
-       <li>1,920 x 1,080</li>
-    </td>
-    <td>
-       <li>눈부심 방지 기술 2.0</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>커브드 (Curved) / 평면 (Flat)</li>
-       <li>평면 (Flat)</li>
-    </td>
- </tr>
- <tr>
-    <th>영상</th>
-    <td>
-       <li>화질엔진</li>
-       <li>Hyper Real</li>
-    </td>
-    <td>
-       <li>HDR (High Dynamic Range)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>HDR 10+</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>HLG (Hybrid Log Gamma)</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>컬러</li>
-       <li>와이드 컬러 컨트롤</li>
-    </td>
-    <td>
-       <li>10억 컬러 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>디밍 기술</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>원근 강화 기술 (Auto Depth Enhancer)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>명암비 강화 기술 (Contrast Enhancer)</li>
-       <li>없음</li>
-    </td>
- </tr>
- <tr>
-    <th>사운드</th>
-    <td>
-       <li>스피커 시스템</li>
-       <li>2 CH</li>
-    </td>
-    <td>
-       <li>사운드출력(RMS)</li>
-       <li>20 W(L:10 W, R:10 W)</li>
-    </td>
-    <td>
-       <li>돌비 사운드</li>
-       <li>있음</li>
-    </td>
-    <td>
-       <li>블루투스 오디오 연결</li>
-       <li>미지원</li>
-    </td>
- </tr>
- <tr>
-    <th>디자인</th>
-    <td>
-       <li>디자인</li>
-       <li>Slim Edge Mold</li>
-    </td>
-    <td>
-       <li>전면부 색상</li>
-       <li>Black Hairline</li>
-    </td>
-    <td>
-       <li>스탠드 타입</li>
-       <li>Mini Arc</li>
-    </td>
- </tr>
- <tr>
-    <th>스마트</th>
-    <td>
-       <li>SMART TV</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>빅스비</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>웹 브라우저</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>TV Plus</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>SmartThings</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>SmartThings 모바일 앱 호환</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>유니버설 가이드</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>IPv6 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>360 비디오 플레이어</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>TV to Mobile 미러링</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>Mobile to TV 미러링</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>삼성 스마트 컨트롤 (리모컨)</li>
-       <li>없음</li>
-    </td>
- </tr>
- <tr>
-    <th>기능</th>
-    <td>
-       <li>매직스크린</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>아트모드 (The Frame)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>동작 감지 센서 (The Frame)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>Wi-Fi 내장</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>Wi-Fi Direct</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>ConnectShare™ (USB 2.0)</li>
-       <li>있음</li>
-    </td>
-    <td>
-       <li>방송 녹화 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>Anynet+ (HDMI-CEC)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>블루투스 HID 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>USB HID 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>자막</li>
-       <li>있음</li>
-    </td>
- </tr>
- <tr>
-    <th>입출력</th>
-    <td>
-       <li>오디오 미니 잭</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>Component In (Y/Pb/Pr)</li>
-       <li>1</li>
-    </td>
-    <td>
-       <li>Composite In (AV)</li>
-       <li>1 (Common Use for Component Y)</li>
-    </td>
-    <td>
-       <li>옵티컬 단자</li>
-       <li>1</li>
-    </td>
-    <td>
-       <li>Ethernet (LAN단자)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>RS-232C (AV CONTROL)</li>
-       <li>없음</li>
-    </td>
-    <td>
-       <li>HDMI</li>
-       <li>2</li>
-    </td>
-    <td>
-       <li>USB</li>
-       <li>1</li>
-    </td>
- </tr>
- <tr>
-    <th>별도액세서리 호환</th>
-    <td>
-       <li>밀착 월마운트</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>별매 스탠드 (Lifestyle) 지원</li>
-       <li>미지원</li>
-    </td>
-    <td>
-       <li>교체 가능한 프레임 (별매) 지원</li>
-       <li>미지원</li>
-    </td>
- </tr>
- <tr>
-    <th>크기</th>
-    <td>
-       <li>스탠드 제외 (가로x높이x깊이)(mm)</li>
-       <li>1112.8 x 646.5 x 78.7mm</li>
-    </td>
-    <td>
-       <li>스탠드 포함 (가로x높이x깊이) (mm)</li>
-       <li>1112.8 x 673.6 x 187.5mm</li>
-    </td>
- </tr>
- <tr>
-    <th>중량</th>
-    <td>
-       <li>스탠드 제외 (kg)</li>
-       <li>10.30kg</li>
-    </td>
-    <td>
-       <li>스탠드 포함 (kg)</li>
-       <li>10.6kg</li>
-    </td>
- </tr>
- <tr>
-    <th>에코</th>
-    <td>
-       <li>에너지효율 등급</li>
-       <li>1</li>
-    </td>
-    <td>
-       <li>에코 센서</li>
-       <li>있음</li>
-    </td>
- </tr>
- <tr>
-    <th>전원</th>
-    <td>
-       <li>정격 전압</li>
-       <li>AC220-240 V 50/60 Hz</li>
-    </td>
-    <td>
-       <li>정격소비전력</li>
-       <li>138W</li>
-    </td>
-    <td>
-       <li>평균소비전력</li>
-       <li>41.0W</li>
-    </td>
-    <td>
-       <li>소비전력 (대기모드)</li>
-       <li>0.3W</li>
-    </td>
- </tr>
- <tr>
-    <th>상품 기본정보</th>
-    <td>
-       <li>제품명</li>
-       <li>Full HD TV</li>
-    </td>
-    <td>
-       <li>제조자/수입자</li>
-       <li>삼성전자㈜</li>
-    </td>
-    <td>
-       <li>제조국가</li>
-       <li>베트남</li>
-    </td>
-    <td>
-       <li>KC 인증 필 유무</li>
-       <li><img src="//images.samsung.com/is/image/samsung/p5/sec/common/icon-kc.png?$ORIGIN_PNG$" alt="KC 인증 로고">ZU09280-18009, R-REM-SEC-UN49N5000</li>
-    </td>
-    <td>
-       <li>동일모델의 출시년월</li>
-       <li>2018년 9월</li>
-    </td>
-    <td>
-       <li>A/S 책임자와 전화번호</li>
-       <li>결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준 (소비자기본법 제16조)에 따라 보상가능</li>
-    </td>
-    <td>
-       <li>품질보증기준</li>
-       <li>삼성전자서비스센터 / 1588-3366</li>
-    </td>
- </tr>
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+ <tr>
+    <th>디스플레이</th>
+    <td>
+       "화면크기"
+       ,"123cm"
+    </td>
+    <td>
+       "해상도"
+       ,"1,920 x 1,080"
+    </td>
+    <td>
+       "눈부심 방지 기술 2.0"
+       ,"없음"
+    </td>
+    <td>
+       "커브드 (Curved) / 평면 (Flat)"
+       ,"평면 (Flat)"
+    </td>
+ </tr>
+ <tr>
+    <th>영상</th>
+    <td>
+       "화질엔진"
+       ,"Hyper Real"
+    </td>
+    <td>
+       "HDR (High Dynamic Range)"
+       ,"없음"
+    </td>
+    <td>
+       "HDR 10+"
+       ,"미지원"
+    </td>
+    <td>
+       "HLG (Hybrid Log Gamma)"
+       ,"미지원"
+    </td>
+    <td>
+       "컬러"
+       ,"와이드 컬러 컨트롤"
+    </td>
+    <td>
+       "10억 컬러 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "디밍 기술"
+       ,"없음"
+    </td>
+    <td>
+       "원근 강화 기술 (Auto Depth Enhancer)"
+       ,"없음"
+    </td>
+    <td>
+       "명암비 강화 기술 (Contrast Enhancer)"
+       ,"없음"
+    </td>
+ </tr>
+ <tr>
+    <th>사운드</th>
+    <td>
+       "스피커 시스템"
+       ,"2 CH"
+    </td>
+    <td>
+       "사운드출력(RMS)"
+       ,"20 W(L:10 W, R:10 W)"
+    </td>
+    <td>
+       "돌비 사운드"
+       ,"있음"
+    </td>
+    <td>
+       "블루투스 오디오 연결"
+       ,"미지원"
+    </td>
+ </tr>
+ <tr>
+    <th>디자인</th>
+    <td>
+       "디자인"
+       ,"Slim Edge Mold"
+    </td>
+    <td>
+       "전면부 색상"
+       ,"Black Hairline"
+    </td>
+    <td>
+       "스탠드 타입"
+       ,"Mini Arc"
+    </td>
+ </tr>
+ <tr>
+    <th>스마트</th>
+    <td>
+       "SMART TV"
+       ,"없음"
+    </td>
+    <td>
+       "빅스비"
+       ,"미지원"
+    </td>
+    <td>
+       "웹 브라우저"
+       ,"없음"
+    </td>
+    <td>
+       "TV Plus"
+       ,"없음"
+    </td>
+    <td>
+       "SmartThings"
+       ,"미지원"
+    </td>
+    <td>
+       "SmartThings 모바일 앱 호환"
+       ,"없음"
+    </td>
+    <td>
+       "유니버설 가이드"
+       ,"없음"
+    </td>
+    <td>
+       "IPv6 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "360 비디오 플레이어"
+       ,"없음"
+    </td>
+    <td>
+       "TV to Mobile 미러링"
+       ,"없음"
+    </td>
+    <td>
+       "Mobile to TV 미러링"
+       ,"없음"
+    </td>
+    <td>
+       "삼성 스마트 컨트롤 (리모컨)"
+       ,"없음"
+    </td>
+ </tr>
+ <tr>
+    <th>기능</th>
+    <td>
+       "매직스크린"
+       ,"없음"
+    </td>
+    <td>
+       "아트모드 (The Frame)"
+       ,"없음"
+    </td>
+    <td>
+       "동작 감지 센서 (The Frame)"
+       ,"없음"
+    </td>
+    <td>
+       "Wi-Fi 내장"
+       ,"없음"
+    </td>
+    <td>
+       "Wi-Fi Direct"
+       ,"없음"
+    </td>
+    <td>
+       "ConnectShare™ (USB 2.0)"
+       ,"있음"
+    </td>
+    <td>
+       "방송 녹화 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "Anynet+ (HDMI-CEC)"
+       ,"없음"
+    </td>
+    <td>
+       "블루투스 HID 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "USB HID 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "자막"
+       ,"있음"
+    </td>
+ </tr>
+ <tr>
+    <th>입출력</th>
+    <td>
+       "오디오 미니 잭"
+       ,"없음"
+    </td>
+    <td>
+       "Component In (Y/Pb/Pr)"
+       ,"1"
+    </td>
+    <td>
+       "Composite In (AV)"
+       ,"1 (Common Use for Component Y)"
+    </td>
+    <td>
+       "옵티컬 단자"
+       ,"1"
+    </td>
+    <td>
+       "Ethernet (LAN단자)"
+       ,"없음"
+    </td>
+    <td>
+       "RS-232C (AV CONTROL)"
+       ,"없음"
+    </td>
+    <td>
+       "HDMI"
+       ,"2"
+    </td>
+    <td>
+       "USB"
+       ,"1"
+    </td>
+ </tr>
+ <tr>
+    <th>별도액세서리 호환</th>
+    <td>
+       "밀착 월마운트"
+       ,"미지원"
+    </td>
+    <td>
+       "별매 스탠드 (Lifestyle) 지원"
+       ,"미지원"
+    </td>
+    <td>
+       "교체 가능한 프레임 (별매) 지원"
+       ,"미지원"
+    </td>
+ </tr>
+ <tr>
+    <th>크기</th>
+    <td>
+       "스탠드 제외 (가로x높이x깊이)(mm)"
+       ,"1112.8 x 646.5 x 78.7mm"
+    </td>
+    <td>
+       "스탠드 포함 (가로x높이x깊이) (mm)"
+       ,"1112.8 x 673.6 x 187.5mm"
+    </td>
+ </tr>
+ <tr>
+    <th>중량</th>
+    <td>
+       "스탠드 제외 (kg)"
+       ,"10.30kg"
+    </td>
+    <td>
+       "스탠드 포함 (kg)"
+       ,"10.6kg"
+    </td>
+ </tr>
+ <tr>
+    <th>에코</th>
+    <td>
+       "에너지효율 등급"
+       ,"1"
+    </td>
+    <td>
+       "에코 센서"
+       ,"있음"
+    </td>
+ </tr>
+ <tr>
+    <th>전원</th>
+    <td>
+       "정격 전압"
+       ,"AC220-240 V 50/60 Hz"
+    </td>
+    <td>
+       "정격소비전력"
+       ,"138W"
+    </td>
+    <td>
+       "평균소비전력"
+       ,"41.0W"
+    </td>
+    <td>
+       "소비전력 (대기모드)"
+       ,"0.3W"
+    </td>
+ </tr>
+ <tr>
+    <th>상품 기본정보</th>
+    <td>
+       "제품명"
+       ,"Full HD TV"
+    </td>
+    <td>
+       "제조자/수입자"
+       ,"삼성전자㈜"
+    </td>
+    <td>
+       "제조국가"
+       ,"베트남"
+    </td>
+    <td>
+       "KC 인증 필 유무"
+       ,"<img src="//images.samsung.com/is/image/samsung/p5/sec/common/icon-kc.png?$ORIGIN_PNG$" alt="KC 인증 로고">ZU09280-18009, R-REM-SEC-UN49N5000"
+    </td>
+    <td>
+       "동일모델의 출시년월"
+       ,"2018년 9월"
+    </td>
+    <td>
+       "A/S 책임자와 전화번호"
+       ,"결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준 (소비자기본법 제16조)에 따라 보상가능"
+    </td>
+    <td>
+       "품질보증기준"
+       ,"삼성전자서비스센터 / 1588-3366"
+    </td>
+ </tr>
  </div>
