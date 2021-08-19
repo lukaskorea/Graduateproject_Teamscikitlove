@@ -1,0 +1,705 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+    <tbody>
+       <tr>
+          <th>
+             <div class="th_name">제조사/브랜드</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                이스트라													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                이스트라													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                더함 우버 													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">상품명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> AN500UHD 안드로이드 더 스마트 AI (스탠드)</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 쿠카 UC701UHD 더 스마트 AI PRO (스탠드)</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name">U501QLED SMART HDR 크롬캐스트 (스탠드)</div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">최저가격</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">422,050</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">868,450</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">509,000</span>원
+                </div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">등록년월</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2021.01													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2021.03													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2020.11													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면종류</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                LED TV												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                LED TV												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                LED TV												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면크기</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                126cm(50인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                178cm(70인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                125cm(50인치)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">해상도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                4K UHD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                4K UHD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                4K UHD												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">LED구성</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                직하형												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                직하형												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                직하형												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">패널정보</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                VA패널												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                VA패널												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                VA패널												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">서브픽셀</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                RGB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                RGB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">패널비트</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">명암비</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                500만:1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                400만:1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                500만:1												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">밝기</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                350cd												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                370cd												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                350cd												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">응답속도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                6~9ms												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                6~8ms												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                5ms												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스캔방식</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">크로마샘플링</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                4:4:4												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                4:4:4												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                4:4:4												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">지상파 UHD</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                수신 불가												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                수신 불가												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                수신 불가												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">HDR 규격</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                HDR10												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDR10<br>HLG												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDR10												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스피커 출력</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(24W)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(24W)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(24W)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">무선연결</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                블루투스 연결												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스 연결												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스 연결												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">돌비지원</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                돌비 디지털												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                돌비 디지털												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스마트OS</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">부가기능</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                음성인식<br>넷플릭스 지원<br>유튜브 지원<br>인공지능												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                넷플릭스 지원<br>유튜브 지원												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                음성인식<br>미라캐스트<br>넷플릭스 지원<br>유튜브 지원												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">네트워크</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi<br>유선랜												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi<br>유선랜												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi<br>유선랜												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">HDMI</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                HDMI(4개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI(3개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI(4개)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">USB</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                USB(2개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB(2개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB(2개)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">연결단자</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                디지털음성<br>HDMI 2.0 지원												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI 2.0 지원<br>HDCP 2.2 지원												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI 2.0 지원<br>HDCP 2.2 지원												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">소비전력</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                62W												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                107W												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                47.8W												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">에너지효율</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                1등급												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                3등급												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1등급												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">두께</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                8.9cm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                8.2cm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                8.9cm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">무게(스탠드제외)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                11.5kg												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                19.8kg												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                9.3kg												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면기술</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                QLED TV												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">판매몰 수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                17													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                15													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                43													
+             </div>
+          </td>
+       </tr>
+    </tbody>
+ </table>
