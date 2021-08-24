@@ -1,0 +1,494 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+ <tr>
+    <th>디스플레이</th>
+    <td>
+       <li>화면크기</li>
+       <li>214cm</li>
+    </td>
+    <td>
+       <li>해상도</li>
+       <li>3,840 x 2,160</li>
+    </td>
+ </tr>
+ <tr>
+    <th>영상</th>
+    <td>
+       <li>화질엔진</li>
+       <li>Neo Quantum Processor 4K</li>
+    </td>
+    <td>
+       <li>HDR (High Dynamic Range)</li>
+       <li>Quantum HDR 2000</li>
+    </td>
+    <td>
+       <li>HDR 10+</li>
+       <li>인증</li>
+    </td>
+    <td>
+       <li>HLG (Hybrid Log Gamma)</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>디밍 기술</li>
+       <li>Ultimate UHD Dimming</li>
+    </td>
+    <td>
+       <li>명암비 강화 기술 (Contrast Enhancer)</li>
+       <li>있음</li>
+    </td>
+ </tr>
+ <tr>
+    <th>사운드</th>
+    <td>
+       <li>스피커 시스템</li>
+       <li>4.2.2CH</li>
+    </td>
+    <td>
+       <li>무빙 사운드 (OTS)</li>
+       <li>무빙 사운드+</li>
+    </td>
+    <td>
+       <li>Q-Symphony</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>사운드출력(RMS)</li>
+       <li>60W</li>
+    </td>
+    <td>
+       <li>돌비 사운드</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Dolby 5.1 Decoder</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>블루투스 오디오 연결</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>음성 강화</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>멀티 언어/채널</li>
+       <li>없음</li>
+    </td>
+ </tr>
+ <tr>
+    <th>디자인</th>
+    <td>
+       <li>디자인</li>
+       <li>NeoSlim</li>
+    </td>
+    <td>
+       <li>전면부 색상</li>
+       <li>TITAN BLACK</li>
+    </td>
+    <td>
+       <li>스탠드 타입</li>
+       <li>BENDING PLATE</li>
+    </td>
+    <td>
+       <li>스탠드 컬러</li>
+       <li>SAND BLACK</li>
+    </td>
+ </tr>
+ <tr>
+    <th>스마트</th>
+    <td>
+       <li>SMART TV</li>
+       <li>Smart</li>
+    </td>
+    <td>
+       <li>운영체제</li>
+       <li>Tizen™</li>
+    </td>
+    <td>
+       <li>빅스비</li>
+       <li>한국어, 미국 영어, 영국 영어, 프랑스어, 독일어, 이탈리아어, 스페인어, 포르투갈어, 인도 영어 (언어별 지원 기능 상이)</li>
+    </td>
+    <td>
+       <li>NFC on TV</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>탭 뷰</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>멀티뷰</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>뮤직월</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>PC on TV</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>원거리 음성인식</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>구글 어시스턴트 호환</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>구글 어시스턴트 내장</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>웹 브라우저</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>TV Plus</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>SmartThings 모바일 앱 호환</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>유니버설 가이드</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>갤러리</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>IPv6 지원</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>360 비디오 플레이어</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>TV to Mobile 미러링</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Mobile to TV 미러링</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>삼성 스마트 컨트롤 (리모컨)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Samsung Health</li>
+       <li>지원</li>
+    </td>
+ </tr>
+ <tr>
+    <th>게임 기능</th>
+    <td>
+       <li>자동 게임 모드 (ALLM)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>게임 모션 플러스</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Dynamic Black EQ</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>서라운드 사운드</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>울트라 와이드 뷰</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>게임 바</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Freesync</li>
+       <li>FreeSync Premium Pro</li>
+    </td>
+ </tr>
+ <tr>
+    <th>기능</th>
+    <td>
+       <li>AI 업스케일링</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>AI 화질 최적화</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>AI 액티브 보이스 강화</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>AI 사운드 최적화+</li>
+       <li>AI 사운드 최적화+</li>
+    </td>
+    <td>
+       <li>AI 스트리밍</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>매직스크린</li>
+       <li>매직스크린+</li>
+    </td>
+    <td>
+       <li>조도/컬러 센서</li>
+       <li>조도/컬러센서</li>
+    </td>
+    <td>
+       <li>아트모드 (The Frame)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>동작 감지 센서 (The Frame)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>Freesync</li>
+       <li>FreeSync Premium Pro</li>
+    </td>
+    <td>
+       <li>필름메이커 모드 (FMM)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>Wi-Fi 내장</li>
+       <li>있음 (WiFi5)</li>
+    </td>
+    <td>
+       <li>Wi-Fi Direct</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>ConnectShare™ (USB 2.0)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>방송 녹화 지원</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>Anynet+ (HDMI-CEC)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>블루투스 HID 지원</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>USB HID 지원</li>
+       <li>지원</li>
+    </td>
+    <td>
+       <li>자막</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>접근성 - 음성 안내 지원</li>
+       <li>미국 영어, 한국어</li>
+    </td>
+    <td>
+       <li>접근성 - 리모컨 음성 학습 / 메뉴 학습</li>
+       <li>미국 영어, 한국어</li>
+    </td>
+    <td>
+       <li>접근성 - 기타</li>
+       <li>포커스확대 / 고대비화면 / 소리다중출력 / SeeColors / 색상반전 / 흑백모드 / 자막이동하기 / 수어확대 설정 / 리모컨 버튼 반복 설정 / 자막분리</li>
+    </td>
+ </tr>
+ <tr>
+    <th>입출력</th>
+    <td>
+       <li>Component In (Y/Pb/Pr)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>Composite In (AV)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>옵티컬 단자</li>
+       <li>1</li>
+    </td>
+    <td>
+       <li>Ethernet (LAN단자)</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>RS-232C (AV CONTROL)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>HDMI</li>
+       <li>4</li>
+    </td>
+    <td>
+       <li>eARC</li>
+       <li>있음</li>
+    </td>
+    <td>
+       <li>USB</li>
+       <li>2</li>
+    </td>
+ </tr>
+ <tr>
+    <th>별도액세서리 호환</th>
+    <td>
+       <li>교체 가능한 프레임 (별매) 지원</li>
+       <li>미지원</li>
+    </td>
+ </tr>
+ <tr>
+    <th>크기</th>
+    <td>
+       <li>스탠드 제외 (가로x높이x깊이)(mm)</li>
+       <li>1892.2 x 1082.5 x 27.2mm</li>
+    </td>
+    <td>
+       <li>스탠드 포함 (가로x높이x깊이) (mm)</li>
+       <li>1892.2 x 1144.3 x 365.1mm</li>
+    </td>
+    <td>
+       <li>스탠드 기본 간격 (가로x깊이)</li>
+       <li>430.0 x 365.1mm</li>
+    </td>
+    <td>
+       <li>스탠드 최소 간격 (가로x깊이)</li>
+       <li>없음</li>
+    </td>
+    <td>
+       <li>베사(VESA) 규격</li>
+       <li>600 x 400mm</li>
+    </td>
+ </tr>
+ <tr>
+    <th>중량</th>
+    <td>
+       <li>스탠드 제외 (kg)</li>
+       <li>44.5kg</li>
+    </td>
+    <td>
+       <li>스탠드 포함 (kg)</li>
+       <li>56.7kg</li>
+    </td>
+ </tr>
+ <tr>
+    <th>에코</th>
+    <td>
+       <li>에너지효율 등급</li>
+       <li>5</li>
+    </td>
+    <td>
+       <li>에코 센서</li>
+       <li>있음</li>
+    </td>
+ </tr>
+ <tr>
+    <th>전원</th>
+    <td>
+       <li>정격 전압</li>
+       <li>AC220-240V 50/60Hz</li>
+    </td>
+    <td>
+       <li>정격소비전력</li>
+       <li>375W</li>
+    </td>
+    <td>
+       <li>평균소비전력</li>
+       <li>258.0W</li>
+    </td>
+    <td>
+       <li>소비전력 (대기모드)</li>
+       <li>0.5W</li>
+    </td>
+ </tr>
+ <tr>
+    <th>상품 기본정보</th>
+    <td>
+       <li>제품명</li>
+       <li>Neo QLED 4K
+       </li>
+    </td>
+    <td>
+       <li>제조자/수입자</li>
+       <li>삼성전자㈜
+       </li>
+    </td>
+    <td>
+       <li>제조국가</li>
+       <li>베트남
+       </li>
+    </td>
+    <td>
+       <li>KC 인증 필 유무</li>
+       <li>XU090407-21193, R-R-SEC-KQ85QNA90
+       </li>
+    </td>
+    <td>
+       <li>동일모델의 출시년월</li>
+       <li>2021년 3월
+       </li>
+    </td>
+    <td>
+       <li>A/S 책임자와 전화번호</li>
+       <li>삼성전자서비스센터 / 1588-3366
+       </li>
+    </td>
+    <td>
+       <li>품질보증기준</li>
+       <li> 결함.하자 등에 따른 소비자 피해에 대해서는 소비자분쟁해결기준(소비자기본법 제16조)에 따라 보상가능
+       </li>
+    </td>
+ </tr>
+ </div>

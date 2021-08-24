@@ -1,0 +1,567 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+    <tbody>
+       <tr>
+          <th>
+             <div class="th_name">제조사/브랜드</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                BenQ													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                BenQ													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                BenQ													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">상품명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 4K 스마트 사이니지 ST650K (본체)</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 제로베젤 사이니지 PL553 (본체)</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 4K 스마트 사이니지 ST430K (본체)</div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">최저가격</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">2,499,460</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">6,419,260</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">1,249,260</span>원
+                </div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">등록년월</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2018.05													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2018.05													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2018.05													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">제품분류</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                실내용 사이니지												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                실내용 사이니지												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                실내용 사이니지												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">형태별분류</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                디스플레이 모듈												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                디스플레이 모듈												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                디스플레이 모듈												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면크기</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                165cm(65인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                139cm(55인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                109cm(43인치)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">해상도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                4K UHD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                FHD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                4K UHD												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">패널정보</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                IPS패널												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                IPS패널												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                IPS패널												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">패널비트</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                10비트												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">명암비</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                1.2천:1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1.2천:1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1.2천:1												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">밝기</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                450cd												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                500cd												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                380cd												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">응답속도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                8ms												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                8ms												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                8ms												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스캔방식</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스피커 출력</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(16W)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(20W)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2.0ch스피커(16W)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">부가기능</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                스마트TV<br>MHL연결<br>USB 3.0												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                MHL연결												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                스마트TV<br>MHL연결<br>USB 3.0												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">스마트OS</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드OS												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">네트워크</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                유선랜												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                유선랜												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                유선랜												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">HDMI</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                HDMI(3개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI(2개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                HDMI(3개)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">USB</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                USB(4개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB(1개)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB(4개)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">연결단자</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                컴포넌트<br>D-SUB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                컴포넌트<br>D-SUB<br>DP<br>DVI												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                컴포넌트<br>D-SUB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">소비전력</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                200W												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                320W												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                98W												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">두께</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                8.8cm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                10.7cm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                7.4cm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">무게(스탠드제외)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                20kg												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                24.4kg												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                9.5kg												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">베젤두께</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                0.9mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">판매몰 수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                1													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1													
+             </div>
+          </td>
+       </tr>
+    </tbody>
+ </table>

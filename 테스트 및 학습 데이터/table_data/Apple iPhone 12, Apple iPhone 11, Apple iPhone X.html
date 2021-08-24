@@ -1,0 +1,618 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+    <tr>
+       <th>제품명 </th>
+       <td>
+          Apple iPhone 12						
+       </td>
+       <td>
+          Apple iPhone 11						
+       </td>
+       <td>
+          Apple iPhone X						
+       </td>
+    </tr>
+    <tr>
+       <th>모델명 </th>
+       <td>
+          A2403 256GB						
+       </td>
+       <td>
+          A2221 256GB						
+       </td>
+       <td>
+          A1901 256GB						
+       </td>
+    </tr>
+    <tr>
+       <th>제조사 </th>
+       <td>
+          애플						
+       </td>
+       <td>
+          애플						
+       </td>
+       <td>
+          애플						
+       </td>
+    </tr>
+    <tr>
+       <th>출시일 </th>
+       <td>
+          2020. 10						
+       </td>
+       <td>
+          2019. 09						
+       </td>
+       <td>
+          2017. 11						
+       </td>
+    </tr>
+    <tr>
+       <th>출고가 </th>
+       <td>
+          ￦1,287,000						
+       </td>
+       <td>
+          ￦1,188,000						
+       </td>
+       <td>
+          ￦899,800						
+       </td>
+    </tr>
+    <tr>
+       <th>출시 OS </th>
+       <td>
+          iOS 14.1						
+       </td>
+       <td>
+          iOS 13						
+       </td>
+       <td>
+          iOS 11						
+       </td>
+    </tr>
+    <tr>
+       <th>외형</th>
+    </tr>
+    <tr>
+       <th>주요재질 </th>
+       <td>
+          알루미늄, 유리						
+       </td>
+       <td>
+          알루미늄, 유리						
+       </td>
+       <td>
+          스테인레스, 유리						
+       </td>
+    </tr>
+    <tr>
+       <th>크기(WxHxD,mm) </th>
+       <td>
+          71.5 x 146.7 x 7.4						
+       </td>
+       <td>
+          75.7 x 150.9 x 8.3						
+       </td>
+       <td>
+          70.9 x 143.6 x 7.7						
+       </td>
+    </tr>
+    <tr>
+       <th>무게(g) </th>
+       <td>
+          164g						
+       </td>
+       <td>
+          194g						
+       </td>
+       <td>
+          174g						
+       </td>
+    </tr>
+    <tr>
+       <th>연결단자 </th>
+       <td>
+          나노유심						
+       </td>
+       <td>
+          나노유심						
+       </td>
+       <td>
+          나노유심						
+       </td>
+    </tr>
+    <tr>
+       <th>디스플레이</th>
+    </tr>
+    <tr>
+       <th>액정크기(인치) </th>
+       <td>
+          6.1						
+       </td>
+       <td>
+          6.1						
+       </td>
+       <td>
+          5.8						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 해상도 </th>
+       <td>
+          1170 x 2532 픽셀						
+       </td>
+       <td>
+          828 x 1792 픽셀						
+       </td>
+       <td>
+          1125 x 2436 픽셀						
+       </td>
+    </tr>
+    <tr>
+       <th>Pixel/Inch </th>
+       <td>
+          457 ppi						
+       </td>
+       <td>
+          324 ppi						
+       </td>
+       <td>
+          463 ppi						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 타입 </th>
+       <td>
+          OLED						
+       </td>
+       <td>
+          IPS						
+       </td>
+       <td>
+          OLED						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 폭 </th>
+       <td>
+          64.99 mm						
+       </td>
+       <td>
+          64.99 mm						
+       </td>
+       <td>
+          61.77 mm						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 높이 </th>
+       <td>
+          140.65 mm						
+       </td>
+       <td>
+          140.65 mm						
+       </td>
+       <td>
+          133.75 mm						
+       </td>
+    </tr>
+    <tr>
+       <th>성능</th>
+    </tr>
+    <tr>
+       <th>AP </th>
+       <td>
+          Apple A14 Bionic						
+       </td>
+       <td>
+          Apple A13 Bionic APL1W85						
+       </td>
+       <td>
+          Apple A11 Bionic APL1W72						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU </th>
+       <td>
+          2x Firestorm, 4x Icestorm						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          2x Monsoon, 4x Mistral						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU 코어 </th>
+       <td>
+          6개 (64 비트)						
+       </td>
+       <td>
+          6개 (64 비트)						
+       </td>
+       <td>
+          6개 (64 비트)						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU 클럭 </th>
+       <td>
+          MHz						
+       </td>
+       <td>
+          2650 MHz						
+       </td>
+       <td>
+          2100 MHz						
+       </td>
+    </tr>
+    <tr>
+       <th>GPU </th>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+    </tr>
+    <tr>
+       <th>메모리(RAM) </th>
+       <td>
+          4 GB						
+       </td>
+       <td>
+          4 GB						
+       </td>
+       <td>
+          3 GB						
+       </td>
+    </tr>
+    <tr>
+       <th>내장메모리 </th>
+       <td>
+          64 GB   /  128 GB   /  256 GB 						
+       </td>
+       <td>
+          64 GB   /  128 GB   /  256 GB 						
+       </td>
+       <td>
+          64 GB   /  256 GB 						
+       </td>
+    </tr>
+    <tr>
+       <th>외장메모리 </th>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+    </tr>
+    <tr>
+       <th>카메라</th>
+    </tr>
+    <tr>
+       <th>카메라 센서 </th>
+       <td>
+          -						
+       </td>
+       <td>
+          Sony Exmor RS (CMOS BSI (backside illumination))						
+       </td>
+       <td>
+          Sony Exmor RS (CMOS BSI (backside illumination))						
+       </td>
+    </tr>
+    <tr>
+       <th>카메라 조리개 </th>
+       <td>
+          F/1.6						
+       </td>
+       <td>
+          F/1.8						
+       </td>
+       <td>
+          F/1.8						
+       </td>
+    </tr>
+    <tr>
+       <th>Flash </th>
+       <td>
+          LED						
+       </td>
+       <td>
+          Dual LED						
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>사진촬영 해상도 </th>
+       <td>
+          64 MP (mega (64 메가픽셀)						
+       </td>
+       <td>
+          4032 x 3024 (12.2 메가픽셀)						
+       </td>
+       <td>
+          4032 x 3024 (12.2 메가픽셀)						
+       </td>
+    </tr>
+    <tr>
+       <th>동영상녹화 해상도 </th>
+       <td>
+          3840 x 2160 						
+       </td>
+       <td>
+          3840 x 2160 						
+       </td>
+       <td>
+          3840 x 2160 						
+       </td>
+    </tr>
+    <tr>
+       <th>동영상녹화 프레임 </th>
+       <td>
+          60 FPS						
+       </td>
+       <td>
+          60 FPS						
+       </td>
+       <td>
+          60 FPS						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 해상도 </th>
+       <td>
+          4032 x 3024  (12.2 메가픽셀)						
+       </td>
+       <td>
+          4032 x 3024  (12.2 메가픽셀)						
+       </td>
+       <td>
+          3088 x 2320  (7.2 메가픽셀)						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 동영상 해상도 </th>
+       <td>
+          3840 x 2160 						
+       </td>
+       <td>
+          3264 x 2448 						
+       </td>
+       <td>
+          1920 x 1080 						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 비디오 프레임 </th>
+       <td>
+          60 FPS						
+       </td>
+       <td>
+          60 FPS						
+       </td>
+       <td>
+          30 FPS						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리</th>
+    </tr>
+    <tr>
+       <th>카메라 특징 </th>
+       <td>
+          (광학줌)<br>손떨림방지 카메라						
+       </td>
+       <td>
+          손떨림방지 카메라						
+       </td>
+       <td>
+          손떨림방지 카메라						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리(mAH) </th>
+       <td>
+          -						
+       </td>
+       <td>
+          3110 mAh						
+       </td>
+       <td>
+          2716 mAh						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리타입 </th>
+       <td>
+          Li-Ion						
+       </td>
+       <td>
+          Li-Ion						
+       </td>
+       <td>
+          Li-Ion						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리 특징 </th>
+       <td>
+          급속충전<br>일체형						
+       </td>
+       <td>
+          급속충전<br>일체형						
+       </td>
+       <td>
+          급속충전<br>일체형						
+       </td>
+    </tr>
+    <tr>
+       <th>무선 충전 </th>
+       <td>
+          무선충전 지원						
+       </td>
+       <td>
+          무선충전 지원						
+       </td>
+       <td>
+          무선충전 지원						
+       </td>
+    </tr>
+    <tr>
+       <th>통신</th>
+    </tr>
+    <tr>
+       <th>대기 시간 </th>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+    </tr>
+    <tr>
+       <th>통신규격 </th>
+       <td>
+       </td>
+       <td>
+          LTE						
+       </td>
+       <td>
+          LTE						
+       </td>
+    </tr>
+    <tr>
+       <th>WiFi </th>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+    </tr>
+    <tr>
+       <th>블루투스 버전 </th>
+       <td>
+          5.0						
+       </td>
+       <td>
+          5.0						
+       </td>
+       <td>
+          5.0						
+       </td>
+    </tr>
+    <tr>
+       <th>특징</th>
+    </tr>
+    <tr>
+       <th>USB 버전 </th>
+       <td>
+          2.0						
+       </td>
+       <td>
+          2.0						
+       </td>
+       <td>
+          2.0						
+       </td>
+    </tr>
+    <tr>
+       <th>생체인식 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>모바일결제 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>인증 </th>
+       <td>
+          IP68 인증<br>						
+       </td>
+       <td>
+          IP68 인증<br>						
+       </td>
+       <td>
+          IP67 인증<br>						
+       </td>
+    </tr>
+    <tr>
+       <th>기타 </th>
+       <td>
+          기압센서						
+       </td>
+       <td>
+          기압센서						
+       </td>
+       <td>
+          기압센서						
+       </td>
+    </tr>
+ </table>

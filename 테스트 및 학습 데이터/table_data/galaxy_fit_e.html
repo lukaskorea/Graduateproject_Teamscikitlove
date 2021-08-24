@@ -1,0 +1,172 @@
+        <head>
+        <style>
+      
+      table {
+      counter-reset: rowNumber;
+      }
+
+      table tr::before {
+         counter-reset: colNumber;
+
+         display: table-cell;
+         counter-increment: rowNumber;
+         content: "";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr td::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr th::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        </style>
+        </head>
+<table class="spec_tbl">
+				<caption class="cp_hide">
+					<strong>상품 상세 스펙</strong>
+					<p>상품 상세 정보 제공</p>
+				</caption>
+				<colgroup>
+					<col class="tit">
+					<col class="dsc">
+					<col class="tit">
+					<col class="dsc">
+				</colgroup>
+				<tbody>
+					<tr>
+						<th scope="row" class="tit">제조회사</th>
+						<td class="dsc">
+													<a href="https://www.samsung.com/sec/" target="_blank" class="maker_link">삼성전자</a> (
+							<a href="https://www.samsung.com/sec/" target="_blank" class="maker_link">제조사 웹사이트 바로가기</a>)
+												</td>
+						<th scope="row" class="tit">등록년월</th>
+						<td class="dsc">2019년 05월 </td>
+					</tr>
+												<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(20728,'view',this,3);">분류</a></th>
+								<td class="dsc">스마트밴드</td>
+																												<th scope="row" class="tit">스마트밴드종류</th>
+								<td class="dsc">갤럭시핏</td>
+							</tr>													<tr>								<th scope="row" class="tit">운영체제</th>
+								<td class="dsc">리얼타임OS</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>
+								<th scope="row" colspan="4">연결지원</th>
+							</tr>
+												<tr>								<th scope="row" class="tit">안드로이드OS</th>
+								<td class="dsc">v5.0 이상</td>
+																												<th scope="row" class="tit">iOS</th>
+								<td class="dsc">v9.0 이상</td>
+							</tr>													<tr>
+								<th scope="row" colspan="4">스펙정보</th>
+							</tr>
+												<tr>								<th scope="row" class="tit">모양</th>
+								<td class="dsc">사각형</td>
+																												<th scope="row" class="tit">패널종류</th>
+								<td class="dsc">PMOLED</td>
+							</tr>													<tr>								<th scope="row" class="tit">화면크기</th>
+								<td class="dsc"><a onclick="$.termDicViewLink(23559,'view',this,3);">1.88cm(0.74인치)</a></td>
+																												<th scope="row" class="tit">해상도</th>
+								<td class="dsc"><a onclick="$.termDicViewLink(1708,'view',this,3);">~128</a></td>
+							</tr>													<tr>								<th scope="row" class="tit">시스템램</th>
+								<td class="dsc"><a onclick="$.termDicViewLink(3311,'view',this,3);">램 : 128KB</a></td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>
+								<th scope="row" colspan="4">운동/스포츠</th>
+							</tr>
+												<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19787,'view',this,3);">운동량</a></th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit"><a onclick="$.termDicViewLink(19792,'view',this,3);">속도</a></th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19790,'view',this,3);">이동거리</a></th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit"><a onclick="$.termDicViewLink(23560,'view',this,3);">페이스</a></th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19803,'view',this,3);">활동시간</a></th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit"><a onclick="$.termDicViewLink(19801,'view',this,3);">날씨</a></th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit">걷기</th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit">달리기</th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19788,'view',this,3);">보행수</a></th>
+								<td class="dsc">○</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>
+								<th scope="row" colspan="4">건강진단</th>
+							</tr>
+												<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19791,'view',this,3);">칼로리</a></th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit"><a onclick="$.termDicViewLink(23561,'view',this,3);">수면정보</a></th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19781,'view',this,3);">심박측정</a></th>
+								<td class="dsc">○</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>								<th scope="row" class="tit">[연결]</th>
+								<td class="dsc">[연결]</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>
+								<th scope="row" colspan="4">연결</th>
+							</tr>
+												<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(821,'view',this,3);">블루투스</a></th>
+								<td class="dsc">○</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>								<th scope="row" class="tit">블루투스버전</th>
+								<td class="dsc"><a onclick="$.termDicViewLink(27290,'view',this,3);">v5.0</a></td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>
+								<th scope="row" colspan="4">부가기능</th>
+							</tr>
+												<tr>								<th scope="row" class="tit"><a onclick="$.termDicViewLink(19795,'view',this,3);">SNS알림</a></th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit">메세지알림</th>
+								<td class="dsc">○</td>
+							</tr>													<tr>								<th scope="row" class="tit">전화알림</th>
+								<td class="dsc">○</td>
+																												<th scope="row" class="tit"><a onclick="$.termDicViewLink(19796,'view',this,3);">진동</a></th>
+								<td class="dsc">○</td>
+							</tr>													<tr>
+								<th scope="row" colspan="4">배터리</th>
+							</tr>
+												<tr>								<th scope="row" class="tit">배터리</th>
+								<td class="dsc">70mAh</td>
+																												<th scope="row" class="tit">사용시간</th>
+								<td class="dsc">평균사용:7일 이하</td>
+							</tr>													<tr>
+								<th scope="row" colspan="4">헬스케어(UI옵션)</th>
+							</tr>
+												<tr>								<th scope="row" class="tit">심박</th>
+								<td class="dsc">○</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>													<tr>								<th scope="row" class="tit">무게(본체)</th>
+								<td class="dsc">15g</td>
+							<th scope="row" class="tit"></th><td class="dsc"></td></tr>											<tr>
+						<th scope="row" colspan="4"><span class="ico_kc">KC</span>인증</th>
+					</tr>
+					<tr>
+						<th scope="row" class="tit">적합성평가인증</th>
+						<td class="dsc" colspan="3">R-C-SEC-SMR375 <a href="http://www.rra.go.kr/ko/index.do" target="_blank" class="btn_certi">인증번호 확인</a></td>
+					</tr>
+					<tr>
+						<th scope="row" class="tit">안전확인인증</th>
+						<td class="dsc" colspan="3">상세설명 / 판매 사이트 문의 <a href="http://www.safetykorea.kr/" target="_blank" class="btn_certi">인증번호 확인</a></td>
+					</tr>
+				</tbody>
+			</table>

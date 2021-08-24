@@ -1,0 +1,615 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table>
+    <tr>
+       <th>제품명 </th>
+       <td>
+          Samsung Galaxy A12						
+       </td>
+       <td>
+          Samsung Galaxy A32						
+       </td>
+       <td>
+          Samsung Galaxy A42 5G						
+       </td>
+    </tr>
+    <tr>
+       <th>모델명 </th>
+       <td>
+          SM-A125N						
+       </td>
+       <td>
+          SM-A325N						
+       </td>
+       <td>
+          SM-A426N						
+       </td>
+    </tr>
+    <tr>
+       <th>제조사 </th>
+       <td>
+          삼성전자						
+       </td>
+       <td>
+          삼성전자						
+       </td>
+       <td>
+          삼성전자						
+       </td>
+    </tr>
+    <tr>
+       <th>출시일 </th>
+       <td>
+          2021. 02						
+       </td>
+       <td>
+          2021. 03						
+       </td>
+       <td>
+          2021. 03						
+       </td>
+    </tr>
+    <tr>
+       <th>출고가 </th>
+       <td>
+          <b>￦</b>0						
+       </td>
+       <td>
+          <b>￦</b>0						
+       </td>
+       <td>
+          <b>￦</b>0						
+       </td>
+    </tr>
+    <tr>
+       <th>출시 OS </th>
+       <td>
+          안드로이드 10						
+       </td>
+       <td>
+          안드로이드 11						
+       </td>
+       <td>
+          안드로이드 11						
+       </td>
+    </tr>
+    <tr>
+       <th>외형</th>
+    </tr>
+    <tr>
+       <th>주요재질 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>크기(WxHxD,mm) </th>
+       <td>
+          75.8 x 164 x 8.9						
+       </td>
+       <td>
+          73.6 x 158.9 x 8.4						
+       </td>
+       <td>
+          75.1 x 159.9 x 8.4						
+       </td>
+    </tr>
+    <tr>
+       <th>무게(g) </th>
+       <td>
+          205g						
+       </td>
+       <td>
+          184g						
+       </td>
+       <td>
+          193g						
+       </td>
+    </tr>
+    <tr>
+       <th>연결단자 </th>
+       <td>
+          나노유심 / USB Type-C						
+       </td>
+       <td>
+          나노유심 / USB Type-C						
+       </td>
+       <td>
+          나노유심 / USB Type-C						
+       </td>
+    </tr>
+    <tr>
+       <th>디스플레이</th>
+    </tr>
+    <tr>
+       <th>액정크기(인치) </th>
+       <td>
+          6.5						
+       </td>
+       <td>
+          6.4						
+       </td>
+       <td>
+          6.6						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 해상도 </th>
+       <td>
+          720 x 1560 픽셀						
+       </td>
+       <td>
+          1080 x 2400 픽셀						
+       </td>
+       <td>
+          1080 x 2400 픽셀						
+       </td>
+    </tr>
+    <tr>
+       <th>Pixel/Inch </th>
+       <td>
+          270 ppi						
+       </td>
+       <td>
+          411 ppi						
+       </td>
+       <td>
+          266 ppi						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 타입 </th>
+       <td>
+          TFT						
+       </td>
+       <td>
+          Super AMOLED						
+       </td>
+       <td>
+          Super AMOLED						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 폭 </th>
+       <td>
+          69.19 mm						
+       </td>
+       <td>
+          66.71 mm						
+       </td>
+       <td>
+          67.75 mm						
+       </td>
+    </tr>
+    <tr>
+       <th>화면 높이 </th>
+       <td>
+          149.9 mm						
+       </td>
+       <td>
+          148.24 mm						
+       </td>
+       <td>
+          150.56 mm						
+       </td>
+    </tr>
+    <tr>
+       <th>성능</th>
+    </tr>
+    <tr>
+       <th>AP </th>
+       <td>
+          MediaTek Helio P35 (MT6765)						
+       </td>
+       <td>
+          MediaTek Helio G85						
+       </td>
+       <td>
+          Qualcomm Snapdragon 750G						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU </th>
+       <td>
+          4x 2.3 GHz ARM Cortex-A53, 4x 1.8 GHz ARM Cortex-A53						
+       </td>
+       <td>
+          2x 2.0 GHz ARM Cortex-A75, 6x 1.8 GHz ARM Cortex-A55						
+       </td>
+       <td>
+          2x 2.2 GHz ARM Cortex-A77, 6x 1.85 GHz ARM Cortex-A55						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU 코어 </th>
+       <td>
+          8개 (64 비트)						
+       </td>
+       <td>
+          8개 (64 비트)						
+       </td>
+       <td>
+          8개 (64 비트)						
+       </td>
+    </tr>
+    <tr>
+       <th>CPU 클럭 </th>
+       <td>
+          2300 MHz						
+       </td>
+       <td>
+          2000 MHz						
+       </td>
+       <td>
+          2200 MHz						
+       </td>
+    </tr>
+    <tr>
+       <th>GPU </th>
+       <td>
+          PowerVR GE8320						
+       </td>
+       <td>
+          ARM Mali-G52 2EEMC2						
+       </td>
+       <td>
+          Qualcomm Adreno 619						
+       </td>
+    </tr>
+    <tr>
+       <th>메모리(RAM) </th>
+       <td>
+          3 | 4 | 6 GB						
+       </td>
+       <td>
+          4 | 6 | 8 GB						
+       </td>
+       <td>
+          6 | 8 GB						
+       </td>
+    </tr>
+    <tr>
+       <th>내장메모리 </th>
+       <td>
+          32 GB   /  64 GB   /  128 GB 						
+       </td>
+       <td>
+          64 GB   /  128 GB 						
+       </td>
+       <td>
+          128 GB   /  256 GB						
+       </td>
+    </tr>
+    <tr>
+       <th>외장메모리 </th>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+    </tr>
+    <tr>
+       <th>카메라</th>
+    </tr>
+    <tr>
+       <th>카메라 센서 </th>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+    </tr>
+    <tr>
+       <th>카메라 조리개 </th>
+       <td>
+          F/2						
+       </td>
+       <td>
+          F/1.8						
+       </td>
+       <td>
+          F/1.8						
+       </td>
+    </tr>
+    <tr>
+       <th>Flash </th>
+       <td>
+          LED						
+       </td>
+       <td>
+          LED						
+       </td>
+       <td>
+          LED						
+       </td>
+    </tr>
+    <tr>
+       <th>사진촬영 해상도 </th>
+       <td>
+          8000 x 6000 (48 메가픽셀)						
+       </td>
+       <td>
+          9280 x 6920 (64.2 메가픽셀)						
+       </td>
+       <td>
+          9280 x 6920 (64.2 메가픽셀)						
+       </td>
+    </tr>
+    <tr>
+       <th>동영상녹화 해상도 </th>
+       <td>
+          1920 x 1080 						
+       </td>
+       <td>
+          3840 x 2160 						
+       </td>
+       <td>
+          1920 x 1080 						
+       </td>
+    </tr>
+    <tr>
+       <th>동영상녹화 프레임 </th>
+       <td>
+          30 FPS						
+       </td>
+       <td>
+          30 FPS						
+       </td>
+       <td>
+          30 FPS						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 해상도 </th>
+       <td>
+          3264 x 2448  (8 메가픽셀)						
+       </td>
+       <td>
+          20 MP (megapixels)  (20 메가픽셀)						
+       </td>
+       <td>
+          6528 x 5480  (35.8 메가픽셀)						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 동영상 해상도 </th>
+       <td>
+          1920 x 1080 						
+       </td>
+       <td>
+          1920 x 1080 						
+       </td>
+       <td>
+          1920 x 1080 						
+       </td>
+    </tr>
+    <tr>
+       <th>전면 비디오 프레임 </th>
+       <td>
+          30 FPS						
+       </td>
+       <td>
+          30 FPS						
+       </td>
+       <td>
+          30 FPS						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리</th>
+    </tr>
+    <tr>
+       <th>카메라 특징 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+          손떨림방지 카메라						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리(mAH) </th>
+       <td>
+          5000 mAh						
+       </td>
+       <td>
+          5000 mAh						
+       </td>
+       <td>
+          4500 mAh						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리타입 </th>
+       <td>
+          Li-Ion						
+       </td>
+       <td>
+          Li-Ion						
+       </td>
+       <td>
+          Li-Ion						
+       </td>
+    </tr>
+    <tr>
+       <th>배터리 특징 </th>
+       <td>
+          급속충전 일체형						
+       </td>
+       <td>
+          급속충전 일체형						
+       </td>
+       <td>
+          급속충전 일체형						
+       </td>
+    </tr>
+    <tr>
+       <th>무선 충전 </th>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+    </tr>
+    <tr>
+       <th>통신</th>
+    </tr>
+    <tr>
+       <th>대기 시간 </th>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+       <td>
+          -						
+       </td>
+    </tr>
+    <tr>
+       <th>통신규격 </th>
+       <td>
+          LTE						
+       </td>
+       <td>
+          LTE						
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>WiFi </th>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+       <td>
+          미확인						
+       </td>
+    </tr>
+    <tr>
+       <th>블루투스 버전 </th>
+       <td>
+          5.0						
+       </td>
+       <td>
+          5.0						
+       </td>
+       <td>
+          5.0						
+       </td>
+    </tr>
+    <tr>
+       <th>특징</th>
+    </tr>
+    <tr>
+       <th>USB 버전 </th>
+       <td>
+          2.0						
+       </td>
+       <td>
+          2.0						
+       </td>
+       <td>
+          2.0						
+       </td>
+    </tr>
+    <tr>
+       <th>생체인식 </th>
+       <td>
+          지문인식						
+       </td>
+       <td>
+          지문인식						
+       </td>
+       <td>
+          지문인식						
+       </td>
+    </tr>
+    <tr>
+       <th>모바일결제 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+       </td>
+    </tr>
+    <tr>
+       <th>인증 </th>
+       <td>
+       </td>
+       <td>
+       </td>
+       <td>
+          IP67 인증<br>						
+       </td>
+    </tr>
+    <tr>
+       <th>기타 </th>
+       <td>
+          ANT+						
+       </td>
+       <td>
+       </td>
+       <td>
+          ANT+						
+       </td>
+    </tr>
+    <div style="clear:both;padding-top:10px;overflow:hidden">
+ </table>
