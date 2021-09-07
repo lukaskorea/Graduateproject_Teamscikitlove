@@ -1,0 +1,858 @@
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table class="comp_table pop_fix_table fix_table_data">
+    <tbody>
+       <tr>
+          <th scope="row">
+             <div class="th_name">제조사/브랜드</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                레노버													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                화웨이													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                샤오미													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">상품명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 탭4 8 플러스</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name">미디어패드 M6 프로 8.4</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name">미 패드4</div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">최저가격</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">229,000</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">616,360</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">468,100</span>원
+                </div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">등록년월</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2017.07													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2021.03													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2018.06													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">운영체제</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                안드로이드 7.1 누가												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드 9.0 파이												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드 8.1 오레오												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">화면크기(인치)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                20.32cm(8인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                21.33cm(8.4인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                20.32cm(8인치)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">디스플레이</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                IPS-LCD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                IPS-LCD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                IPS-LCD												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">해상도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                1920x1200												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2560x1600												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1920x1200												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">ppi</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                283ppi												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                359ppi												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                283ppi												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">화면비율</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                16:10												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                16:10												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">최대주사율</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">CPU명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                스냅드래곤 625												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                하이실리콘 Kirin 980												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                스냅드래곤660												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">코어개수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">코어클럭</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2.0GHz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2.2GHz+1.8GHz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">GPU</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                Adreno506												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Adreno512												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">RAM용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                램:4GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                램:6GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                램:4GB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">저장용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                내장:64GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                내장:128GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                내장:64GB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">저장매체</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                eMMC												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                eMMC												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">추가메모리슬롯</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                microSD:최대128GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                microSD:최대512GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                microSD:최대256GB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">태블릿통신</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi전용												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi전용												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                LTE+Wi-Fi												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">Wi-Fi주파수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">블루투스버전</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                블루투스v4.2												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스v5.0												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스v5.0												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">후면카메라</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                후면:800만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                후면:1,300만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                후면:1,300만화소												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">전면카메라</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                전면:500만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                전면:800만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                전면:500만화소												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">센서</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                자이로센서 조도센서												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                자이로센서 나침반센서												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                위치정보(GPS) 자이로센서 가속도센서 나침반센서 근접센서												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">충전단자</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                USB타입C												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB타입C												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB타입C												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">배터리용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                4,850mAh												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                6,100mAh												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                6,000mAh												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">배터리사용시간</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                사용시간:최대8시간												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">가로</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                210.6mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                125.2mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                120.3mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">세로</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                123mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                206.4mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                200.2mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">두께</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                7mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                7.4mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                7.9mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">무게(g)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                300g												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                320g												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                342.5g												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">Wi-Fi다이렉트</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                지원												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row">
+             <div class="th_name">판매몰 수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                14													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th scope="row" rowspan="2">
+             <div class="th_name">최저가몰</div>
+          </th>
+          <td class="td_mall_list">
+             <div class="item_wrap">
+                <ul class="mall_list">
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=5355301&amp;cmpnyc=TN729&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=135429952_135429952&amp;package=0&amp;setpc=0&amp;r=16278246081759" class="mall_link" target="_blank">
+                         <div class="mall_name">위메프</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">229,000</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=5355301&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=B443289304&amp;package=0&amp;setpc=0&amp;r=16278246088783" class="mall_link" target="_blank">
+                         <div class="mall_name">옥션</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">229,000</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=5355301&amp;cmpnyc=TP40F&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=I229122046&amp;package=0&amp;setpc=0&amp;r=16278246087094" class="mall_link" target="_blank">
+                         <div class="mall_name">쿠팡</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">229,000</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=5355301&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1116289042&amp;package=0&amp;setpc=0&amp;r=16278246086018" class="mall_link" target="_blank">
+                         <div class="mall_name">G마켓</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">229,000</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=5355301&amp;cmpnyc=TQB02&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1116289042&amp;package=0&amp;setpc=0&amp;r=16278246082237" class="mall_link" target="_blank">
+                         <div class="mall_name">G9</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">231,460</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                </ul>
+             </div>
+          </td>
+          <td class="td_mall_list">
+             <div class="item_wrap">
+                <ul class="mall_list">
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=13737659&amp;cmpnyc=TN920&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=5568603854&amp;package=0&amp;setpc=0&amp;r=16278246086061" class="mall_link" target="_blank">
+                         <div class="mall_name">티몬</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">616,360</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=13737659&amp;cmpnyc=TP40F&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=P5354084652&amp;package=0&amp;setpc=0&amp;r=16278246085593" class="mall_link" target="_blank">
+                         <div class="mall_name">쿠팡</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">726,700</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                </ul>
+             </div>
+          </td>
+          <td class="td_mall_list">
+             <div class="item_wrap">
+                <ul class="mall_list">
+                   <li class="mall_item">
+                      <a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=38768&amp;cate3=38783&amp;cate4=0&amp;pcode=6250864&amp;cmpnyc=TP40F&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=P5354090504&amp;package=0&amp;setpc=0&amp;r=16278246089352" class="mall_link" target="_blank">
+                         <div class="mall_name">쿠팡</div>
+                         <div class="mall_price prod_price_set">
+                            <dl class="low_price">
+                               <dt class="screen_out">판매가</dt>
+                               <dd><span class="num">468,100</span>원</dd>
+                            </dl>
+                         </div>
+                      </a>
+                   </li>
+                </ul>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <td class="td_mall_link">
+             <div class="item_wrap">
+                <a href="javascript:pBlog('5355301/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+                <span>상품 더보기</span>
+                </a>
+             </div>
+          </td>
+          <td class="td_mall_link">
+             <div class="item_wrap">
+                <a href="javascript:pBlog('13737659/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+                <span>상품 더보기</span>
+                </a>
+             </div>
+          </td>
+          <td class="td_mall_link">
+             <div class="item_wrap">
+                <a href="javascript:pBlog('6250864/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+                <span>상품 더보기</span>
+                </a>
+             </div>
+          </td>
+       </tr>
+    </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
