@@ -1,744 +1,744 @@
-<head>
-    <style>
-       table {
-       counter-reset: rowNumber -1;
-       }
-       table tr::before {
-       counter-reset: colNumber -1;
-       display: table-cell;
-       counter-increment: rowNumber;
-       content: "";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr td::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) "," counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table tr th::before {
-       display: table-cell;
-       counter-increment: colNumber;
-       content: "(" counter(rowNumber) ","counter(colNumber) ")";
-       padding-right: 0.3em;
-       text-align: right;
-       }
-       table {
-       font-family: arial, sans-serif;
-       border-collapse: collapse;
-       width: 100%;
-       }
-       td, th {
-       border: 1px solid #dddddd;
-       text-align: left;
-       padding: 8px;
-       }
-    </style>
- </head>
- <table class="comp_table pop_fix_table fix_table_data">
-    <tbody>
-       <tr>
-          <th scope="row">
-             <div class="th_name">제조사/브랜드</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                레노버													
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                APPLE													
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                삼성전자													
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">상품명</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_name">XiaoxinPad</div>
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_name">아이패드 프로 11 3세대</div>
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_name"> 갤럭시탭S7 11</div>
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">최저가격</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_price">
-                   <span class="num">222,810</span>원
-                </div>
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_price">
-                   <span class="num">936,870</span>원
-                </div>
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                <div class="prod_price">
-                   <span class="num">739,500</span>원
-                </div>
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">등록년월</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                2021.01													
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2021.05													
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2020.08													
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">운영체제</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                안드로이드 10												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                iPadOS 14.5												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                안드로이드 10												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">화면크기(인치)</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                27.9cm(11인치)												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                27.9cm(11인치)												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                27.9cm(11인치)												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">디스플레이</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                LCD												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                IPS-LCD												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                TFT-LCD												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">해상도</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                2000x1200												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2388x1668												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2560x1600												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">ppi</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                212ppi												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                264ppi												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                276ppi												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">화면비율</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                5:3												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                1.43:1												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                16:10												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">최대주사율</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                60Hz												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                120Hz												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                120Hz												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">CPU명</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                스냅드래곤662												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                APPLE M												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                스냅드래곤865+												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">코어개수</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                옥타코어												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                옥타코어												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                옥타코어												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">코어클럭</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                2.0GHz+1.8GHz												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                3.09GHz+2.4GHz+1.8GHz												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">RAM용량</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                램:6GB												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                램:8GB												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                램:8GB												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">저장용량</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                내장:128GB												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                내장:128GB												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                내장:256GB												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">저장매체</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                UFS2.1(내장)												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                SSD												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                UFS3.0(내장)												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">태블릿통신</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                Wi-Fi전용												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                Wi-Fi전용												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                Wi-Fi전용												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">Wi-Fi주파수</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                802.11 a/b/g/n/ac												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                802.11 a/b/g/n/ac/ax												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                802.11 a/b/g/n/ac/ax												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">블루투스버전</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                블루투스v5.0												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                블루투스v5.0												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                블루투스v5.0												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">후면카메라</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                후면:1,300만화소												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                후면:1,200만화소+1,000만화소+TOF 3D LiDAR												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                후면:1,300만화소+500만화소												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">전면카메라</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                전면:800만화소												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                전면:1,200만화소												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                전면:800만화소												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">센서</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                위치정보(GPS) 자이로센서												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                자이로센서 가속도센서 조도센서												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                위치정보(GPS) 자이로센서 가속도센서 나침반센서 조도센서												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">충전단자</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                USB타입C												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                USB타입C 썬더볼트												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                USB타입C												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">배터리용량</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                7,700mAh												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                7,538mAh												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                8,000mAh												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">배터리사용시간</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                사용시간:최대12시간												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                사용시간:최대10시간												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                사용시간:최대15시간												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">가로</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                258.4mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                178.5mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                253.8mm												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">세로</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                163.7mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                247.6mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                165.3mm												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">두께</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                7.5mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                5.9mm												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                6.3mm												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">무게(g)</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-                490g												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                466g												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                498g												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">형태</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2in1												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                2in1												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">추가메모리슬롯</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                microSD미지원												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                microSD:최대1TB												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">동영상촬영</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                동영상:4K@60fps												
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                동영상:4k@30fps												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">GPU</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                Adreno650												
-             </div>
-          </td>
-       </tr>
-       <tr>
-          <th scope="row">
-             <div class="th_name">Wi-Fi다이렉트</div>
-          </th>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-             </div>
-          </td>
-          <td>
-             <div class="item_wrap">
-                지원												
-             </div>
-          </td>
-       </tr>
-    </tbody>
- </table>
- </div>
- </div>
+<head>
+    <style>
+       table {
+       counter-reset: rowNumber -1;
+       }
+       table tr::before {
+       counter-reset: colNumber -1;
+       display: table-cell;
+       counter-increment: rowNumber;
+       content: "";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr td::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) "," counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table tr th::before {
+       display: table-cell;
+       counter-increment: colNumber;
+       content: "(" counter(rowNumber) ","counter(colNumber) ")";
+       padding-right: 0.3em;
+       text-align: right;
+       }
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+    </style>
+ </head>
+ <table class="comp_table pop_fix_table fix_table_data">
+    <tbody>
+       <tr>
+          <th>
+             <div class="th_name">제조사/브랜드</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                레노버													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                APPLE													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                삼성전자													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">상품명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name">XiaoxinPad</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name">아이패드 프로 11 3세대</div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_name"> 갤럭시탭S7 11</div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">최저가격</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">222,810</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">936,870</span>원
+                </div>
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                <div class="prod_price">
+                   <span class="num">739,500</span>원
+                </div>
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">등록년월</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2021.01													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2021.05													
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2020.08													
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">운영체제</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                안드로이드 10												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                iPadOS 14.5												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                안드로이드 10												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면크기(인치)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                27.9cm(11인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                27.9cm(11인치)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                27.9cm(11인치)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">디스플레이</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                LCD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                IPS-LCD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                TFT-LCD												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">해상도</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2000x1200												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2388x1668												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2560x1600												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">ppi</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                212ppi												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                264ppi												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                276ppi												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">화면비율</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                5:3												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                1.43:1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                16:10												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">최대주사율</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                60Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                120Hz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                120Hz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">CPU명</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                스냅드래곤662												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                APPLE M												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                스냅드래곤865+												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">코어개수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                옥타코어												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">코어클럭</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                2.0GHz+1.8GHz												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                3.09GHz+2.4GHz+1.8GHz												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">RAM용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                램:6GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                램:8GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                램:8GB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">저장용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                내장:128GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                내장:128GB												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                내장:256GB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">저장매체</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                UFS2.1(내장)												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                SSD												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                UFS3.0(내장)												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">태블릿통신</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi전용												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi전용												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Wi-Fi전용												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">Wi-Fi주파수</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac/ax												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                802.11 a/b/g/n/ac/ax												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">블루투스버전</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                블루투스v5.0												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스v5.0												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                블루투스v5.0												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">후면카메라</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                후면:1,300만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                후면:1,200만화소+1,000만화소+TOF 3D LiDAR												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                후면:1,300만화소+500만화소												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">전면카메라</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                전면:800만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                전면:1,200만화소												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                전면:800만화소												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">센서</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                위치정보(GPS) 자이로센서												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                자이로센서 가속도센서 조도센서												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                위치정보(GPS) 자이로센서 가속도센서 나침반센서 조도센서												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">충전단자</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                USB타입C												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB타입C 썬더볼트												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                USB타입C												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">배터리용량</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                7,700mAh												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                7,538mAh												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                8,000mAh												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">배터리사용시간</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                사용시간:최대12시간												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                사용시간:최대10시간												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                사용시간:최대15시간												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">가로</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                258.4mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                178.5mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                253.8mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">세로</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                163.7mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                247.6mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                165.3mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">두께</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                7.5mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                5.9mm												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                6.3mm												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">무게(g)</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+                490g												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                466g												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                498g												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">형태</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2in1												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                2in1												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">추가메모리슬롯</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                microSD미지원												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                microSD:최대1TB												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">동영상촬영</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                동영상:4K@60fps												
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                동영상:4k@30fps												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">GPU</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                Adreno650												
+             </div>
+          </td>
+       </tr>
+       <tr>
+          <th>
+             <div class="th_name">Wi-Fi다이렉트</div>
+          </th>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+             </div>
+          </td>
+          <td>
+             <div class="item_wrap">
+                지원												
+             </div>
+          </td>
+       </tr>
+    </tbody>
+ </table>
+ </div>
+ </div>
  </div>
