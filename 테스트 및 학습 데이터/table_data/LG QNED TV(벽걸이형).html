@@ -1,1224 +1,1519 @@
-<head>
 
+        
+        <head>
     <style>
+  
+  table {
+  counter-reset: rowNumber -1;
+  }
 
-       table {
+  table tr::before {
+     counter-reset: colNumber -1;
 
-       counter-reset: rowNumber -1;
+     display: table-cell;
+     counter-increment: rowNumber;
+     content: "";
+     padding-right: 0.3em;
+     text-align: right;
+  }
 
-       }
+  table tr td::before {
+     display: table-cell;
+     counter-increment: colNumber;
+     content: "(" counter(rowNumber) "," counter(colNumber) ")";
+     padding-right: 0.3em;
+     text-align: right;
+  }
 
-       table tr::before {
+  table tr th::before {
+     display: table-cell;
+     counter-increment: colNumber;
+     content: "(" counter(rowNumber) ","counter(colNumber) ")";
+     padding-right: 0.3em;
+     text-align: right;
+  }
 
-       counter-reset: colNumber -1;
 
-       display: table-cell;
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
 
-       counter-increment: rowNumber;
-
-       content: "";
-
-       padding-right: 0.3em;
-
-       text-align: right;
-
-       }
-
-       table tr td::before {
-
-       display: table-cell;
-
-       counter-increment: colNumber;
-
-       content: "(" counter(rowNumber) "," counter(colNumber) ")";
-
-       padding-right: 0.3em;
-
-       text-align: right;
-
-       }
-
-       table tr th::before {
-
-       display: table-cell;
-
-       counter-increment: colNumber;
-
-       content: "(" counter(rowNumber) ","counter(colNumber) ")";
-
-       padding-right: 0.3em;
-
-       text-align: right;
-
-       }
-
-       table {
-
-       font-family: arial, sans-serif;
-
-       border-collapse: collapse;
-
-       width: 100%;
-
-       }
-
-       td, th {
-
-       border: 1px solid #dddddd;
-
-       text-align: left;
-
-       padding: 8px;
-
-       }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
 
     </style>
+</head>
+        <table>
 
- </head>
+								
 
- <table>
+									<tr><th>디스플레이</th></tr>
 
-    <tr>
+									
 
-       <th>디스플레이</th>
+										<tr>
 
-    </tr>
+											
 
-    <tr>
+												<td>
 
-       <td>
+													<li>화면크기</li>
 
-          "화면크기"
+													<li>
 
-          ,"
+														189cm
 
-             189cm
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "디스플레이 종류"
+												<td>
 
-          ,"
+													<li>디스플레이 종류</li>
 
-             LED
+													<li>
 
-          "
+														LED
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "디밍 방식"
+											
 
-          ,"
+											
 
-             퀀텀 나노 다이렉트 블록디밍
+												<td>
 
-          "
+													<li>디밍 방식</li>
 
-       </td>
+													<li>
 
-       <td>
+														퀀텀 나노 다이렉트 블록디밍
 
-          "IPS"
+													</li>
 
-          ,"
+												</td>
 
-             O
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>IPS</li>
 
-          "백라이트"
+													<li>
 
-          ,"
+														O
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "해상도"
+												<td>
 
-          ,"
+													<li>백라이트</li>
 
-             울트라HD(3,840X2,160)
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "시야각"
+											
 
-          ,"
+											
 
-             광시야각
+												<td>
 
-          "
+													<li>해상도</li>
 
-       </td>
+													<li>
 
-       <td>
+														울트라HD(3,840X2,160)
 
-          "주사율(Hz)"
+													</li>
 
-          ,"
+												</td>
 
-             120
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-    </tr>
+													<li>시야각</li>
 
-    <tr>
+													<li>
 
-       <th>화질</th>
+														광시야각
 
-    </tr>
+													</li>
 
-    <tr>
+												</td>
 
-       <td>
+											
 
-          "인공지능 프로세서"
+											
 
-          ,"
+												<td>
 
-             4세대 인공지능 알파7
+													<li>주사율(Hz)</li>
 
-          "
+													<li>
 
-       </td>
+														120
 
-       <td>
+													</li>
 
-          "인공지능 화질"
+												</td>
 
-          ,"
+											
 
-             인공지능  화질
+										</tr>
 
-          "
+									
 
-       </td>
+								
 
-       <td>
+								
 
-          "해상도 업스케일링"
+									<tr><th>화질</th></tr>
 
-          ,"
+									
 
-             인공지능 4K 업스케일링
+										<tr>
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>인공지능 프로세서</li>
 
-          "얼굴 입체감 강화"
+													<li>
 
-          ,"
+														4세대 인공지능 알파7
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "장르 맞춤 화면"
+												<td>
 
-          ,"
+													<li>인공지능 화질</li>
 
-             O(Dolby HDR Only)
+													<li>
 
-          "
+														인공지능  화질
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "장면단위 화질 최적화"
+											
 
-          ,"
+											
 
-             X
+												<td>
 
-          "
+													<li>해상도 업스케일링</li>
 
-       </td>
+													<li>
 
-       <td>
+														인공지능 4K 업스케일링
 
-          "인공지능 밝기 조정"
+													</li>
 
-          ,"
+												</td>
 
-             O
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>얼굴 입체감 강화</li>
 
-          "나노셀 디스플레이"
+													<li>
 
-          ,"
+														O
 
-             O (나노셀+퀀텀닷)
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "돌비비전IQ"
+												<td>
 
-          ,"
+													<li>장르 맞춤 화면</li>
 
-             O
+													<li>
 
-          "
+														O(Dolby HDR Only)
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "모션 프로"
+											
 
-          ,"
+											
 
-             모션 프로
+												<td>
 
-          "
+													<li>장면단위 화질 최적화</li>
 
-       </td>
+													<li>
 
-       <td>
+														X
 
-          "필름메이커 모드"
+													</li>
 
-          ,"
+												</td>
 
-             O
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>인공지능 밝기 조정</li>
 
-          "HDR10"
+													<li>
 
-          ,"
+														O
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "HLG"
+												<td>
 
-          ,"
+													<li>나노셀 디스플레이</li>
 
-             O
+													<li>
 
-          "
+														O (나노셀+퀀텀닷)
 
-       </td>
+													</li>
 
-    </tr>
+												</td>
 
-    <tr>
+											
 
-       <th>디자인</th>
+											
 
-    </tr>
+												<td>
 
-    <tr>
+													<li>돌비비전IQ</li>
 
-       <td>
+													<li>
 
-          "디자인 타입"
+														O
 
-          ,"
+													</li>
 
-             갤러리
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "4면 시네마 스크린"
+													<li>모션 프로</li>
 
-          ,"
+													<li>
 
-             3면 시네마
+														모션 프로
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "스탠드 디자인"
+											
 
-          ,"
+												<td>
 
-             QNED 2폴 스탠드
+													<li>필름메이커 모드</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-    </tr>
+													</li>
 
-    <tr>
+												</td>
 
-       <th>사운드</th>
+											
 
-    </tr>
+											
 
-    <tr>
+												<td>
 
-       <td>
+													<li>HDR10</li>
 
-          "출력/채널"
+													<li>
 
-          ,"
+														O
 
-             40W/2.2Ch
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "인공지능 사운드"
+												<td>
 
-          ,"
+													<li>HLG</li>
 
-             인공지능 사운드
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "돌비애트모스"
+											
 
-          ,"
+										</tr>
 
-             O
+									
 
-          "
+								
 
-       </td>
+								
 
-       <td>
+									<tr><th>디자인</th></tr>
 
-          "소리 크기 자동 맞춤"
+									
 
-          ,"
+										<tr>
 
-             X
+											
 
-          "
+												<td>
 
-       </td>
+													<li>디자인 타입</li>
 
-       <td>
+													<li>
 
-          "TV 사운드 공유"
+														갤러리 스타일
 
-          ,"
+													</li>
 
-             O
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "LG 사운드싱크(TV음원 → 사운드바(블루투스 활용))"
+													<li>4면 시네마 스크린</li>
 
-          ,"
+													<li>
 
-             O
+														3면 시네마
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "블루투스 사운드(모바일 음원 → TV스피커(블루투스 활용))"
+										</tr>
 
-          ,"
+									
 
-             O
+								
 
-          "
+								
 
-       </td>
+									<tr><th>사운드</th></tr>
 
-       <td>
+									
 
-          "블루투스 서라운드 레디"
+										<tr>
 
-          ,"
+											
 
-             O
+												<td>
 
-          "
+													<li>출력/채널</li>
 
-       </td>
+													<li>
 
-       <td>
+														40W/2.2Ch
 
-          "인공지능 공간인식 사운드+"
+													</li>
 
-          ,"
+												</td>
 
-             O
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>인공지능 사운드</li>
 
-          "WiSA 스피커"
+													<li>
 
-          ,"
+														인공지능 사운드
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "클리어보이스"
+												<td>
 
-          ,"
+													<li>돌비애트모스</li>
 
-             O
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-    </tr>
+												</td>
 
-    <tr>
+											
 
-       <th>스마트</th>
+											
 
-    </tr>
+												<td>
 
-    <tr>
+													<li>소리 크기 자동 맞춤</li>
 
-       <td>
+													<li>
 
-          "인공지능 ThinQ"
+														X
 
-          ,"
+													</li>
 
-             O
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "ThinQ홈보드"
+													<li>TV 사운드 공유</li>
 
-          ,"
+													<li>
 
-             O
+														O
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "구글 어시스턴트"
+											
 
-          ,"
+												<td>
 
-             O
+													<li>LG 사운드싱크(TV음원 → 사운드바(블루투스 활용))</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-       <td>
+													</li>
 
-          "Apple AirPlay2/Homekit"
+												</td>
 
-          ,"
+											
 
-             O
+											
 
-          "
+												<td>
 
-       </td>
+													<li>블루투스 사운드(모바일 음원 → TV스피커(블루투스 활용))</li>
 
-       <td>
+													<li>
 
-          "다이렉트 음성인식"
+														O
 
-          ,"
+													</li>
 
-             X
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "스마트 운영 시스템"
+													<li>블루투스 서라운드 레디</li>
 
-          ,"
+													<li>
 
-             webOS 6.0
+														O
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-    </tr>
+											
 
-    <tr>
+											
 
-       <th>부가기능</th>
+												<td>
 
-    </tr>
+													<li>인공지능 공간인식 사운드+</li>
 
-    <tr>
+													<li>
 
-       <td>
+														O
 
-          "리모컨"
+													</li>
 
-          ,"
+												</td>
 
-             인공지능 리모컨(NFC)
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>WiSA 스피커</li>
 
-          "셰어링 탭"
+													<li>
 
-          ,"
+														O
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "갤러리 모드"
+												<td>
 
-          ,"
+													<li>클리어보이스</li>
 
-             O
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "스포츠 알람"
+											
 
-          ,"
+										</tr>
 
-             O
+									
 
-          "
+								
 
-       </td>
+								
 
-       <td>
+									<tr><th>스마트</th></tr>
 
-          "Paige 야구검색"
+									
 
-          ,"
+										<tr>
 
-             O
+											
 
-          "
+												<td>
 
-       </td>
+													<li>인공지능 ThinQ</li>
 
-       <td>
+													<li>
 
-          "인공지능 맞춤검색"
+														O
 
-          ,"
+													</li>
 
-             O
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "UHD 방송 수신"
+													<li>ThinQ홈보드</li>
 
-          ,"
+													<li>
 
-             O
+														O
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "웹브라우저"
+											
 
-          ,"
+												<td>
 
-             O
+													<li>구글 어시스턴트</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-       <td>
+													</li>
 
-          "LG채널"
+												</td>
 
-          ,"
+											
 
-             O
+											
 
-          "
+												<td>
 
-       </td>
+													<li>Apple AirPlay2/Homekit</li>
 
-       <td>
+													<li>
 
-          "모바일 화면 공유(안드로이드/Apple iOS)"
+														O
 
-          ,"
+													</li>
 
-             O
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "Bluetooth"
+													<li>다이렉트 음성인식</li>
 
-          ,"
+													<li>
 
-             O
+														X
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "Wi-Fi"
+											
 
-          ,"
+												<td>
 
-             O
+													<li>스마트 운영 시스템</li>
 
-          "
+													<li>
 
-       </td>
+														webOS 6.0
 
-    </tr>
+													</li>
 
-    <tr>
+												</td>
 
-       <th>게이밍 기능</th>
+											
 
-    </tr>
+										</tr>
 
-    <tr>
+									
 
-       <td>
+								
 
-          "G-Sync Compatible"
+								
 
-          ,"
+									<tr><th>부가기능</th></tr>
 
-             X
+									
 
-          "
+										<tr>
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "FreeSync™"
+													<li>리모컨</li>
 
-          ,"
+													<li>
 
-             O
+														인공지능 리모컨(NFC)
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "VRR(Variable Refresh Rate)"
+											
 
-          ,"
+												<td>
 
-             O
+													<li>셰어링 탭</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-       <td>
+													</li>
 
-          "ALLM(Auto Low Latency Mode)"
+												</td>
 
-          ,"
+											
 
-             O
+											
 
-          "
+												<td>
 
-       </td>
+													<li>갤러리 모드</li>
 
-       <td>
+													<li>
 
-          "HGIG 모드"
+														O
 
-          ,"
+													</li>
 
-             O
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "게임 맞춤 기능"
+													<li>스포츠 알람</li>
 
-          ,"
+													<li>
 
-             O
+														O
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "게임 모드"
+											
 
-          ,"
+												<td>
 
-             O
+													<li>Paige 야구검색</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-    </tr>
+													</li>
 
-    <tr>
+												</td>
 
-       <th>입출력</th>
+											
 
-    </tr>
+											
 
-    <tr>
+												<td>
 
-       <td>
+													<li>인공지능 맞춤검색</li>
 
-          "LAN"
+													<li>
 
-          ,"
+														O
 
-             O
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "Component"
+												<td>
 
-          ,"
+													<li>UHD 방송 수신</li>
 
-             X
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "Composite In (AV)"
+											
 
-          ,"
+											
 
-             X
+												<td>
 
-          "
+													<li>웹브라우저</li>
 
-       </td>
+													<li>
 
-       <td>
+														O
 
-          "SPDIF (Optical Digital Audio Out)"
+													</li>
 
-          ,"
+												</td>
 
-             O
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>LG채널</li>
 
-          "HDMI"
+													<li>
 
-          ,"
+														O
 
-             4조
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-       <td>
+											
 
-          "USB 2.0"
+												<td>
 
-          ,"
+													<li>모바일 화면 공유(안드로이드/Apple iOS)</li>
 
-             3조
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "eARC/ARC(Audio Return Channel)"
+											
 
-          ,"
+											
 
-             eARC
+												<td>
 
-          "
+													<li>Bluetooth</li>
 
-       </td>
+													<li>
 
-       <td>
+														O
 
-          "비고"
+													</li>
 
-          ,"
+												</td>
 
-             ※ 본 제품에는 안테나 및 외부기기 연결용 케이블이 제공되지 않음<br>※ 2021년 7월 이후 생산된 제품부터는 제품 후면에 위치한 헤드폰 단자를 지원하지 않습니다.<br> 헤드폰, 이어폰 등 외부 음향기기를 연결하고자 하실 경우, 블루투스 기능을 사용해 주시기 바랍니다.
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-    </tr>
+													<li>Wi-Fi</li>
 
-    <tr>
+													<li>
 
-       <th>에너지절약</th>
+														O
 
-    </tr>
+													</li>
 
-    <tr>
+												</td>
 
-       <td>
+											
 
-          "에너지소비효율등급"
+										</tr>
 
-          ,"
+									
 
-             4등급
+								
 
-          "
+								
 
-       </td>
+									<tr><th>게이밍 기능</th></tr>
 
-       <td>
+									
 
-          "정격 소비전력"
+										<tr>
 
-          ,"
+											
 
-             360W
+												<td>
 
-          "
+													<li>G-Sync Compatible</li>
 
-       </td>
+													<li>
 
-       <td>
+														X
 
-          "일반 소비전력"
+													</li>
 
-          ,"
+												</td>
 
-             168W
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>FreeSync™</li>
 
-          "대기모드 소비전력"
+													<li>
 
-          ,"
+														O
 
-             0.5 W↓
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-    </tr>
+											
 
-    <tr>
+												<td>
 
-       <th>규격</th>
+													<li>VRR(Variable Refresh Rate)</li>
 
-    </tr>
+													<li>
 
-    <tr>
+														O
 
-       <td>
+													</li>
 
-          "스탠드 제외크기(WxHxD)"
+												</td>
 
-          ,"
+											
 
-             1,665x958x29.5mm
+											
 
-          "
+												<td>
 
-       </td>
+													<li>ALLM(Auto Low Latency Mode)</li>
 
-       <td>
+													<li>
 
-          "스탠드 포함크기(WxHxD)"
+														O
 
-          ,"
+													</li>
 
-             1,665x1,022x359mm
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "스탠드 제외무게"
+													<li>HGIG 모드</li>
 
-          ,"
+													<li>
 
-             36kg
+														O
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "스탠드 포함무게"
+											
 
-          ,"
+												<td>
 
-             37kg
+													<li>게임 맞춤 기능</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-       <td>
+													</li>
 
-          "스탠드 크기(WxD)"
+												</td>
 
-          ,"
+											
 
-             1,400x359mm ( * 2폴 스탠드의 경우 스탠드 바깥쪽부터 측정한 스탠드 사이의 길이임)
+											
 
-          "
+												<td>
 
-       </td>
+													<li>게임 모드</li>
 
-    </tr>
+													<li>
 
-    <tr>
+														O
 
-       <th>기본정보</th>
+													</li>
 
-    </tr>
+												</td>
 
-    <tr>
+											
 
-       <td>
+										</tr>
 
-          "품명 및 모델명"
+									
 
-          ,"
+								
 
-             텔레비전 수상기(75QNED90KPA)
+								
 
-          "
+									<tr><th>입출력</th></tr>
 
-       </td>
+									
 
-       <td>
+										<tr>
 
-          "전기용품 안전인증번호"
+											
 
-          ,"
+												<td>
 
-             XL090008-21344
+													<li>LAN</li>
 
-          "
+													<li>
 
-       </td>
+														O
 
-       <td>
+													</li>
 
-          "전자파 적합성 인증번호"
+												</td>
 
-          ,"
+											
 
-             R-R-LGE-75QNED90KPA
+											
 
-          "
+												<td>
 
-       </td>
+													<li>Component</li>
 
-       <td>
+													<li>
 
-          "정격전압"
+														X
 
-          ,"
+													</li>
 
-             AC 220-240 V~ 60Hz
+												</td>
 
-          "
+											
 
-       </td>
+											
 
-       <td>
+												<td>
 
-          "동일 모델의 출시년월"
+													<li>Composite In (AV)</li>
 
-          ,"
+													<li>
 
-             2021년 6월
+														X
 
-          "
+													</li>
 
-       </td>
+												</td>
 
-       <td>
+											
 
-          "제조자"
+											
 
-          ,"
+												<td>
 
-          LG전자㈜
+													<li>SPDIF (Optical Digital Audio Out)</li>
 
+													<li>
 
-          "
+														O
 
-       </td>
+													</li>
 
-       <td>
+												</td>
 
-          "제조국"
+											
 
-          ,"
+											
 
-             한국
+												<td>
 
-          "
+													<li>HDMI</li>
 
-       </td>
+													<li>
 
-       <td>
+														4조
 
-          "품질보증기준"
+													</li>
 
-          ,"
+												</td>
 
-             결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준(소비자기본법 제 16조)에 따라 보상 가능
+											
 
-          "
+											
 
-       </td>
+												<td>
 
-       <td>
+													<li>USB 2.0</li>
 
-          "A/S 책임자와 전화번호"
+													<li>
 
-          ,"
+														3조
 
-             LG서비스센터 / 1544-7777
+													</li>
 
-          "
+												</td>
 
-       </td>
+											
 
-    </tr>
+											
 
- </table>
+												<td>
+
+													<li>eARC/ARC(Audio Return Channel)</li>
+
+													<li>
+
+														eARC
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>비고</li>
+
+													<li>
+
+														※ 본 제품에는 안테나 및 외부기기 연결용 케이블이 제공되지 않음
+
+													</li>
+
+												</td>
+
+											
+
+										</tr>
+
+									
+
+								
+
+								
+
+									<tr><th>에너지절약</th></tr>
+
+									
+
+										<tr>
+
+											
+
+												<td>
+
+													<li>에너지소비효율등급</li>
+
+													<li>
+
+														4등급
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>정격 소비전력</li>
+
+													<li>
+
+														360W
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>일반 소비전력</li>
+
+													<li>
+
+														168W
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>대기모드 소비전력</li>
+
+													<li>
+
+														0.5 W↓
+
+													</li>
+
+												</td>
+
+											
+
+										</tr>
+
+									
+
+								
+
+								
+
+									<tr><th>규격</th></tr>
+
+									
+
+										<tr>
+
+											
+
+												<td>
+
+													<li>벽걸이 제외크기(WxHxD)</li>
+
+													<li>
+
+														1,665x958x29.5mm
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>벽걸이 제외무게</li>
+
+													<li>
+
+														36kg
+
+													</li>
+
+												</td>
+
+											
+
+										</tr>
+
+									
+
+								
+
+								
+
+									<tr><th>기본정보</th></tr>
+
+									
+
+										<tr>
+
+											
+
+												<td>
+
+													<li>품명 및 모델명</li>
+
+													<li>
+
+														텔레비전 수상기(75QNED90KPA)
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>전기용품 안전인증번호</li>
+
+													<li>
+
+														XL090008-21344
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>전자파 적합성 인증번호</li>
+
+													<li>
+
+														R-R-LGE-75QNED90KPA
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>정격전압</li>
+
+													<li>
+
+														AC 220-240 V~ 60Hz
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>동일 모델의 출시년월</li>
+
+													<li>
+
+														2021년 6월
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>제조자</li>
+
+													<li>
+
+														LG전자㈜
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>제조국</li>
+
+													<li>
+
+														한국
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>품질보증기준</li>
+
+													<li>
+
+														결함·하자 등에 따른 소비자피해에 대해서는 소비자분쟁해결기준(소비자기본법 제 16조)에 따라 보상 가능
+
+													</li>
+
+												</td>
+
+											
+
+											
+
+												<td>
+
+													<li>A/S 책임자와 전화번호</li>
+
+													<li>
+
+														LG서비스센터 / 1544-7777
+
+													</li>
+
+												</td>
+
+											
+
+										</tr>
+
+									
+
+								
+
+						</table>
