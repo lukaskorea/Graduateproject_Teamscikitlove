@@ -1,0 +1,144 @@
+
+        <head>
+
+
+        <style>
+
+
+      
+
+
+      table {
+
+
+      counter-reset: rowNumber;
+
+
+      }
+
+
+
+
+
+      table tr::before {
+
+
+         counter-reset: colNumber;
+
+
+
+
+
+         display: table-cell;
+
+
+         counter-increment: rowNumber;
+
+
+         content: "";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+      table tr td::before {
+
+
+         display: table-cell;
+
+
+         counter-increment: colNumber;
+
+
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+      table tr th::before {
+
+
+         display: table-cell;
+
+
+         counter-increment: colNumber;
+
+
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+
+
+
+        table {
+
+
+            font-family: arial, sans-serif;
+
+
+            border-collapse: collapse;
+
+
+            width: 100%;
+
+
+        }
+
+
+
+
+
+        td, th {
+
+
+            border: 1px solid #dddddd;
+
+
+            text-align: left;
+
+
+            padding: 8px;
+
+
+        }
+
+
+
+
+
+        </style>
+
+
+        </head>
+        <table><thead></thead><tfoot></tfoot><tbody><tr><th rowspan="2">유통 정보</th><td>제조사</td><td  colspan="1">삼성전자</td></tr><tr><td>등록일</td><td  colspan="1">2020-08</td></tr><tr><th  rowspan="16">기본 정보</th><td>상품 분류</td><td  colspan="1">스마트워치</td></tr><tr><td>상품 타입</td><td  colspan="1">-</td></tr><tr><td>데이터 통신</td><td  colspan="1">블루투스</td></tr><tr><td>블루투스 버전</td><td  colspan="1">5.0</td></tr><tr><td>운영체제</td><td  colspan="1">타이젠OS</td></tr><tr><td>화면 크기</td><td  colspan="1">1.20형(3.0cm)</td></tr><tr><td>패널 타입</td><td  colspan="1">SAMOLED</td></tr><tr><td>해상도</td><td  colspan="1">360 x 360</td></tr><tr><td>모바일AP</td><td  colspan="1">삼성 엑시노스9110</td></tr><tr><td>코어 수</td><td  colspan="1">듀얼(2) 코어</td></tr><tr><td>시스템 메모리</td><td  colspan="1">1GB</td></tr><tr><td>내장 메모리</td><td  colspan="1">8GB</td></tr><tr><td>배터리 용량</td><td  colspan="1">247mAh</td></tr><tr><td>사용시간</td><td  colspan="1">-</td></tr><tr><td>무게</td><td  colspan="1">48.2g</td></tr><tr><td>생활방수</td><td  colspan="1">지원</td></tr><tr><th  rowspan="3">연결 정보</th><td>WiFi</td><td  colspan="1">지원</td></tr><tr><td>GPS</td><td  colspan="1">지원</td></tr><tr><td>NFC</td><td  colspan="3">지원</td></tr><tr><th rowspan="2">KC 인증</th><td>적합성평가인증</td><td  colspan="1">상세설명 / 판매 사이트 문의</td></tr><tr><td>안전확인인증</td><td  colspan="1">상세설명 / 판매 사이트 문의</td></tr><thead></thead><tfoot></tfoot><tbody><tr><th rowspan="10">센서 정보</th><td>심박 센서</td><td  colspan="1">○</td></tr><tr><td>가속도 센서</td><td  colspan="1">○</td></tr><tr><td>만보기 센서</td><td  colspan="1">-</td></tr><tr><td>자이로 센서</td><td  colspan="1">○</td></tr><tr><td>기압 센서</td><td  colspan="1">○</td></tr><tr><td>자외선 센서</td><td  colspan="1">-</td></tr><tr><td>3D 터치센서</td><td  colspan="1">-</td></tr><tr><td>나침반 센서</td><td  colspan="1">-</td></tr><tr><td>조도 센서</td><td  colspan="1">-</td></tr><tr><td>모션 센서</td><td  colspan="1">-</td></tr><tr><th rowspan="12">스포츠 기능</th><td>걷기</td><td  colspan="1">○</td></tr><tr><td>달리기</td><td  colspan="1">○</td></tr><tr><td>자전거 타기</td><td  colspan="1">○</td></tr><tr><td>일립티컬</td><td  colspan="1">○</td></tr><tr><td>로잉머신</td><td  colspan="1">○</td></tr><tr><td>등산</td><td  colspan="1">○</td></tr><tr><td>승마</td><td  colspan="1">-</td></tr><tr><td>수영</td><td  colspan="1">○</td></tr><tr><td>스키</td><td  colspan="1">-</td></tr><tr><td>골프</td><td  colspan="1">-</td></tr><tr><td>요가</td><td  colspan="1">○</td></tr><tr><td>방수/방진</td><td  colspan="1">IP68</td></tr><tr><th rowspan="9">건강 기능</th><td>보행 수(만보기)</td><td  colspan="1">○</td></tr><tr><td>이동 거리</td><td  colspan="1">○</td></tr><tr><td>칼로리</td><td  colspan="1">○</td></tr><tr><td>심박측정</td><td  colspan="1">○</td></tr><tr><td>혈압체크</td><td  colspan="1">○</td></tr><tr><td>운동량</td><td  colspan="1">○</td></tr><tr><td>체온</td><td  colspan="1">-</td></tr><tr><td>활동시간</td><td  colspan="1">○</td></tr><tr><td>수면정보</td><td  colspan="3">○</td></tr><tr><th rowspan="12">부가 기능</th><td>진동 알림</td><td  colspan="1">○</td></tr><tr><td>통화 기능</td><td  colspan="1">○</td></tr><tr><td>음악컨트롤</td><td  colspan="1">○</td></tr><tr><td>스피커</td><td  colspan="1">○</td></tr><tr><td>마이크</td><td  colspan="1">○</td></tr><tr><td>SNS 알림</td><td  colspan="1">○</td></tr><tr><td>카메라 촬영</td><td  colspan="1">-</td></tr><tr><td>분실방지</td><td  colspan="1">-</td></tr><tr><td>전자결제</td><td  colspan="1">-</td></tr><tr><td>알람 시계</td><td  colspan="1">-</td></tr><tr><td>전용 APP</td><td  colspan="3">-</td></tr></tbody></table>

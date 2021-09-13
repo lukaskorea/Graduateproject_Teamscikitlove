@@ -1,0 +1,144 @@
+
+        <head>
+
+
+        <style>
+
+
+      
+
+
+      table {
+
+
+      counter-reset: rowNumber;
+
+
+      }
+
+
+
+
+
+      table tr::before {
+
+
+         counter-reset: colNumber;
+
+
+
+
+
+         display: table-cell;
+
+
+         counter-increment: rowNumber;
+
+
+         content: "";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+      table tr td::before {
+
+
+         display: table-cell;
+
+
+         counter-increment: colNumber;
+
+
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+      table tr th::before {
+
+
+         display: table-cell;
+
+
+         counter-increment: colNumber;
+
+
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+
+
+         padding-right: 0.3em;
+
+
+         text-align: right;
+
+
+      }
+
+
+
+
+
+
+
+
+        table {
+
+
+            font-family: arial, sans-serif;
+
+
+            border-collapse: collapse;
+
+
+            width: 100%;
+
+
+        }
+
+
+
+
+
+        td, th {
+
+
+            border: 1px solid #dddddd;
+
+
+            text-align: left;
+
+
+            padding: 8px;
+
+
+        }
+
+
+
+
+
+        </style>
+
+
+        </head>
+        <table><thead></thead><tfoot></tfoot><tbody><tr><th rowspan="2">유통 정보</th><td>제조사</td><td  colspan="1">디알고</td></tr><tr><td>등록일</td><td  colspan="1">2021-08</td></tr><tr><th  rowspan="7">기본 정보</th><td>유선/무선 구분</td><td  colspan="1">TWS</td></tr><tr><td>유닛형태</td><td  colspan="1">커널형</td></tr><tr><td>플러그 형태</td><td  colspan="1">-</td></tr><tr><td>용도</td><td  colspan="1">게임용 / BJ용</td></tr><tr><td>BA 유닛수</td><td  colspan="1">-</td></tr><tr><td>재생시간</td><td  colspan="1">5시간</td></tr><tr><td>유닛갯수</td><td  colspan="3">-</td></tr><tr><th  rowspan="2">KC 인증</th><td>적합성평가인증</td><td  colspan="1">상세설명 / 판매 사이트 문의</td></tr><tr><td>안전확인인증</td><td  colspan="1">상세설명 / 판매 사이트 문의</td></tr><thead></thead><tfoot></tfoot><tbody><tr><th rowspan="2">연결 방식</th><td>USB Type-C</td><td  colspan="1">○</td></tr><tr><td>USB타입 C</td><td  colspan="1">-</td></tr><tr><th rowspan="6">무선 연결</th><td>블루투스</td><td  colspan="1">○</td></tr><tr><td>NFC</td><td  colspan="1">-</td></tr><tr><td>2.4GHz</td><td  colspan="1">-</td></tr><tr><td>2.5GHz</td><td  colspan="1">-</td></tr><tr><td>5GHz</td><td  colspan="1">-</td></tr><tr><td>무선 연결거리</td><td  colspan="1">10m</td></tr><tr><th  rowspan="12">음향/음장</th><td>A2DP</td><td  colspan="1">-</td></tr><tr><td>AAC</td><td  colspan="1">○</td></tr><tr><td>aptX</td><td  colspan="1">-</td></tr><tr><td>aptX Adaptive</td><td  colspan="1">-</td></tr><tr><td>aptX HD</td><td  colspan="1">-</td></tr><tr><td>aptX LL</td><td  colspan="1">-</td></tr><tr><td>AVRCP</td><td  colspan="1">-</td></tr><tr><td>DI</td><td  colspan="1">-</td></tr><tr><td>HFP</td><td  colspan="1">-</td></tr><tr><td>HSP</td><td  colspan="1">-</td></tr><tr><td>LDAC</td><td  colspan="1">-</td></tr><tr><td>SBC</td><td  colspan="1">○</td></tr><tr><th  rowspan="11">규격</th><td>케이블 길이</td><td  colspan="1">-</td></tr><tr><td>무게</td><td  colspan="1">-</td></tr><tr><td>음압감도</td><td  colspan="1">-</td></tr><tr><td>저항(임피던스)</td><td  colspan="1">-</td></tr><tr><td>주파수</td><td  colspan="1">-</td></tr><tr><td>대기 시간</td><td  colspan="1">-</td></tr><tr><td>통화가능 시간</td><td  colspan="1">-</td></tr><tr><td>멀티 포인트</td><td  colspan="1">-</td></tr><tr><td>멀티 페어링</td><td  colspan="1">-</td></tr><tr><td>충전 시간</td><td  colspan="1">1시간 30분</td></tr><tr><td>배터리 용량</td><td  colspan="3">50mAh</td></tr><tr><th rowspan="6">형태/특징</th><td>착용 형태</td><td  colspan="1">TWS</td></tr><tr><td>방수 등급</td><td  colspan="1">-</td></tr><tr><td>유닛 개수</td><td  colspan="1">-</td></tr><tr><td>마이크 특징</td><td  colspan="1">-</td></tr><tr><td>무선충전</td><td  colspan="1">-</td></tr><tr><td>내장메모리</td><td  colspan="1">-</td></tr><tr><th rowspan="14">형태/특징</th><td>HRA 인증</td><td  colspan="1">-</td></tr><tr><td>액티브 노이즈캔슬링</td><td  colspan="1">-</td></tr><tr><td>DAC 내장</td><td  colspan="1">-</td></tr><tr><td>CVC 6.0</td><td  colspan="1">-</td></tr><tr><td>CVC 8.0</td><td  colspan="1">-</td></tr><tr><td>마이크 노이즈캔슬링</td><td  colspan="1">-</td></tr><tr><td>볼륨제한 (85dB)</td><td  colspan="1">-</td></tr><tr><td>돌비 사운드</td><td  colspan="1">-</td></tr><tr><td>돌비 디지털</td><td  colspan="1">-</td></tr><tr><td>돌비 프로로직 Ⅱ</td><td  colspan="1">-</td></tr><tr><td>DTS</td><td  colspan="1">-</td></tr><tr><td>외부소음</td><td  colspan="1">-</td></tr><tr><td>Bass Boost</td><td  colspan="1">-</td></tr><tr><td>가상 서라운드</td><td  colspan="1">-</td></tr><tr><th  rowspan="1">케이스</th><td>케이스 배터리 용량</td><td  colspan="3">500mAh</td></tr></tbody></table>
