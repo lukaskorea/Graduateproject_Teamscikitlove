@@ -1,790 +1,583 @@
-<head>
-        <style>
-      
-      table {
-      counter-reset: rowNumber;
-      }
-
-      table tr::before {
-         counter-reset: colNumber;
-
-         display: table-cell;
-         counter-increment: rowNumber;
-         content: "";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-      table tr td::before {
-         display: table-cell;
-         counter-increment: colNumber;
-         content: "(" counter(rowNumber) "," counter(colNumber) ")";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-      table tr th::before {
-         display: table-cell;
-         counter-increment: colNumber;
-         content: "(" counter(rowNumber) ","counter(colNumber) ")";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        </style>
-        </head>
-<table class="comp_table pop_fix_table fix_table_data">
-									<caption>상품 기본 정보</caption>
-									<tbody>
-										<tr>
-											<th scope="row"><div class="th_name">이미지</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('14771072/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/072/771/img/14771072_1.jpg?shrink=130:130" alt=" PBE-SE01" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display:none">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '14771072', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('7658086/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/086/658/img/7658086_1.jpg?shrink=130:130" alt=" 에어팟 2세대 무선충전 MRXJ2KH/A (정품)" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display:none">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '7658086', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('14221673/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/673/221/img/14221673_1.jpg?shrink=130:130" alt=" Reflect Mini NC (정품)" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display: none;">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '14221673', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">제조사/브랜드</div></th>
-																							<td>
-													<div class="item_wrap">
-														플레오맥스													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														APPLE													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														JBL													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">상품명</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name"> PBE-SE01</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name"> 에어팟 2세대 무선충전 MRXJ2KH/A (정품)</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name"> Reflect Mini NC (정품)</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">최저가격</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">18,720</span>원
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">195,920</span>원
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">119,000</span>원
-														</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">등록년월</div></th>
-																							<td>
-													<div class="item_wrap">
-														2021.07													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														2019.04													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														2021.04													</div>
-												</td>
-																					</tr>
-				
-																			<tr>
-											<th scope="row"><div class="th_name">유/무선 구분</div></th>
-																						<td>
-												<div class="item_wrap">
-													무선												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													무선												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													무선												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">용도</div></th>
-																						<td>
-												<div class="item_wrap">
-													음악+통화용												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													음악+통화용												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													음악+통화용												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">형태</div></th>
-																						<td>
-												<div class="item_wrap">
-													백헤드형												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													코드리스												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													코드리스												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">유닛형태</div></th>
-																						<td>
-												<div class="item_wrap">
-													골전도형												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													오픈형												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													커널형												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">블루투스</div></th>
-																						<td>
-												<div class="item_wrap">
-													블루투스 v5.0												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													블루투스 v5.0												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													블루투스 v5.1												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">무선연결거리</div></th>
-																						<td>
-												<div class="item_wrap">
-													10m												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">배터리용량</div></th>
-																						<td>
-												<div class="item_wrap">
-													110mAh												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													50mAh												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">재생시간</div></th>
-																						<td>
-												<div class="item_wrap">
-													8시간												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													5시간												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													7시간												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">충전시간</div></th>
-																						<td>
-												<div class="item_wrap">
-													1.5시간												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													2시간												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">충전단자</div></th>
-																						<td>
-												<div class="item_wrap">
-													micro5핀												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													라이트닝<br>무선충전												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">방수</div></th>
-																						<td>
-												<div class="item_wrap">
-													생활방수												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													IPX7방수												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">무게</div></th>
-																						<td>
-												<div class="item_wrap">
-													무게:15g												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													무게:4g												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													무게:6.9g												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">유닛갯수</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													스테레오												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													모노 + 스테레오												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">지원</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													SBC<br>AAC<br>A2DP												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													HFP<br>AVRCP<br>A2DP												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">Apple 특징</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													H1칩셋												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">통화시간</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													3시간												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">마이크특징</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													빔포밍마이크												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">음성인식플랫폼</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													Siri												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													구글 어시스턴트												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">케이스무게</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													40g												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													45.4g												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">임피던스</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													16Ω												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">음압</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													97dB												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">주파수</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													20Hz~20kHz												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">사운드기능</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													액티브노이즈캔슬링<br>주변소음듣기<br>노이즈캔슬링 마이크												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">케이스배터리용량</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													300mAh												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">케이스충전횟수</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													2회												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">방수용도</div></th>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													비.물놀이용												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">판매몰 수</div></th>
-																							<td>
-													<div class="item_wrap">
-														207													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														70													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														14													</div>
-												</td>
-																					</tr>
-										<tr><th scope="row" rowspan="2"><div class="th_name">최저가몰</div></th>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14771072&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=3696793055&amp;package=0&amp;setpc=0&amp;r=16278888333526" class="mall_link" target="_blank">
-								<div class="mall_name">11번가</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">18,720</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14771072&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2176791492&amp;package=0&amp;setpc=0&amp;r=16278888339371" class="mall_link" target="_blank">
-								<div class="mall_name">G마켓</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">18,740</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14771072&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=C387999195&amp;package=0&amp;setpc=0&amp;r=16278888331615" class="mall_link" target="_blank">
-								<div class="mall_name">옥션</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">18,740</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14771072&amp;cmpnyc=EE309&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=LO1537220698&amp;package=0&amp;setpc=0&amp;r=16278888336278" class="mall_link" target="_blank">
-								<div class="mall_name">롯데ON</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">19,800</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14771072&amp;cmpnyc=ED901&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1000154643398&amp;package=0&amp;setpc=0&amp;r=16278888335265" class="mall_link" target="_blank">
-								<div class="mall_name">신세계몰</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">19,800</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=7658086&amp;cmpnyc=TN729&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1744914165_1744914165&amp;package=0&amp;setpc=0&amp;r=16278888339386" class="mall_link" target="_blank">
-								<div class="mall_name">위메프</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">195,920</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=7658086&amp;cmpnyc=TP40F&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=I625994316&amp;package=0&amp;setpc=0&amp;r=16278888336287" class="mall_link" target="_blank">
-								<div class="mall_name">쿠팡</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">195,920</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=7658086&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2412351428&amp;package=0&amp;setpc=0&amp;r=16278888335234" class="mall_link" target="_blank">
-								<div class="mall_name">11번가</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">196,900</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=7658086&amp;cmpnyc=TN118&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1000033977848&amp;package=0&amp;setpc=0&amp;r=16278888338593" class="mall_link" target="_blank">
-								<div class="mall_name">SSG.COM</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">199,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=7658086&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1723505906&amp;package=0&amp;setpc=0&amp;r=16278888336688" class="mall_link" target="_blank">
-								<div class="mall_name">G마켓</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">199,750</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14221673&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2107483470&amp;package=0&amp;setpc=0&amp;r=16278888338220" class="mall_link" target="_blank">
-								<div class="mall_name">G마켓</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">119,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14221673&amp;cmpnyc=TT1341&amp;safe_trade=4&amp;fee_type=N&amp;link_pcode=5462937676&amp;package=0&amp;setpc=0&amp;r=16278888336850" class="mall_link" target="_blank">
-								<div class="mall_name">삼성JBL온라인..</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">119,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14221673&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=C338282864&amp;package=0&amp;setpc=0&amp;r=16278888339677" class="mall_link" target="_blank">
-								<div class="mall_name">옥션</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">119,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14221673&amp;cmpnyc=EE309&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=LO1482609681&amp;package=0&amp;setpc=0&amp;r=16278888338248" class="mall_link" target="_blank">
-								<div class="mall_name">롯데ON</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">119,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=224&amp;cate2=49729&amp;cate3=49740&amp;cate4=0&amp;pcode=14221673&amp;cmpnyc=TN118&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1000063951343&amp;package=0&amp;setpc=0&amp;r=16278888338321" class="mall_link" target="_blank">
-								<div class="mall_name">SSG.COM</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">129,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-</tr>
-										<tr>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('14771072/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('7658086/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('14221673/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																					</tr>
-									</tbody>
+<head>
+        <style>
+      
+      table {
+      counter-reset: rowNumber;
+      }
+
+      table tr::before {
+         counter-reset: colNumber;
+
+         display: table-cell;
+         counter-increment: rowNumber;
+         content: "";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr td::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr th::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        </style>
+        </head>
+<table>
+									<caption>상품 기본 정보</caption>
+									<tbody>
+										<tr>
+											<th><div>이미지</div></th>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('14771072/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/072/771/img/14771072_1.jpg?shrink=130:130" alt=" PBE-SE01" class="thumb_img">
+															</a>
+															<div class="thumb_opt" style="display:none">
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '14771072', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('7658086/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/086/658/img/7658086_1.jpg?shrink=130:130" alt=" 에어팟 2세대 무선충전 MRXJ2KH/A (정품)" class="thumb_img">
+															</a>
+															<div class="thumb_opt" style="display:none">
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '7658086', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('14221673/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/673/221/img/14221673_1.jpg?shrink=130:130" alt=" Reflect Mini NC (정품)" class="thumb_img">
+															</a>
+															<div>
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '14221673', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>제조사/브랜드</div></th>
+																							<td>
+													<div>
+														플레오맥스													</div>
+												</td>
+																							<td>
+													<div>
+														APPLE													</div>
+												</td>
+																							<td>
+													<div>
+														JBL													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>상품명</div></th>
+																							<td>
+													<div>
+														<div> PBE-SE01</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div> MRXJ2KH/A</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div> Reflect Mini NC</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>최저가격</div></th>
+																							<td>
+													<div>
+														<div>
+															<span class="num">18,720</span>원
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<span class="num">195,920</span>원
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<span class="num">119,000</span>원
+														</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>등록년월</div></th>
+																							<td>
+													<div>
+														2021.07													</div>
+												</td>
+																							<td>
+													<div>
+														2019.04													</div>
+												</td>
+																							<td>
+													<div>
+														2021.04													</div>
+												</td>
+																					</tr>
+				
+																			<tr>
+											<th><div>유/무선 구분</div></th>
+																						<td>
+												<div>
+													무선												</div>
+											</td>
+																						<td>
+												<div>
+													무선												</div>
+											</td>
+																						<td>
+												<div>
+													무선												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>용도</div></th>
+																						<td>
+												<div>
+													음악+통화용												</div>
+											</td>
+																						<td>
+												<div>
+													음악+통화용												</div>
+											</td>
+																						<td>
+												<div>
+													음악+통화용												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>형태</div></th>
+																						<td>
+												<div>
+													백헤드형												</div>
+											</td>
+																						<td>
+												<div>
+													코드리스												</div>
+											</td>
+																						<td>
+												<div>
+													코드리스												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>유닛형태</div></th>
+																						<td>
+												<div>
+													골전도형												</div>
+											</td>
+																						<td>
+												<div>
+													오픈형												</div>
+											</td>
+																						<td>
+												<div>
+													커널형												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>블루투스</div></th>
+																						<td>
+												<div>
+													블루투스 v5.0												</div>
+											</td>
+																						<td>
+												<div>
+													블루투스 v5.0												</div>
+											</td>
+																						<td>
+												<div>
+													블루투스 v5.1												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>무선연결거리</div></th>
+																						<td>
+												<div>
+													10m												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>배터리용량</div></th>
+																						<td>
+												<div>
+													110mAh												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													50mAh												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>재생시간</div></th>
+																						<td>
+												<div>
+													8시간												</div>
+											</td>
+																						<td>
+												<div>
+													5시간												</div>
+											</td>
+																						<td>
+												<div>
+													7시간												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>충전시간</div></th>
+																						<td>
+												<div>
+													1.5시간												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													2시간												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>충전단자</div></th>
+																						<td>
+												<div>
+													micro5핀												</div>
+											</td>
+																						<td>
+												<div>
+													라이트닝<br>무선충전												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>방수</div></th>
+																						<td>
+												<div>
+													생활방수												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													IPX7방수												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>무게</div></th>
+																						<td>
+												<div>
+													무게:15g												</div>
+											</td>
+																						<td>
+												<div>
+													무게:4g												</div>
+											</td>
+																						<td>
+												<div>
+													무게:6.9g												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>유닛갯수</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													스테레오												</div>
+											</td>
+																						<td>
+												<div>
+													모노 + 스테레오												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>지원</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													SBC<br>AAC<br>A2DP												</div>
+											</td>
+																						<td>
+												<div>
+													HFP<br>AVRCP<br>A2DP												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>Apple 특징</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													H1칩셋												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>통화시간</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													3시간												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>마이크특징</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													빔포밍마이크												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>음성인식플랫폼</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													Siri												</div>
+											</td>
+																						<td>
+												<div>
+													구글 어시스턴트												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>케이스무게</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													40g												</div>
+											</td>
+																						<td>
+												<div>
+													45.4g												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>임피던스</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													16Ω												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>음압</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													97dB												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>주파수</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													20Hz~20kHz												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>사운드기능</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													액티브노이즈캔슬링<br>주변소음듣기<br>노이즈캔슬링 마이크												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>케이스배터리용량</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													300mAh												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>케이스충전횟수</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													2회												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>방수용도</div></th>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													비.물놀이용												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>판매몰 수</div></th>
+																							<td>
+													<div>
+														207													</div>
+												</td>
+																							<td>
+													<div>
+														70													</div>
+												</td>
+																							<td>
+													<div>
+														14													</div>
+												</td>
+																					</tr>
+										
+									</tbody>
 								</table>

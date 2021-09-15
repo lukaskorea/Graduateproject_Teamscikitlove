@@ -1,656 +1,493 @@
-        <head>
-        <style>
-      
-      table {
-      counter-reset: rowNumber;
-      }
-
-      table tr::before {
-         counter-reset: colNumber;
-
-         display: table-cell;
-         counter-increment: rowNumber;
-         content: "";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-      table tr td::before {
-         display: table-cell;
-         counter-increment: colNumber;
-         content: "(" counter(rowNumber) "," counter(colNumber) ")";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-      table tr th::before {
-         display: table-cell;
-         counter-increment: colNumber;
-         content: "(" counter(rowNumber) ","counter(colNumber) ")";
-         padding-right: 0.3em;
-         text-align: right;
-      }
-
-
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        </style>
-        </head>
-<table class="comp_table pop_fix_table fix_table_data">
-									
-									<tbody>
-										<tr>
-											<th scope="row"><div class="th_name">이미지</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('7300351/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/351/300/img/7300351_1.jpg?shrink=130:130" alt=" 갤럭시 핏e (일반구매)" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display:none">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '7300351', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('13341143/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/143/341/img/13341143_1.jpg?shrink=130:130" alt=" SL1 (일반구매)" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display:none">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '13341143', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="thumb_info thumb_show_opt">
-															<a href="javascript:pBlog('12436016/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-																<img src="//img.danawa.com/prod_img/500000/016/436/img/12436016_1.jpg?shrink=130:130" alt="어메이즈핏 밴드5 (일반구매)" class="thumb_img">
-															</a>
-															<div class="thumb_opt" style="display:none">
-																<ul class="thumb_opt_list">
-																	<li class="opt_item">
-																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '12436016', 'list_compare_popup');">관심상품</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">제조사/브랜드</div></th>
-																							<td>
-													<div class="item_wrap">
-														삼성전자													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														스트로만													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														샤오미 화미													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">상품명</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name"> 갤럭시 핏e (일반구매)</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name"> SL1 (일반구매)</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_name">어메이즈핏 밴드5 (일반구매)</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">최저가격</div></th>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">118,410</span>원
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">25,900</span>원
-														</div>
-													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														<div class="prod_price">
-															<span class="num">49,400</span>원
-														</div>
-													</div>
-												</td>
-																					</tr>
-										<tr>
-											<th scope="row"><div class="th_name">등록년월</div></th>
-																							<td>
-													<div class="item_wrap">
-														2019.05													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														2021.02													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														2020.10													</div>
-												</td>
-																					</tr>
-
-																			<tr>
-											<th scope="row"><div class="th_name">분류</div></th>
-																						<td>
-												<div class="item_wrap">
-													스마트밴드												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													스마트밴드												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													스마트밴드												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">스마트밴드종류</div></th>
-																						<td>
-												<div class="item_wrap">
-													갤럭시핏												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													어메이즈핏												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">운영체제</div></th>
-																						<td>
-												<div class="item_wrap">
-													리얼타임OS												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													기타OS												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">안드로이드OS</div></th>
-																						<td>
-												<div class="item_wrap">
-													v5.0 이상												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v4.4 이상												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v5.0 이상												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">iOS</div></th>
-																						<td>
-												<div class="item_wrap">
-													v9.0 이상												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v8.0 이상												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v10.0 이상												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">모양</div></th>
-																						<td>
-												<div class="item_wrap">
-													사각형												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													사각형												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													사각형												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">패널종류</div></th>
-																						<td>
-												<div class="item_wrap">
-													PMOLED												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													AMOLED												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">화면크기</div></th>
-																						<td>
-												<div class="item_wrap">
-													1.88cm(0.74인치)												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													2.43cm(0.96인치)												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													2.79cm(1.10인치)												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">해상도</div></th>
-																						<td>
-												<div class="item_wrap">
-													~128												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													294x126												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">시스템램</div></th>
-																						<td>
-												<div class="item_wrap">
-													램 : 128KB												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">운동/스포츠</div></th>
-																						<td>
-												<div class="item_wrap">
-													운동량<br>속도<br>이동거리<br>페이스<br>활동시간<br>날씨<br>걷기<br>달리기<br>보행수												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													운동량<br>이동거리<br>페이스<br>날씨<br>걷기<br>달리기<br>보행수												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													운동량<br>속도<br>이동거리<br>페이스<br>활동시간<br>자전거타기<br>수영<br>날씨<br>로잉머신<br>걷기<br>달리기<br>보행수<br>요가<br>고도												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">건강진단</div></th>
-																						<td>
-												<div class="item_wrap">
-													칼로리<br>수면정보<br>심박측정												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													칼로리<br>수면정보<br>심박측정<br>혈중산소												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													칼로리<br>수면정보<br>심박측정<br>여성 건강 모니터링<br>혈중산소												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">[연결]</div></th>
-																						<td>
-												<div class="item_wrap">
-													[연결]												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													[연결]												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													[연결]												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">연결</div></th>
-																						<td>
-												<div class="item_wrap">
-													블루투스												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													블루투스<br>GPS												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													블루투스												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">블루투스버전</div></th>
-																						<td>
-												<div class="item_wrap">
-													v5.0												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v4.2												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													v5.0												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">부가기능</div></th>
-																						<td>
-												<div class="item_wrap">
-													SNS알림<br>메세지알림<br>전화알림<br>진동												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													SNS알림<br>메세지알림<br>전화알림												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													SNS알림<br>음악콘트롤<br>메세지알림<br>전화알림<br>진동												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">배터리</div></th>
-																						<td>
-												<div class="item_wrap">
-													70mAh												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													85mAh												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													125mAh												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">사용시간</div></th>
-																						<td>
-												<div class="item_wrap">
-													평균사용:7일 이하												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													평균사용:7일 이하												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													평균사용:15일												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">헬스케어(UI옵션)</div></th>
-																						<td>
-												<div class="item_wrap">
-													심박												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													심박<br>혈중산소												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													심박<br>혈중산소												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">무게(본체)</div></th>
-																						<td>
-												<div class="item_wrap">
-													15g												</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-																									</div>
-											</td>
-																						<td>
-												<div class="item_wrap">
-													12g												</div>
-											</td>
-																					</tr>
-																			<tr>
-											<th scope="row"><div class="th_name">판매몰 수</div></th>
-																							<td>
-													<div class="item_wrap">
-														4													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														9													</div>
-												</td>
-																							<td>
-													<div class="item_wrap">
-														3													</div>
-												</td>
-																					</tr>
-										<tr><th scope="row" rowspan="2"><div class="th_name">최저가몰</div></th>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=7300351&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2938406349&amp;package=0&amp;setpc=0&amp;r=16290094842239" class="mall_link" target="_blank">
-								<div class="mall_name">11번가</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">118,410</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=7300351&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1824043500&amp;package=0&amp;setpc=0&amp;r=16290094845835" class="mall_link" target="_blank">
-								<div class="mall_name">G마켓</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">118,460</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=7300351&amp;cmpnyc=ED910&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=7252525602&amp;package=0&amp;setpc=0&amp;r=16290094846350" class="mall_link" target="_blank">
-								<div class="mall_name">인터파크</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">123,370</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=13341143&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=C295783999&amp;package=0&amp;setpc=0&amp;r=16290094842854" class="mall_link" target="_blank">
-								<div class="mall_name">옥션</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">25,900</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=13341143&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2050215837&amp;package=0&amp;setpc=0&amp;r=16290094847678" class="mall_link" target="_blank">
-								<div class="mall_name">G마켓</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">25,900</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=13341143&amp;cmpnyc=TP40F&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=P5073050578&amp;package=0&amp;setpc=0&amp;r=16290094844330" class="mall_link" target="_blank">
-								<div class="mall_name">쿠팡</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">28,000</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=13341143&amp;cmpnyc=TT232C&amp;safe_trade=4&amp;fee_type=N&amp;link_pcode=5344763232&amp;package=0&amp;setpc=0&amp;r=16290094849330" class="mall_link" target="_blank">
-								<div class="mall_name">까까쇼핑</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">29,900</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=13341143&amp;cmpnyc=ED910&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=8193438650&amp;package=0&amp;setpc=0&amp;r=16290094849920" class="mall_link" target="_blank">
-								<div class="mall_name">인터파크</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">37,020</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-	<td class="td_mall_list">
-		<div class="item_wrap">
-			<ul class="mall_list">
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=12436016&amp;cmpnyc=TN729&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=1370689050_1370689050&amp;package=0&amp;setpc=0&amp;r=16290094843545" class="mall_link" target="_blank">
-								<div class="mall_name">위메프</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">49,400</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=12436016&amp;cmpnyc=ED907&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=2120659119&amp;package=0&amp;setpc=0&amp;r=16290094845727" class="mall_link" target="_blank">
-								<div class="mall_name">현대Hmall</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">49,400</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-										<li class="mall_item">
-							<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=1824&amp;cate2=15247&amp;cate3=221464&amp;cate4=0&amp;pcode=12436016&amp;cmpnyc=TO1163&amp;safe_trade=4&amp;fee_type=T&amp;link_pcode=G2010081347_0819&amp;package=0&amp;setpc=0&amp;r=16290094842737" class="mall_link" target="_blank">
-								<div class="mall_name">아이나비 온..</div>
-								<div class="mall_price prod_price_set">
-									<dl class="low_price">
-										<dt class="screen_out">판매가</dt>
-										<dd><span class="num">49,400</span>원</dd>
-									</dl>
-								</div>
-							</a>
-						</li>
-							</ul>
-		</div>
-	</td>
-</tr>
-										<tr>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('7300351/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('13341143/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																							<td class="td_mall_link">
-													<div class="item_wrap">
-														<a href="javascript:pBlog('12436016/C');" class="btn_comp_tiny btn_view_malls" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
-															<span>상품 더보기</span>
-														</a>
-													</div>
-												</td>
-																					</tr>
-									</tbody>
+        <head>
+        <style>
+      
+      table {
+      counter-reset: rowNumber;
+      }
+
+      table tr::before {
+         counter-reset: colNumber;
+
+         display: table-cell;
+         counter-increment: rowNumber;
+         content: "";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr td::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) "," counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+      table tr th::before {
+         display: table-cell;
+         counter-increment: colNumber;
+         content: "(" counter(rowNumber) ","counter(colNumber) ")";
+         padding-right: 0.3em;
+         text-align: right;
+      }
+
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        </style>
+        </head>
+<table>
+									
+									<tbody>
+										<tr>
+											<th><div>이미지</div></th>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('7300351/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/351/300/img/7300351_1.jpg?shrink=130:130" alt=" 갤럭시 핏e (일반구매)" class="thumb_img">
+															</a>
+															<div class="thumb_opt" style="display:none">
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '7300351', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('13341143/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/143/341/img/13341143_1.jpg?shrink=130:130" alt=" SL1 (일반구매)" class="thumb_img">
+															</a>
+															<div class="thumb_opt" style="display:none">
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '13341143', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<a href="javascript:pBlog('12436016/C');" class="thumb_link" onmousedown="_trkEventLog('15상품리스트_비교_상세화면_상품클릭');">
+																<img src="//img.danawa.com/prod_img/500000/016/436/img/12436016_1.jpg?shrink=130:130" alt="어메이즈핏 밴드5 (일반구매)" class="thumb_img">
+															</a>
+															<div class="thumb_opt" style="display:none">
+																<ul>
+																	<li>
+																		<a href="#" class="opt_link" onclick="javascript:$.danawaAddProductToWishList(this, '12436016', 'list_compare_popup');">관심상품</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>제조사/브랜드</div></th>
+																							<td>
+													<div>
+														삼성전자													</div>
+												</td>
+																							<td>
+													<div>
+														스트로만													</div>
+												</td>
+																							<td>
+													<div>
+														샤오미 화미													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>상품명</div></th>
+																							<td>
+													<div>
+														<div> 갤럭시 핏e</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div> SL1</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>어메이즈핏 밴드5</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>최저가격</div></th>
+																							<td>
+													<div>
+														<div>
+															<span class="num">118,410</span>원
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<span class="num">25,900</span>원
+														</div>
+													</div>
+												</td>
+																							<td>
+													<div>
+														<div>
+															<span class="num">49,400</span>원
+														</div>
+													</div>
+												</td>
+																					</tr>
+										<tr>
+											<th><div>등록년월</div></th>
+																							<td>
+													<div>
+														2019.05													</div>
+												</td>
+																							<td>
+													<div>
+														2021.02													</div>
+												</td>
+																							<td>
+													<div>
+														2020.10													</div>
+												</td>
+																					</tr>
+
+																			<tr>
+											<th><div>분류</div></th>
+																						<td>
+												<div>
+													스마트밴드												</div>
+											</td>
+																						<td>
+												<div>
+													스마트밴드												</div>
+											</td>
+																						<td>
+												<div>
+													스마트밴드												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>스마트밴드종류</div></th>
+																						<td>
+												<div>
+													갤럭시핏												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													어메이즈핏												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>운영체제</div></th>
+																						<td>
+												<div>
+													리얼타임OS												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													기타OS												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>안드로이드OS</div></th>
+																						<td>
+												<div>
+													v5.0 이상												</div>
+											</td>
+																						<td>
+												<div>
+													v4.4 이상												</div>
+											</td>
+																						<td>
+												<div>
+													v5.0 이상												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>iOS</div></th>
+																						<td>
+												<div>
+													v9.0 이상												</div>
+											</td>
+																						<td>
+												<div>
+													v8.0 이상												</div>
+											</td>
+																						<td>
+												<div>
+													v10.0 이상												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>모양</div></th>
+																						<td>
+												<div>
+													사각형												</div>
+											</td>
+																						<td>
+												<div>
+													사각형												</div>
+											</td>
+																						<td>
+												<div>
+													사각형												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>패널종류</div></th>
+																						<td>
+												<div>
+													PMOLED												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													AMOLED												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>화면크기</div></th>
+																						<td>
+												<div>
+													1.88cm(0.74인치)												</div>
+											</td>
+																						<td>
+												<div>
+													2.43cm(0.96인치)												</div>
+											</td>
+																						<td>
+												<div>
+													2.79cm(1.10인치)												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>해상도</div></th>
+																						<td>
+												<div>
+													~128												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													294x126												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>시스템램</div></th>
+																						<td>
+												<div>
+													램 : 128KB												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>운동/스포츠</div></th>
+																						<td>
+												<div>
+													운동량<br>속도<br>이동거리<br>페이스<br>활동시간<br>날씨<br>걷기<br>달리기<br>보행수												</div>
+											</td>
+																						<td>
+												<div>
+													운동량<br>이동거리<br>페이스<br>날씨<br>걷기<br>달리기<br>보행수												</div>
+											</td>
+																						<td>
+												<div>
+													운동량<br>속도<br>이동거리<br>페이스<br>활동시간<br>자전거타기<br>수영<br>날씨<br>로잉머신<br>걷기<br>달리기<br>보행수<br>요가<br>고도												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>건강진단</div></th>
+																						<td>
+												<div>
+													칼로리<br>수면정보<br>심박측정												</div>
+											</td>
+																						<td>
+												<div>
+													칼로리<br>수면정보<br>심박측정<br>혈중산소												</div>
+											</td>
+																						<td>
+												<div>
+													칼로리<br>수면정보<br>심박측정<br>여성 건강 모니터링<br>혈중산소												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>[연결]</div></th>
+																						<td>
+												<div>
+													[연결]												</div>
+											</td>
+																						<td>
+												<div>
+													[연결]												</div>
+											</td>
+																						<td>
+												<div>
+													[연결]												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>연결</div></th>
+																						<td>
+												<div>
+													블루투스												</div>
+											</td>
+																						<td>
+												<div>
+													블루투스<br>GPS												</div>
+											</td>
+																						<td>
+												<div>
+													블루투스												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>블루투스버전</div></th>
+																						<td>
+												<div>
+													v5.0												</div>
+											</td>
+																						<td>
+												<div>
+													v4.2												</div>
+											</td>
+																						<td>
+												<div>
+													v5.0												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>부가기능</div></th>
+																						<td>
+												<div>
+													SNS알림<br>메세지알림<br>전화알림<br>진동												</div>
+											</td>
+																						<td>
+												<div>
+													SNS알림<br>메세지알림<br>전화알림												</div>
+											</td>
+																						<td>
+												<div>
+													SNS알림<br>음악콘트롤<br>메세지알림<br>전화알림<br>진동												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>배터리</div></th>
+																						<td>
+												<div>
+													70mAh												</div>
+											</td>
+																						<td>
+												<div>
+													85mAh												</div>
+											</td>
+																						<td>
+												<div>
+													125mAh												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>사용시간</div></th>
+																						<td>
+												<div>
+													평균사용:7일 이하												</div>
+											</td>
+																						<td>
+												<div>
+													평균사용:7일 이하												</div>
+											</td>
+																						<td>
+												<div>
+													평균사용:15일												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>헬스케어(UI옵션)</div></th>
+																						<td>
+												<div>
+													심박												</div>
+											</td>
+																						<td>
+												<div>
+													심박<br>혈중산소												</div>
+											</td>
+																						<td>
+												<div>
+													심박<br>혈중산소												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>무게(본체)</div></th>
+																						<td>
+												<div>
+													15g												</div>
+											</td>
+																						<td>
+												<div>
+																									</div>
+											</td>
+																						<td>
+												<div>
+													12g												</div>
+											</td>
+																					</tr>
+																			<tr>
+											<th><div>판매몰 수</div></th>
+																							<td>
+													<div>
+														4													</div>
+												</td>
+																							<td>
+													<div>
+														9													</div>
+												</td>
+																							<td>
+													<div>
+														3													</div>
+												</td>
+																					</tr>
+										
+									</tbody>
 								</table>
