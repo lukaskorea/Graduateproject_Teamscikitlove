@@ -1,3 +1,5 @@
+(깃허브에는 용량상 테스트 프로그램과 모델이 빠져있습니다. 해당 파일들은 http://naver.me/xorV7cZr, http://naver.me/Gtt54nnt에서 다운로드 가능합니다.)
+
 1. table_data에는 수집하고 전처리한 html형식의 스펙표가 있고, qa_dataset.xls은 수집한 질의응답 데이터셋입니다.
 모델 폴더 내에는 파인튜닝 전 모델과 파인튜닝 후 모델이 있습니다. 파인튜닝 후 모델은 발표자료 24p의 A,B번 모델이고 file_tuned_with가 'KorQuAD 2.0 와 스펙 표 질의응답 데이터를 함께 파인 튜닝', trained_on이 '스펙 표 질의응답 데이터 로 파인 튜닝', trained_with가 'KorQuAD 2.0 로 파인 튜 닝 후 스펙 표 질의응답 데이터 로 파인 튜닝'에 해당됩니다.
 
